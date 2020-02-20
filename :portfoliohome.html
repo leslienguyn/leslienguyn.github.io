@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+    <title></title>
+    <style>
+        /* Headers */
+        h1 {
+            font-family: monospace;
+            font-size: 45px;
+            margin: 0;
+            padding-bottom: 20px;
+            color: rgba(27, 4, 43);
+            animation-delay: 1s;
+            animation-timing-function: steps(1, 4);
+            
+        }
+        
+        h3 {
+            font-family: monospace;
+            font-size: 30px;
+            margin: 0;
+            /*color: #f09476;*/
+            color: #f09476;
+        }
+        
+        
+        /* Columns */
+        .row {
+            display: flex;
+            color: black;
+        } 
+        
+        .leftCol {
+            float: left;
+            width: 20%;
+            padding-left: 25px;
+            height: 3000px;
+            background-color: white;
+            border-right: 1px dotted rgba(176, 153, 193, 0.25);
+        }
+        
+        .rightCol {
+            float: right;
+            width: 75%;
+            padding-left: 25px;
+            height: 3000px;
+            background-color: white;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        } 
+        
+        
+        
+        /* Text */
+        p {
+            font-family: Montserrat;
+            font-size: 12px;
+            color: 1F1F1F;
+        }
+        
+        blockquote {
+            font-family: Montserrat;
+            border-left: 4px solid rgba(0, 0, 23, 0.25);
+            padding-left: 9px;
+            margin: 15px;
+            height: 25px;
+            font-size: 21px;
+        }
+        
+        
+        
+        /* Sidebar Links */
+        a {
+            position: center;
+            text-decoration: none;
+            transition: all 0.25s ease-out;
+        }
+        
+        a:link {
+            font-family: monospace;
+            font-size: 21px;
+            color: #f07676;
+        }
+        
+        a:hover {
+            color: rgba(240, 118, 118, 0.4);
+        }
+        
+        a:active {
+            color: #f07676;
+        }
+        
+        a:visited {
+            color: #f07676;
+        }
+        
+        
+        
+        /* Contact button */
+        .lbl-toggle {
+            display: contents;
+            font-weight: normal;
+            font-family: monospace;
+            color: #f07676;
+            font-size: 21px;
+            text-align: center;
+            padding: 1rem;
+            cursor: pointer;
+            border-radius: 7px;
+            transition: all 0.25s ease-out;
+        }
+        
+        /* makes checkbox not shown */
+        .toggle {
+            display: none;
+            
+        }
+        
+        .lbl-toggle:hover{
+            color: rgba(240, 118, 118, 0.4);
+        }
+        
+        /* bottom box color */
+        .collapsible-content .content-inner {
+            padding-top: 20px;
+            background: white;
+        }
+        
+        .collapsible-content {
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.75s ease-in-out;
+        }
+    
+        
+        /* hide/show when clicked */
+        .toggle:checked + .lbl-toggle + .collapsible-content {
+            max-height: 500px;
+        }        
+        
+        /* About button */
+        .lbl-toggle2 {
+            display: contents;
+            font-weight: normal;
+            font-family: monospace;
+            color: #f07676;
+            font-size: 21px;
+            text-align: center;
+            padding: 1rem;
+            cursor: pointer;
+            border-radius: 7px;
+            transition: all 0.25s ease-out;
+        }
+        
+        .toggle2 {
+            display: none;
+            
+        }
+        
+        .lbl-toggle2:hover {
+            color: rgba(240, 118, 118, 0.4);
+        }
+        
+        .collapsible-content2 .content-inner2 {
+            padding-top: 0;
+            background: white;
+        }
+        
+        .collapsible-content2 {
+            max-height: 0px;
+            max-width: 270px;
+            position: center;
+            overflow: hidden;
+            transition: max-height 0.75s ease-in-out;
+        }
+        
+         /* hide/show when clicked */
+        .toggle2:checked + .lbl-toggle2 + .collapsible-content2 {
+            max-height: 500px;
+        } 
+        
+    </style>
+</head>
+    
+<body>
+    <!-- Title -->
+    <div class="NameHeader">
+        <h1 class="h2 bold vhs-flicker js-demo" align="center">Leslie Nguyen</h1>
+        <link rel="stylesheet" href="http://d2v52k3cl9vedd.cloudfront.net/vhs/0.1.0/vhs.min.css">
+    </div>
+    
+    <!-- Columns -->
+    <div class="row">
+        
+        <!-- Left col -->
+        <div class="leftCol">
+            <a href=""></a> <!-- insert circle image of urself here -->
+            <p align="center">Welcome to my portfolio!</p>
+            <div class="leftColLinks" style="text-align: center">
+                <!-- About collapsible -->
+                <div class="wrap-collabsible2">
+                    <input id="collapsible2" class="toggle2" type="checkbox">
+                    <label for="collapsible2" class="lbl-toggle2">About</label>
+                
+                    <div class="collapsible-content2">
+                    <div class="content-inner2">
+                        <p style="font-size: 12px">Hi! I'm Leslie, and I am studying Cognitive Science specializing in Design &amp; Interaction at UC San Diego.
+                        I'm a first-year transfer student. I am currently looking for an internship in the UX/UI field based in the Bay Area.</p>
+                    </div>
+                    </div>
+                </div>
+                <p></p>
+                <a href="url">Projects</a>
+                <p></p>
+            
+                <!-- Contact collapisble -->
+                <div class="wrap-collabsible">
+                    <input id="collapsible" class="toggle" type="checkbox">
+                    <label for="collapsible" class="lbl-toggle">Contact</label>
+                    <div class="collapsible-content">
+                    <div class="content-inner">
+                        <div class="emailText">
+                            <a href="https://www.linkedin.com/in/leslienguyen98/">
+                                <img src="/linkedin-logo.png" alt="linkedin icon" width=44px height=40px>
+                            </a>
+                            <br><br>
+                            <img src="/Screen%20Shot%202019-12-20%20at%209.png" alt="email icon" width=50px height=30px>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        
+        <!-- Right col -->
+        <div class="rightCol">
+            
+            <!-- Top post -->
+            <h3>Sample Work</h3>
+            <blockquote>Sample text</blockquote>
+            <img src="/samp1.jpg" alt="sample pic" width=325px height=px style="padding-right: 7px">
+            <img src="/samp2.jpg" alt="sample pic" width=325px height=px style="padding-right: 7px">
+            <img src="/samp3.jpg" alt="sample pic" width=325px height=px>
+        </div>
+       
+    </div>
+    
+    
+    
+
+</body>
+</html>
