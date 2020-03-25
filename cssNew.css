@@ -123,6 +123,10 @@ img {
     div.leftCol {
         margin-left: 0;
         }
+    
+     div.img {
+        padding: 15px;
+    }
 }
 
 /* On screens that are less than 500px, display the bar vertically, instead of horizontally */
@@ -142,5 +146,9 @@ img {
         text-align: center;
         float: none;
         font-size: 5vw;
+    }
+    
+     div.img {
+        padding: 15px;
     }
 }
