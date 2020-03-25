@@ -1,0 +1,146 @@
+﻿ @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+body {
+    background: #F3C7C4;
+}
+
+
+
+/* Sidebar column */ 
+.leftCol {
+    background-color: #0F5257;
+    float: left;
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 685px;
+    text-align: center;
+    color: #F2F2F2;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: -2px 2px 3px rgba(196, 160, 255, 0.9);
+}
+
+/* Line bar underneath the name */
+hr {
+    color: #F2F2F2;
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-width: 1px;
+    box-shadow: -2px 2px 3px rgba(196, 160, 255, 0.9);
+    margin-bottom: 50px;
+}
+
+/* Name */
+.leftCol h1 {
+    margin-top: 20px;
+    font-size: 80px; 
+    letter-spacing: 3px;
+}
+
+/* Info section */
+.leftCol h2 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+
+
+/* Link effects */
+a {
+    text-shadow: -2px 2px 3px rgba(196, 160, 255, 0.9);
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: -2px 2px 3px rgba(196, 160, 255, 0.9), 0 0 30px purple, 0 0 15px pink;
+    font-style: italic;
+}
+
+
+
+/* Boxes */
+{
+    box-sizing: border-box;
+}
+
+/* Refers to all boxes overall */
+.col {
+    column-count: 3;
+    float: left;
+    width: 300px;
+    height: 450px;
+    background-color: #F2F2F2;
+    padding: 10px;
+    box-shadow: -10px 10px #0F5257;
+    opacity: 80%;
+    border-style: solid;
+    border-color: #0F5257;
+    margin-left: 43px;
+    margin-top: 120px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col:hover {
+    box-shadow: -10px 10px #082D30;
+}
+
+
+
+/* Images */
+img {
+    width: 300px;
+    height: 450px;
+}
+
+
+
+/* Responsive resizing for mobile */
+/* On screens that are less than 900px wide, make the sidebar into a topbar */
+@media screen and (max-width: 900px) {
+    .leftCol {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .leftCol a {
+        float: center;
+    }
+    
+    .leftCol h1 {
+        padding-bottom: 0px;
+        font-size: 10vw;
+    }
+    
+    div.leftCol {
+        margin-left: 0;
+        }
+}
+
+/* On screens that are less than 500px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 500px) {
+    .leftCol {
+        height: auto;
+        width: 100%;
+    }
+    
+    .leftCol h1 {
+        text-align: center;
+        float: none;
+        font-size: 8vw;
+    }
+    
+    .leftCol h2 {
+        text-align: center;
+        float: none;
+        font-size: 5vw;
+    }
+}
