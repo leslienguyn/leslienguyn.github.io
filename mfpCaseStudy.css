@@ -76,7 +76,7 @@ a:hover {
     column-count: 1; 
     float: center;
     width: 900px;
-    height: 9550px;
+    height: 9850px;
     background-color: #F2F2F2;
     padding: 10px;
     box-shadow: -10px 10px #0F5257;
@@ -299,6 +299,7 @@ p {
     margin-top: 0px;
     font-family: 'Roboto', 'bold';
     font-size: 18px;
+    line-height: 25px;
 }
 
 .mfpCurrentCaption {
@@ -362,6 +363,14 @@ li {
      div.img {
         padding: 15px;
     }
+ 
+     p {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 0px;
+        font-family: 'Roboto', 'bold';
+        font-size: 16px;
+    }
 }
 
 /* On screens that are less than 500px, display the bar vertically, instead of horizontally */
@@ -385,5 +394,13 @@ li {
     
      div.img {
         padding: 15px;
+    }
+ 
+     p {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 0px;
+        font-family: 'Roboto', 'bold';
+        font-size: 16px;
     }
 }
