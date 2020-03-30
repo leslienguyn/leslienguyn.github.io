@@ -76,7 +76,7 @@ a:hover {
     column-count: 1; 
     float: center;
     width: 900px;
-    height: 9050px;
+    height: 8600px;
     background-color: #F2F2F2;
     padding: 10px;
     box-shadow: -10px 10px #0F5257;
@@ -271,18 +271,18 @@ img {
     padding-left: 10px;
 }
 
-.addFoodGif {
+.resized2 {
     height: 500px;
-    width: 400px;
+    width: 430px;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 10px;
     margin-left: 20px;
 }
 
-.returnFoodGif {
+.resized3 {
     height: 500px;
-    width: 400px;
+    width: 430px;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 10px;
