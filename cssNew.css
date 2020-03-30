@@ -1,7 +1,8 @@
-﻿ @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 
 body {
     background: #F3C7C4;
+    padding-left: 285px;
 }
 
 
@@ -9,16 +10,21 @@ body {
 /* Sidebar column */ 
 .leftCol {
     background-color: #0F5257;
-    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
     width: 20%;
     padding-left: 0px;
     padding-right: 0px;
-    height: 685px;
+    height: 700px;
+    overflow-x: hidden;
     text-align: center;
     color: #F2F2F2;
     font-family: 'Bebas Neue', cursive;
     text-shadow: -2px 2px 3px rgba(196, 160, 255, 0.9);
 }
+
 
 /* Line bar underneath the name */
 hr {
@@ -124,7 +130,7 @@ img {
         margin-left: 0;
         }
     
-     div.img {
+    div.img {
         padding: 15px;
     }
 }
@@ -148,7 +154,7 @@ img {
         font-size: 5vw;
     }
     
-     div.img {
+    div.img {
         padding: 15px;
     }
 }
