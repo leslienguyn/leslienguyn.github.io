@@ -2,7 +2,6 @@
 
 body {
     background: #F3C7C4;
-    padding-left: 285px;
 }
 
 
@@ -24,7 +23,6 @@ body {
     font-family: 'Bebas Neue', cursive;
     text-shadow: -2px 2px 3px rgba(196, 160, 255, 0.9);
 }
-
 
 /* Line bar underneath the name */
 hr {
@@ -54,13 +52,13 @@ hr {
 
 
 /* Link effects */
-a {
+.leftCol a {
     text-shadow: -2px 2px 3px rgba(196, 160, 255, 0.9);
     color: #F2F2F2;
     text-decoration: none;
 }
 
-a:hover {
+.leftCol a:hover {
     text-shadow: -2px 2px 3px rgba(196, 160, 255, 0.9), 0 0 30px purple, 0 0 15px pink;
     font-style: italic;
 }
@@ -73,9 +71,10 @@ a:hover {
 }
 
 /* Refers to all boxes overall */
-.col {
-    column-count: 3;
-    float: left;
+ .col {
+     position: relative;
+    column-count: 1; 
+    float: center;
     width: 300px;
     height: 450px;
     background-color: #F2F2F2;
@@ -84,8 +83,8 @@ a:hover {
     opacity: 80%;
     border-style: solid;
     border-color: #0F5257;
-    margin-left: 43px;
-    margin-top: 120px;
+    margin-left: 650px;
+    margin-top: 120px; 
 }
 
 .row1:after {
@@ -99,11 +98,46 @@ a:hover {
 }
 
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0F5257;
+    text-align: center;
+}
+
+.overlay:hover {
+    opacity: 90%;
+    /* margin-top: 80px; //makes it slide down! */
+}
+
+.overlay a {
+    position: absolute;
+    top: 45%;
+    left: 3px;
+    color: #F2F2F2;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.overlay a:hover {
+    text-shadow: -2px 2px 3px rgba(196, 160, 255, 0.9), 0 0 30px purple, 0 0 15px pink;
+    font-style: italic;
+}
+
 
 /* Images */
 img {
     width: 300px;
     height: 450px;
+    opacity: 100%;
 }
 
 
@@ -130,7 +164,7 @@ img {
         margin-left: 0;
         }
     
-    div.img {
+     div.img {
         padding: 15px;
     }
 }
@@ -154,7 +188,7 @@ img {
         font-size: 5vw;
     }
     
-    div.img {
+     div.img {
         padding: 15px;
     }
 }
