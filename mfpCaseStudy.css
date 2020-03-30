@@ -75,7 +75,7 @@ a:hover {
     column-count: 1; 
     float: center;
     width: 900px;
-    height: 6200px;
+    height: 8000px;
     background-color: #F2F2F2;
     padding: 10px;
     box-shadow: -10px 10px #0F5257;
@@ -276,7 +276,7 @@ img {
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 10px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .resized3Gif {
@@ -285,7 +285,7 @@ img {
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 10px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 
