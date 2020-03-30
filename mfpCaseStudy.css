@@ -1,4 +1,4 @@
-﻿ @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 
 body {
     background: #F3C7C4;
@@ -76,7 +76,7 @@ a:hover {
     column-count: 1; 
     float: center;
     width: 900px;
-    height: 9550px;
+    height: 9050px;
     background-color: #F2F2F2;
     padding: 10px;
     box-shadow: -10px 10px #0F5257;
@@ -253,9 +253,9 @@ img {
     margin-left: 190px;
 }
 
-.homeToFoodGif {
+.resizedGif {
     height: 600px;
-    width: 470px;
+    width: 500px;
     padding-top: 10px;
     padding-bottom: 15px;
     margin-left: 190px;
