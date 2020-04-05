@@ -38,6 +38,17 @@ body {
     margin-bottom: 50px;
 }
 
+/* idk why it needs an extra one to work */
+.leftCol hr {
+    color: #F2F2F2;
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-width: 1px;
+    box-shadow: -2px 2px 3px rgba(196, 160, 255, 0.9);
+    margin-bottom: 50px;
+}
+
 /* Name */
 .leftCol h1 {
     margin-top: 20px;
