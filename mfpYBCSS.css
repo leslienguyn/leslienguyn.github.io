@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700&display=swap'); /* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* Roboto thin */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap'); /* Roboto thin italics */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@1,500;1,700&display=swap'); /* Montserrat */
+
+html,body
+{
+    margin: 0px;
+    background-color: #151515;
+
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 40px;
+}
+
+.body {
+    margin: 0;
+    border: none;
+    font-size: 0;
+}
+
+* { 
+    margin: 0; /* removes white bar on top */
+    box-sizing: border-box;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 70px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #212121; 
+    border-radius: 70px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #33bc4d; 
+    border: 0.25px solid #ff0000;
+    box-shadow: 0 0 20px #e22424, 0 0 20px #1fff17, 0 0 20px #ff6c17;
+    border-radius: 70px;
+}
+
+
+
+
+/* nav bar */
+.nav, .navbar-nav {
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    justify-content: flex-end;
+    float: right;
+  }
+  
+  .nav a {
+    color: #ffffff;
+    margin-left: 10px;
+  }
+  
+  .nav a:hover {
+    background-color: transparent !important;
+    text-shadow: 5px 3px 8px #36f358;
+    transition: 0.4s;
+    font-style: italic;
+  }
+  
+  .nav:hover {
+    background-color: transparent;
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+    color: #ffffff;
+    background-color: transparent;
+  }
+  
+  .nav li:hover { /* individual hovering text underline appears */
+      text-decoration: underline;
+  }
+  
+  .nav li:hover a {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  
+  .navbar-expand-md {
+      justify-content: flex-end;
+  }
+  
+  
+  /* Mode */
+  .dropdown { /* mode tab itself minus dropdown */
+    font-style: normal;
+  }
+  
+  .dropdown-menu { /* white hover box */
+    text-decoration: none;
+    background-color: transparent !important;
+  }
+  
+  .dropdown-menu li a {
+    color: #000000;
+  }
+  
+  .dropdown-menu li { /* font size for collapse options */
+    background-color: #831919;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+  }
+  
+  /*
+  .dropdown-menu a {
+    opacity: 50%;
+  } */
+  
+  .dropdown-menu a:hover {
+    color: #ffffff;
+    text-shadow: 5px 3px 8px #36f358;
+    transition: 0.4s;
+    opacity: 100%;
+  }
+  
+  .dropdown-menu li:hover a { /*when hovered over, single choice stays white */
+    background-color: transparent !important;
+    font-style: italic;
+  
+    color: #ffffff;
+    text-shadow: 5px 3px 8px #36f358;
+    transition: 0.4s;
+  }
+  
+  .dropdown-menu li:hover a { 
+    background-color: transparent !important;
+    font-style: italic;
+  }
+  
+  .dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
+    color: #ffffff;
+    background-color: transparent !important;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.rPad {
+    padding-left: 175px;
+    padding-right: 175px;
+}
+
+
+
+
+
+
+.lineTop {
+    width: 100%;
+    border: 3px solid #15e631;
+    box-shadow: 1px -2px 12px #1fff17;
+    margin-top: 10px;
+}
+
+.lineBottom {
+    width: 100%;
+    border: 3px solid #15e631;
+    box-shadow: 1px 2px 12px #1fff17;
+    margin-top: 17px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    
+    margin-top: 15px;
+}
+
+.titleImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 75%;
+}
+
+.publishP {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw; 
+
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+h2 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+    color: #ffffff;
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lineTopBG {
+    width: 100%;
+    border: 3px solid #15e631;
+    box-shadow: 1px -2px 12px #1fff17;
+    margin-top: 150px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    /* border-radius: 50px; */ /* makes rounded corner */
+}
+
+.lineBottomBG {
+    width: 100%;
+    border: 3px solid #15e631;
+    box-shadow: 1px 2px 12px #1fff17;
+    margin-top: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    /* border-radius: 50px; */
+}
+
+
+h3 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 4vh;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 40px;
+}
+
+h3.UB {
+    margin-top: -35px;
+}
+
+p {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px; 
+    margin-top: 3px;
+    line-height: 25px;
+}
+
+.annotatedL {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    width: 64%;
+}
+
+.annotatedR {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    width: 30.8%;
+}
+
+.reviewL {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    width: 55%;
+}
+
+.reviewR {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    width: 41%;
+}
+
+
+
+
+
+
+
+.research {
+    width: 100%;
+    height: 395vh;
+    display: block;
+}
+
+.researchText {
+    width: 100%;
+    height: 385vh;
+    padding-left: 180px;
+    padding-right: 181px;
+}
+
+.lineTopResearch {
+    width: 100%;
+    border: 3px solid #15e631;
+    box-shadow: 1px -2px 12px #1fff17;
+    margin-top: 220px;
+
+    /* border-radius: 50px; */ /* makes rounded corner */
+}
+
+.lineBottomResearch {
+    width: 100%;
+    border: 3px solid #15e631;
+    box-shadow: 1px 2px 12px #1fff17;
+    margin-top: 20px;
+
+    /* border-radius: 50px; */
+}
+
+.researchText h2 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 7vh;
+    color: #ffffff;
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.researchText h3 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 4vh;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.researchText p {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6vw; 
+    margin-top: 3px;
+}
+
+
+.infographic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+.calory {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    width: 32.25%;
+}
+
+.noom {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    width: 33%;
+}
+
+.carbmanager {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    width: 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.process {
+    width: 100%;
+    height: 785vh;
+    display: block;
+}
+
+.processText {
+    width: 100%;
+    height: 775vh;
+    padding-left: 180px;
+    padding-right: 181px;
+}
+
+.lineTopProcess {
+    width: 100%;
+    border: 3px solid #15e631;
+    box-shadow: 1px -2px 12px #1fff17;
+    margin-top: 220px;
+
+    /* border-radius: 50px; */ /* makes rounded corner */
+}
+
+.lineBottomProcess {
+    width: 100%;
+    border: 3px solid #15e631;
+    box-shadow: 1px 2px 12px #1fff17;
+    margin-top: 20px;
+
+    /* border-radius: 50px; */
+}
+
+.processText h2 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 7vh;
+    color: #ffffff;
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.processText h3 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 4vh;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.processText p {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6vw; 
+    margin-top: 3px;
+}
+
+
+.drawingL {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    width: 49%;
+}
+
+.drawingR {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    width: 49.6%;
+}
+
+.homepagesVariety {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.prototype {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.homepages {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.logFood {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.homeGif {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+    width: 38%;
+}
+
+.homeToLogFoodGif {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+    width: 30.5%;
+}
+
+.logFoodScroll {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+    width: 30.5%;
+}
+
+.logFoodAddResize {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+
+    width: 32.5%;
+}
+
+.logFoodReturn {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+    width: 33%;
+}
+
+.logFoodReturnLog {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+    width: 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.conclusion {
+    width: 100%;
+    height: 70vh;
+    display: block;
+}
+
+.conclusionText {
+    width: 100%;
+    height: 70vh;
+    padding-left: 180px;
+    padding-right: 181px;
+}
+
+.lineTopConclusion {
+    width: 100%;
+    border: 3px solid #15e631;
+    box-shadow: 1px -2px 12px #1fff17;
+    margin-top: 220px;
+
+    /* border-radius: 50px; */ /* makes rounded corner */
+}
+
+.lineBottomConclusion {
+    width: 100%;
+    border: 3px solid #15e631;
+    box-shadow: 1px 2px 12px #1fff17;
+    margin-top: 20px;
+
+    /* border-radius: 50px; */
+}
+
+.conclusionText h2 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 7vh;
+    color: #ffffff;
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.conclusionText h2 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 7vh;
+    color: #ffffff;
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.conclusionText h3 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 4vh;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.conclusionText p {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6vw; 
+    margin-top: 3px;
+}
