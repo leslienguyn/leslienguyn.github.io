@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700&display=swap'); /* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* Roboto thin */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap'); /* Roboto thin italics */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@1,500;1,700&display=swap'); /* Montserrat */
+
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; 
+    background-color: #1f1f1f;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 0;
+    overflow: hidden;
+}
+
+* { 
+    margin: 0; /* removes white bar on top */
+    box-sizing: border-box;
+}
+
+.row {
+    height: 100vh;
+}
+
+
+
+
+/* nav bar */
+.nav, .navbar-nav {
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    justify-content: flex-end;
+    float: right;
+}
+
+.nav a {
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.nav a:hover {
+    background-color: transparent !important;
+    text-shadow: 5px 3px 8px #ffdc17;
+    transition: 0.4s;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.nav:hover {
+    background-color: transparent;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.nav li:hover { /* individual hovering text underline appears */
+    text-decoration: underline;
+}
+
+.nav li:hover a {
+    color: #f0f0f0;
+    background-color: transparent;
+}
+
+.navbar-expand-md {
+    justify-content: flex-end;
+}
+
+
+/* Mode */
+.dropdown { /* mode tab itself minus dropdown */
+  font-style: normal;
+}
+
+.dropdown-menu { /* white hover box */
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.dropdown-menu li a {
+  color: #000000;
+}
+
+.dropdown-menu li { /* font size for collapse options */
+  background-color: #2a5a99;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/*
+.dropdown-menu a {
+  opacity: 50%;
+} */
+
+.dropdown-menu a:hover {
+  color: #ffffff;
+  text-shadow: 5px 3px 8px #ffdc17;
+  transition: 0.4s;
+  opacity: 100%;
+}
+
+.dropdown-menu li:hover a { /*when hovered over, single choice stays white */
+  background-color: transparent !important;
+  font-style: italic;
+
+  color: #ffffff;
+  text-shadow: 5px 3px 8px #ffdc17;
+  transition: 0.4s;
+  text-decoration: underline;
+}
+
+.dropdown-menu li:hover a { 
+  background-color: transparent !important;
+  font-style: italic;
+}
+
+.dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
+  color: #ffffff;
+  background-color: transparent !important;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+  
+
+
+
+
+
+
+.abt1 {
+    width: 400px;
+    height: 510px;
+    position: relative;
+
+    top: 35px;
+    left: 250px;
+
+    display: inline-block;
+}
+
+.abtB1 {
+    width: 350px;
+    height: 470px;
+    position: relative;
+}
+
+.polaroid {
+    width: 321px;
+    height: 402px;
+    position: absolute;
+
+    z-index: 1;
+
+    margin-top: 48px;
+    margin-left: 10px;
+}
+
+.abt1:hover {
+    animation: wiggleB1 0.6s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes wiggleB1 {
+    from {left: 250px;} to {left: 200px;}
+}
+
+
+
+
+
+
+
+
+
+.abt2 {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 1px;
+    z-index: 1;
+
+    display: inline-block;
+}
+
+.abtB2 {
+    width: 495px;
+    height: 390px;
+    position: relative;
+    display: inline-block;
+}
+
+.abt2:hover {
+    animation: wiggleB2 0.6s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes wiggleB2 {
+    from {left: 420px;} to {left: 490px;}
+}
+
+.abt2 p {
+    width: 445px;
+    height: 300px;
+    position: relative;
+
+    top: -340px;
+    margin-left: 15px;
+
+    word-wrap: break-word;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+.abt3 {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    display: inline-block;
+
+    margin-top: 350px;
+    left: 550px;
+
+    z-index: 1;
+}
+
+.abtB3 {
+    width: 400px;
+    height: 240px;
+    position: relative;
+    display: inline-block;
+}
+
+.abt3 h3 {
+    font-size: 1.52vw; 
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    color: #000000;
+
+    position: relative;
+
+    width: 373px;
+
+    margin-top: -198px;
+    margin-left: 10px;
+
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.abt3 a {
+    font-size: 1.3vw; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+
+    position: absolute;
+
+    width: 125px;
+
+    margin-top: 4px;
+    margin-left: 11px;
+
+    padding-left: 10px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.abt3 a:hover {
+    font-style: italic;
+    text-shadow: 4px 2px 7px #ffdc17;
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+.abt3 p {
+    color: #000000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw; 
+
+    position: absolute;
+
+    margin-left: 11px;
+    margin-top: 49px;
+}
+
+.labels {
+    font-size: 1.3vw; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 575px) {
+    .container-fluid {
+        overflow: auto;
+        padding: 0
+    }
+
+    .abt1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .abt3 {
+        margin-top: 400px;
+        margin-left: auto;
+        /* margin-left: -350px */
+        margin-right: auto;
+    }
+}
