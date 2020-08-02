@@ -490,7 +490,6 @@ html,body
 
 
 
-
 @media only screen and (max-width: 576px) {
     .body {
         margin: 0;
@@ -517,7 +516,7 @@ html,body
         display: inline-block;
         width: 310px;
         height: 220px;
-        margin-left: 108px;
+        margin-left: 125px;
         position: relative;
     } 
     
@@ -526,7 +525,7 @@ html,body
         font-size: 5em;
     
         text-align: center;
-        margin-left: 73px;
+        margin-left: 95px;
         margin-top: 5px;
     }
 
@@ -535,7 +534,7 @@ html,body
     .box2 {
         width: 330px;
         height: 210px;
-        margin-left: -583px;
+        margin-left: -630px;
         margin-top: 150px;
         text-align: center;
     }
@@ -566,7 +565,7 @@ html,body
     .box3 {
         width: 300px;
         height: 190px;
-        margin-left: -135px;
+        margin-left: -182px;
         margin-top: 210px;
         text-align: center;
     }
@@ -597,7 +596,7 @@ html,body
         width: 340px;
         height: 370px;
         position: relative;
-        margin-left: 50px;
+        margin-left: 5px;
         margin-top: -40px;
     }
 
@@ -607,7 +606,7 @@ html,body
         position: absolute;
         z-index: 1;
         margin-top: -6px;
-        margin-left: 63px;
+        margin-left: 18px;
     }
 
     .b5Text {
@@ -616,7 +615,7 @@ html,body
         position: absolute;
 
         margin-top: 30px;
-        margin-left: 75px;
+        margin-left: 25px;
         
         text-align: center;
     }
@@ -625,7 +624,7 @@ html,body
         width: 330px;
         height: 220px;
         margin-top: -55px;
-        margin-left: 56px;
+        margin-left: 10px;
     }
 
     .b5Text h3 {
@@ -637,7 +636,7 @@ html,body
         width: 305px;
         height: 175px;
         margin-top: -24px;
-        margin-left: 69px;
+        margin-left: 23px;
         background-color: #110f11;
         transition: ease-in 0.2s;
     
@@ -659,7 +658,7 @@ html,body
         font-size: 2em;
         
         margin-left: -250px;
-        margin-top: 230px;
+        margin-top: 200px;
         position: relative;
 
         border-radius: 39px;
