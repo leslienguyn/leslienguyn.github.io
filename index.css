@@ -54,103 +54,103 @@ html,body
 
 /* nav bar */
 .nav, .navbar-nav {
-  cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  text-decoration: none;
-  justify-content: flex-end;
-  float: right;
-}
-
-.nav a {
-  color: #f0f0f0;
-  margin-left: 10px;
-}
-
-.nav a:hover {
-  background-color: transparent !important;
-  text-shadow: 5px 3px 8px rgb(166, 33, 255);
-  transition: 0.4s;
-  font-style: italic;
-}
-
-.nav:hover {
-  background-color: transparent;
-}
-
-.navbar-collapse {
-  justify-content: flex-end;
-  color: #f0f0f0;
-  background-color: transparent;
-}
-
-.nav li:hover a {
-  color: #f0f0f0;
-  background-color: transparent;
-}
-
-.navbar-expand-md {
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
     justify-content: flex-end;
-}
-
-
-/* Mode */
-.dropdown { /* mode tab itself minus dropdown */
-  font-style: normal;
-}
-
-.dropdown-menu { /* white hover box */
-  text-decoration: none;
-  background-color: transparent !important;
-}
-
-.dropdown-menu li a {
-  color: #646464;
-}
-
-.dropdown-menu li { /* font size for collapse options */
-  background-color: #212121;
-  font-size: 20px;
-  font-style: normal;
-  text-decoration: none;
-}
-
-/*.dropdown-menu a {
-  opacity: 50%;
-} */
-
-.dropdown-menu a:hover {
-  color: #f0f0f0;
-  text-shadow: 5px 3px 8px rgb(166, 33, 255);
-  transition: 0.4s;
-  opacity: 100%;
-}
-
-.dropdown-menu li:hover a { /*when hovered over, single choice stays white */
-  background-color: transparent !important;
-  font-style: italic;
-
-  color: #f0f0f0;
-  text-shadow: 5px 3px 8px rgb(166, 33, 255);
-  transition: 0.4s;
-}
-
-.dropdown-menu li:hover a { 
-  background-color: transparent !important;
-  font-style: italic;
-}
-
-.dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
-  color: #f0f0f0;
-  background-color: transparent !important;
-  cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-}
+    float: right;
+  }
+  
+  .nav a {
+    color: #f0f0f0;
+    margin-left: 10px;
+  }
+  
+  .nav a:hover {
+    background-color: transparent !important;
+    text-shadow: 5px 3px 8px rgb(166, 33, 255);
+    transition: 0.4s;
+    font-style: italic;
+  }
+  
+  .nav:hover {
+    background-color: transparent;
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+    color: #f0f0f0;
+    background-color: transparent;
+  }
+  
+  .nav li:hover a {
+    color: #f0f0f0;
+    background-color: transparent;
+  }
+  
+  .navbar-expand-md {
+      justify-content: flex-end;
+  }
+  
+  
+  /* Mode */
+  .dropdown { /* mode tab itself minus dropdown */
+    font-style: normal;
+  }
+  
+  .dropdown-menu { /* white hover box */
+    text-decoration: none;
+    background-color: transparent !important;
+  }
+  
+  .dropdown-menu li a {
+    color: #646464;
+  }
+  
+  .dropdown-menu li { /* font size for collapse options */
+    background-color: #212121;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+  }
+  
+  /*.dropdown-menu a {
+    opacity: 50%;
+  } */
+  
+  .dropdown-menu a:hover {
+    color: #f0f0f0;
+    text-shadow: 5px 3px 8px rgb(166, 33, 255);
+    transition: 0.4s;
+    opacity: 100%;
+  }
+  
+  .dropdown-menu li:hover a { /*when hovered over, single choice stays white */
+    background-color: transparent !important;
+    font-style: italic;
+  
+    color: #f0f0f0;
+    text-shadow: 5px 3px 8px rgb(166, 33, 255);
+    transition: 0.4s;
+  }
+  
+  .dropdown-menu li:hover a { 
+    background-color: transparent !important;
+    font-style: italic;
+  }
+  
+  .dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
+    color: #f0f0f0;
+    background-color: transparent !important;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+  }
 
 
 
@@ -452,15 +452,16 @@ html,body
 .goBtn {
     display: inline-block;
     
-    color:#f0f0f0;
-    font-family: Roboto;
+	color:#f0f0f0;
+	font-family: Roboto;
     font-weight: 500;
     font-style: normal;
+    /*font-size: 2vw;  */
     font-size: 30px;
     
     border-radius: 42px;
-    padding: 19px 70px;
-    text-decoration: none; 
+	padding: 19px 70px;
+	text-decoration: none; 
 
     margin-left: -302px;
     margin-top: 380px;
@@ -483,12 +484,13 @@ html,body
     text-decoration: none;
 }
 
-
-
-
-
-
-
+/*
+@media only screen and (max-width: 600px) {
+    .b4 {
+      width: 240px;
+      height: 270px;
+    }
+} */
 
 
 @media only screen and (max-width: 576px) {
@@ -496,35 +498,176 @@ html,body
         margin: 0;
         padding: 0;
         border: none;
-        margin-left: auto;
-        margin-right: auto;
+
         overflow: visible;
     }
 
+
+
     .box1 {
-        width: 130px;
-        height: 30px;
-        margin-left: -350px;
+        width: 330px;
+        height: 240px;
+
+        text-align: center;
+    }
+
+    .box1:hover {
+        animation: none;
     }
 
     .b1 {
-        width: 150px;
-        height: 60px;
+        display: inline-block;
+        width: 310px;
+        height: 220px;
+        margin-left: 108px;
         position: relative;
     } 
     
     .box1 h1 {
         position: absolute; 
-        font-size: 1em; 
-        font-family: Roboto;
-        font-style: italic;
-        font-weight: 500;
-        color: #f0f0f0;
+        font-size: 5em;
     
-        top: 70px;
-        left: 140px;
+        text-align: center;
+        margin-left: 73px;
+        margin-top: 5px;
+    }
+
+
+
+    .box2 {
+        width: 330px;
+        height: 210px;
+        margin-left: -583px;
+        margin-top: 150px;
         text-align: center;
     }
+
+    .b2 {
+        display: inline-block;
+        width: 310px;
+        height: 200px;
+        position: relative;
+
+    }
+
+    .box2:hover {
+        animation: none;
+    }
+
+    .box2 h1 {
+        position: absolute; 
+        font-size: 3em;
+    
+        text-align: center;
+        margin-top: -20px;
+
+    }
+
+
+
+    .box3 {
+        width: 300px;
+        height: 190px;
+        margin-left: -135px;
+        margin-top: 210px;
+        text-align: center;
+    }
+
+    .b3 {
+        display: inline-block;
+        width: 340px;
+        height: 210px;
+        position: relative;
+    }
+
+    .box3:hover {
+        animation: none;
+    }
+
+    .box3 h2 {
+        position: absolute; 
+        font-size: 1.5em;
+    
+        text-align: center;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+
+
+
+    .b4 {
+        width: 340px;
+        height: 370px;
+        position: relative;
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+
+    .mfp {
+        width: 315px;
+        height: 323px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: 63px;
+    }
+
+    .b5Text {
+        width: 300px;
+        height: 50px;
+        position: absolute;
+
+        margin-top: 30px;
+        margin-left: 75px;
+        
+        text-align: center;
+    }
+
+    .b5 {
+        width: 330px;
+        height: 220px;
+        margin-top: -55px;
+        margin-left: 56px;
+    }
+
+    .b5Text h3 {
+        font-size: 1.7em;
+        text-align: center;
+    }
+
+    .b5Text:hover{
+        width: 305px;
+        height: 175px;
+        margin-top: -24px;
+        margin-left: 69px;
+        background-color: #110f11;
+        transition: ease-in 0.2s;
+    
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .b5Text:hover p {
+        font-size: 1em;
+        text-align: center;
+        visibility: visible;
+        margin-top: 20px;
+    }
+
+
+
+    .goBtn {
+        display: inline-block;
+        font-size: 2em;
+        
+        margin-left: -250px;
+        margin-top: 230px;
+        position: relative;
+
+        border-radius: 39px;
+	    padding: 15px 67px;
+    }
+
 }
 
 
@@ -540,8 +683,144 @@ html,body
     }
 
     .box1 {
-        width: 190px;
-        height: 90px;
-        margin-left: -350px;
+        width: 130px;
+        height: 150px;
+        margin-left: -415px;
+    }
+
+
+
+    .box2 {
+        width: 330px;
+        height: 210px;
+        margin-left: -647px;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .b2 {
+        display: inline-block;
+        width: 310px;
+        height: 200px;
+        position: relative;
+
+    }
+
+    .box2:hover {
+        animation: none;
+    }
+
+    .box2 h1 {
+        position: absolute; 
+        font-size: 3em;
+    
+        text-align: center;
+        margin-top: -20px;
+
+    }
+
+
+
+    .box3 {
+        width: 300px;
+        height: 190px;
+        margin-left: -200px;
+        margin-top: 210px;
+        text-align: center;
+    }
+
+    .b3 {
+        display: inline-block;
+        width: 340px;
+        height: 210px;
+        position: relative;
+    }
+
+    .box3:hover {
+        animation: none;
+    }
+
+    .box3 h2 {
+        position: absolute; 
+        font-size: 1.5em;
+    
+        text-align: center;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+
+
+
+    .b4 {
+        width: 340px;
+        height: 370px;
+        position: relative;
+        margin-left: -7px;
+        margin-top: -40px;
+    }
+
+    .mfp {
+        width: 315px;
+        height: 323px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: 6px;
+    }
+
+    .b5Text {
+        width: 300px;
+        height: 50px;
+        position: absolute;
+
+        margin-top: 30px;
+        margin-left: 10px;
+        
+        text-align: center;
+    }
+
+    .b5 {
+        width: 330px;
+        height: 220px;
+        margin-top: -55px;
+        margin-left: -5px;
+    }
+
+    .b5Text h3 {
+        font-size: 1.7em;
+        text-align: center;
+    }
+
+    .b5Text:hover{
+        width: 305px;
+        height: 175px;
+        margin-top: -24px;
+        margin-left: 69px;
+        background-color: #110f11;
+        transition: ease-in 0.2s;
+    
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .b5Text:hover p {
+        font-size: 1em;
+        text-align: center;
+        visibility: visible;
+        margin-top: 20px;
+    }
+
+
+
+    .goBtn {
+        display: inline-block;
+        font-size: 2em;
+        
+        margin-left: -250px;
+        margin-top: 230px;
+        position: relative;
+
+        border-radius: 39px;
+	    padding: 15px 67px;
     }
 }
