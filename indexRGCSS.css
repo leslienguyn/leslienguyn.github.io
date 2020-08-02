@@ -496,6 +496,188 @@ html,body
 
 
 
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .body {
+        margin: 0;
+        padding: 0;
+        border: none;
+
+        overflow: visible;
+    }
+
+
+
+    .box1 {
+        width: 330px;
+        height: 240px;
+
+        text-align: center;
+    }
+
+    .box1:hover {
+        animation: none;
+    }
+
+    .b1 {
+        display: inline-block;
+        width: 310px;
+        height: 220px;
+        margin-left: 80px;
+        position: relative;
+    } 
+    
+    .box1 h1 {
+        position: absolute; 
+        font-size: 5em;
+    
+        text-align: center;
+        margin-left: 55px;
+        margin-top: 5px;
+    }
+
+
+
+    .box2 {
+        width: 330px;
+        height: 210px;
+        margin-left: -660px;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .b2 {
+        display: inline-block;
+        width: 310px;
+        height: 200px;
+        position: relative;
+
+    }
+
+    .box2:hover {
+        animation: none;
+    }
+
+    .box2 h1 {
+        position: absolute; 
+        font-size: 3em;
+    
+        text-align: center;
+        margin-top: -20px;
+
+    }
+
+
+
+    .box3 {
+        width: 300px;
+        height: 190px;
+        margin-left: -200px;
+        margin-top: 210px;
+        text-align: center;
+    }
+
+    .b3 {
+        display: inline-block;
+        width: 320px;
+        height: 210px;
+        position: relative;
+    }
+
+    .box3:hover {
+        animation: none;
+    }
+
+    .box3 h2 {
+        position: absolute; 
+        font-size: 1.5em;
+    
+        text-align: center;
+        margin-left: -23px;
+        margin-top: -10px;
+    }
+
+
+
+    .b4 {
+        width: 340px;
+        height: 370px;
+        position: relative;
+        margin-left: -20px;
+        margin-top: -40px;
+    }
+
+    .mfp {
+        width: 315px;
+        height: 323px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: -7px;
+    }
+
+    .b5Text {
+        width: 300px;
+        height: 50px;
+        position: absolute;
+
+        margin-top: 30px;
+        margin-left: 1px;
+        
+        text-align: center;
+    }
+
+    .b5 {
+        width: 330px;
+        height: 220px;
+        margin-top: -55px;
+        margin-left: -15px;
+    }
+
+    .b5Text h3 {
+        font-size: 1.7em;
+        text-align: center;
+    }
+
+    .b5Text:hover{
+        width: 305px;
+        height: 175px;
+        margin-top: -24px;
+        margin-left: -2px;
+        background-color: #110f11;
+        transition: ease-in 0.2s;
+    
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .b5Text:hover p {
+        font-size: 1em;
+        text-align: center;
+        visibility: visible;
+        margin-top: 20px;
+    }
+
+
+
+    .goBtn {
+        display: inline-block;
+        font-size: 2em;
+        
+        margin-left: -250px;
+        margin-top: 200px;
+        position: relative;
+
+        border-radius: 39px;
+	    padding: 15px 67px;
+    }
+}
+
+
+
 @media only screen and (max-width: 576px) {
     .body {
         margin: 0;
