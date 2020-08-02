@@ -54,102 +54,102 @@ html,body
 
 /* nav bar */
 .nav, .navbar-nav {
-    cursor: pointer;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    text-decoration: none;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-decoration: none;
+  justify-content: flex-end;
+  float: right;
+}
+
+.nav a {
+  color: #151515;
+  margin-left: 10px;
+}
+
+.nav a:hover {
+  background-color: transparent !important;
+  text-shadow: 5px 3px 8px rgb(166, 33, 255);
+  transition: 0.4s;
+  font-style: italic;
+}
+
+.nav:hover {
+  background-color: transparent;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  color: #151515;
+  background-color: transparent;
+}
+
+.nav li:hover a {
+  color: #151515;
+  background-color: transparent;
+}
+
+.navbar-expand-md {
     justify-content: flex-end;
-    float: right;
-  }
-  
-  .nav a {
-    color: #151515;
-    margin-left: 10px;
-  }
-  
-  .nav a:hover {
-    background-color: transparent !important;
-    text-shadow: 5px 3px 8px #ef9cff;
-    transition: 0.4s;
-    font-style: italic;
-  }
-  
-  .nav:hover {
-    background-color: transparent;
-  }
-  
-  .navbar-collapse {
-    justify-content: flex-end;
-    color: #151515;
-    background-color: transparent;
-  }
-  
-  .nav li:hover a {
-    color: #151515;
-    background-color: transparent;
-  }
-  
-  .navbar-expand-md {
-      justify-content: flex-end;
-  }
-  
-  
+}
+
+
 /* Mode */
 .dropdown { /* mode tab itself minus dropdown */
-    font-style: normal;
+  font-style: normal;
 }
-  
+
 .dropdown-menu { /* white hover box */
-    text-decoration: none;
-    background-color: transparent !important;
+  text-decoration: none;
+  background-color: transparent !important;
 }
-  
+
 .dropdown-menu li a {
-    color: #505050;
+  color: #2e2e2e;
 }
-  
-.dropdown-menu li { /* font size, panel bg color for collapse options */
-    background-color: #f8f8f8;
-    font-size: 20px;
-    font-style: normal;
-    text-decoration: none;
+
+.dropdown-menu li { /* font size for collapse options */
+  background-color: #f8f8f8;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
 }
-  
+
 .dropdown-menu a {
-    opacity: 50%;
+  opacity: 50%;
 }
-  
+
 .dropdown-menu a:hover {
-    color: #f0f0f0;
-    text-shadow: 5px 3px 8px #ef9cff;
-    transition: 0.4s;
-    opacity: 100%;
+  color: #151515;
+  text-shadow: 5px 3px 8px rgb(166, 33, 255);
+  transition: 0.4s;
+  opacity: 100%;
 }
-  
-.dropdown-menu li:hover a { /*when hovered over, single choice stays dark */
-    background-color: transparent !important;
-    font-style: italic;
-  
-    color: #151515;
-    text-shadow: 5px 3px 8px #ef9cff;
-    transition: 0.4s;
+
+.dropdown-menu li:hover a { /*when resting font stays white */
+  background-color: transparent !important;
+  font-style: italic;
+
+  color: #151515;
+  text-shadow: 5px 3px 8px rgb(166, 33, 255);
+  transition: 0.4s;
 }
-  
+
 .dropdown-menu li:hover a { 
-    background-color: transparent !important;
-    font-style: italic;
+  background-color: transparent !important;
+  font-style: italic;
 }
-  
+
 .dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
-    color: #151515;
-    background-color: transparent !important;
-    cursor: pointer;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
+  color: #151515;
+  background-color: transparent !important;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
 }
   
 
