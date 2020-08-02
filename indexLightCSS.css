@@ -123,7 +123,7 @@ html,body
 }
 
 .dropdown-menu a:hover {
-  color: #f0f0f0;
+  color: #151515;
   text-shadow: 5px 3px 8px rgb(166, 33, 255);
   transition: 0.4s;
   opacity: 100%;
