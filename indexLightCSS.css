@@ -108,7 +108,7 @@ html,body
 }
 
 .dropdown-menu li a {
-  color: #505050;
+  color: #2e2e2e;
 }
 
 .dropdown-menu li { /* font size for collapse options */
@@ -133,7 +133,7 @@ html,body
   background-color: transparent !important;
   font-style: italic;
 
-  color: #f0f0f0;
+  color: #151515;
   text-shadow: 5px 3px 8px rgb(166, 33, 255);
   transition: 0.4s;
 }
@@ -144,7 +144,7 @@ html,body
 }
 
 .dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
-  color: #f0f0f0;
+  color: #151515;
   background-color: transparent !important;
   cursor: pointer;
   font-family: Roboto;
