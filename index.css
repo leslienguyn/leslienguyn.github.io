@@ -682,9 +682,8 @@ html,body
     .box1 {
         width: 130px;
         height: 150px;
-        margin-left: -400px;
+        margin-left: -380px;
     }
-
 
 
     .box2 {
@@ -818,6 +817,6 @@ html,body
         position: relative;
 
         border-radius: 39px;
-	    padding: 15px 67px;
+	padding: 15px 67px;
     }
 }
