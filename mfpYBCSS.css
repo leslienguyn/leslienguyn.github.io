@@ -771,3 +771,230 @@ p {
     font-size: 1.6vw; 
     margin-top: 3px;
 }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .container-fluid {
+        overflow: auto;
+    }
+
+    * {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .rPad {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .h3 {
+        font-size: 1.7em;
+    }
+
+    .p {
+        font-size: 0.9em;
+        line-height: 20px;
+    }
+
+
+    /* 1 */
+    .titleImg {
+        width: 100%;
+    }
+
+    .publishP {
+        font-size: 1em;
+    }
+
+    .annotatedL {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .annotatedR {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+
+    /* 2 */
+    .calory {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .noom {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .carbmanager {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+    
+
+    /* 3 */
+    .homeGif {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .homeToLogFoodGif {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .logFoodScroll {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+    
+    .logFoodAddResize {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .logFoodReturn {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .logFoodReturnLog {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .container-fluid {
+        overflow: auto;
+    }
+
+    * {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .rPad {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .h3 {
+        font-size: 1.7em;
+    }
+
+    .p {
+        font-size: 0.7em;
+        line-height: 20px;
+    }
+
+
+    /* 1 */
+    .titleImg {
+        width: 100%;
+    }
+
+    .publishP {
+        font-size: 1em;
+    }
+
+    .annotatedL {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .annotatedR {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+
+    /* 2 */
+    .calory {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .noom {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .carbmanager {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+    
+
+    /* 3 */
+    .homeGif {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .homeToLogFoodGif {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .logFoodScroll {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+    
+    .logFoodAddResize {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .logFoodReturn {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    .logFoodReturnLog {
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+}
