@@ -357,13 +357,7 @@ html,body
         margin: 0;
         padding: 0;
         border: none;
-        overflow: auto;
     }
-
-
-    .container-fluid {
-        overflow-x: hidden;
-    } 
 
 
     .abtB1 {
@@ -464,11 +458,6 @@ html,body
         padding: 0;
         border: none;
     }
-
-
-    .container-fluid {
-        overflow-x: hidden;
-    } 
 
 
     .abt1 {
