@@ -325,39 +325,18 @@ html,body
     margin-left: 10px;
 }
 
-
-@media (max-width: 575px) {
-    .container-fluid {
-        overflow: auto;
-        padding: 0
-    }
-
-    .abt1 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .abt3 {
-        margin-top: 400px;
-        margin-left: auto;
-        /* margin-left: -350px */
-        margin-right: auto;
-    }
-}
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 400px) {
     .body {
         margin: 0;
         padding: 0;
         border: none;
+        overflow: auto;
     }
+
+
+    .container-fluid {
+        overflow-x: hidden;
+    } 
 
 
     .abtB1 {
@@ -403,7 +382,7 @@ html,body
         margin-left: 8px;
     }
 
-    
+
 
 
     .abt3 {
@@ -421,7 +400,7 @@ html,body
 
         margin-top: -115px;
         margin-left: 10px;
-    
+
         padding-top: 5px;
     }
 
@@ -435,7 +414,7 @@ html,body
 
         line-height: -5px;
         width: 125px;
-    
+
         margin-top: -10px;
         margin-left: 11px;
     }
@@ -459,6 +438,10 @@ html,body
         border: none;
     }
 
+
+    .container-fluid {
+        overflow-x: hidden;
+    } 
 
 
     .abt1 {
@@ -508,7 +491,7 @@ html,body
         margin-left: 8px;
     }
 
-    
+
 
 
     .abt3 {
@@ -526,7 +509,7 @@ html,body
 
         margin-top: -115px;
         margin-left: 5px;
-    
+
         padding-top: 5px;
     }
 
@@ -540,7 +523,7 @@ html,body
 
         line-height: -5px;
         width: 125px;
-    
+
         margin-top: -10px;
         margin-left: 5px;
     }
@@ -554,52 +537,3 @@ html,body
         display: none;
     }*/
 } 
-
-
-
-
-@media only screen and (max-width: 1200px) {
-    .abt1:hover {
-        animation: none;
-    }
-
-    .abt2:hover {
-        animation: none;
-    }
-
-
-
-    .abtB3 {
-        margin-top: 45px;
-        margin-left: -300px;
-    }
-
-    .abt3 h3 {
-        font-size: 1.5em; 
-    
-        margin-top: -199px;
-        margin-left: -290px;
-    }
-    
-    .abt3 a {
-        font-size: 1.4em; 
-    
-        margin-top: -2px;
-        margin-left: -289px;
-    
-        padding-left: 10px;
-        padding-top: 5px;
-    }
-
-    .abt3 p {
-        font-size: 1.4em; 
-
-        margin-top: 45px;
-    }
-    
-    .labels {
-        font-size: 1em; 
-
-        margin-left: -290px;
-    }
-}
