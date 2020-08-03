@@ -327,21 +327,213 @@ html,body
 }
 
 
-@media (max-width: 575px) {
-    .container-fluid {
+
+
+
+@media only screen and (max-width: 400px) {
+    .body {
+        margin: 0;
+        padding: 0;
+        border: none;
         overflow: auto;
-        padding: 0
     }
 
-    .abt1 {
-        margin-left: auto;
-        margin-right: auto;
+
+    .abtB1 {
+        width: 200px;
+        height: 270px;
+        position: relative;
+        margin-left: -150px;
     }
+
+    .abt1:hover {
+        animation: none;
+    }
+
+    .polaroid {
+        width: 183px;
+        height: 231px;
+        margin-top: 40px;
+        margin-left: -144px;
+    }
+
+
+
+    .abt2 {
+        margin-left: 45px;
+        margin-top: -170px;
+    }
+
+    .abtB2 {
+        width: 300px;
+        height: 230px;
+    }
+
+    .abt2:hover {
+        animation: none;
+    }
+
+    .abt2 p {
+        font-size: 0.6em;
+        width: 280px;
+        height: 200px;
+        line-height: 14px;
+        margin-top: 135px;
+        margin-left: 8px;
+    }
+
+
+
 
     .abt3 {
-        margin-top: 400px;
-        margin-left: auto;
-        /* margin-left: -350px */
-        margin-right: auto;
+        margin-left: -480px;
+        margin-top: 90px;
     }
-}
+
+    .abtB3 {
+        width: 240px;
+        height: 140px;
+    }
+
+    .abt3 h3 {
+        font-size: 0.9em; 
+
+        margin-top: -115px;
+        margin-left: 10px;
+
+        padding-top: 5px;
+    }
+
+    .abt3 p {
+        font-size: 0.7em; 
+        margin-top: 10px;
+    }
+
+    .abt3 a {
+        font-size: 0.7em;
+
+        line-height: -5px;
+        width: 125px;
+
+        margin-top: -10px;
+        margin-left: 11px;
+    }
+
+    .labels {
+        font-size: 1em; 
+    }
+
+    /*.abt3 br {
+        display: none;
+    }*/
+} 
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .body {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+
+    .container-fluid {
+        overflow-x: hidden;
+    } 
+
+
+    .abt1 {
+        margin-top: -45px;
+    }
+
+    .abtB1 {
+        width: 210px;
+        height: 275px;
+        position: relative;
+        margin-left: -150px;
+    }
+
+    .abt1:hover {
+        animation: none;
+    }
+
+    .polaroid {
+        width: 187px;
+        height: 236px;
+        margin-top: 28px;
+        margin-left: -138px;
+    }
+
+
+
+    .abt2 {
+        margin-left: 45px;
+        margin-top: -195px;
+    }
+
+    .abtB2 {
+        width: 300px;
+        height: 230px;
+    }
+
+    .abt2:hover {
+        animation: none;
+    }
+
+    .abt2 p {
+        font-size: 0.6em;
+        width: 280px;
+        height: 200px;
+        line-height: 14px;
+        margin-top: 135px;
+        margin-left: 8px;
+    }
+
+
+
+
+    .abt3 {
+        margin-left: -460px;
+        margin-top: 35px;
+    }
+
+    .abtB3 {
+        width: 240px;
+        height: 140px;
+    }
+
+    .abt3 h3 {
+        font-size: 0.9em; 
+
+        margin-top: -115px;
+        margin-left: 5px;
+
+        padding-top: 5px;
+    }
+
+    .abt3 p {
+        font-size: 0.7em; 
+        margin-top: 10px;
+    }
+
+    .abt3 a {
+        font-size: 0.7em;
+
+        line-height: -5px;
+        width: 125px;
+
+        margin-top: -10px;
+        margin-left: 5px;
+    }
+
+    .labels {
+        font-size: 1em; 
+        margin-left: 4px;
+    }
+
+    /*.abt3 br {
+        display: none;
+    }*/
+} 
