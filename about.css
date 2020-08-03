@@ -439,13 +439,9 @@ html,body
     }
 
 
-    .container-fluid {
-        overflow-x: hidden;
-    } 
-
-
     .abt1 {
         margin-top: -40px;
+        margin-left: -6px;
     }
 
     .abtB1 {
