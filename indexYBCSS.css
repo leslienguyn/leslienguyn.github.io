@@ -514,6 +514,15 @@ html,body
         overflow: visible;
     }
 
+	
+
+    .row {
+        margin-left: -15px;
+    }
+
+    .container-fluid {
+        margin-left: -25px;
+    }
 
 
     .box1 {
