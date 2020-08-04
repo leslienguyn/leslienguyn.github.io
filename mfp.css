@@ -95,8 +95,8 @@ html,body
 }
   
   
-
-.dropdown {
+/* Mode */
+.dropdown { /* mode tab itself minus dropdown */
     font-style: normal;
 }
   
@@ -106,7 +106,7 @@ html,body
 }
   
 .dropdown-menu li a {
-    color: #505050;
+    color: #646464;
 }
   
 .dropdown-menu li { /* font size for collapse options */
@@ -114,10 +114,6 @@ html,body
     font-size: 20px;
     font-style: normal;
     text-decoration: none;
-  }
-  
-.dropdown-menu a {
-    opacity: 50%;
 }
   
 .dropdown-menu a:hover {
@@ -127,21 +123,21 @@ html,body
     opacity: 100%;
 }
   
-.dropdown-menu li:hover a { /*when resting font stays white */
+.dropdown-menu li:hover a { /*when hovered over, single choice stays white */
     background-color: transparent !important;
     font-style: italic;
   
     color: #f0f0f0;
     text-shadow: 5px 3px 8px rgb(166, 33, 255);
     transition: 0.4s;
-  }
+}
   
 .dropdown-menu li:hover a { 
     background-color: transparent !important;
     font-style: italic;
 }
-
-.dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
+  
+ .dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
     color: #f0f0f0;
     background-color: transparent !important;
     cursor: pointer;
