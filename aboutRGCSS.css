@@ -367,6 +367,14 @@ html,body
         overflow: auto;
     }
 
+    .row {
+        margin-left: -40px;
+    }
+
+    .container-fluid {
+        overflow-x: hidden;
+    } 
+    
 
     .abtB1 {
         width: 200px;
