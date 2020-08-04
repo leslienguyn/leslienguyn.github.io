@@ -771,8 +771,8 @@ p {
     }
 
     * {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     ::-webkit-scrollbar {
@@ -882,8 +882,8 @@ p {
     }
 
     * {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     ::-webkit-scrollbar {
