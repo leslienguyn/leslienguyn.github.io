@@ -510,7 +510,17 @@ html,body
     }
 
 
+	
+    .row {
+        margin-left: -15px;
+    }
 
+    .container-fluid {
+        margin-left: -25px;
+    }
+	
+
+	
     .box1 {
         width: 330px;
         height: 240px;
