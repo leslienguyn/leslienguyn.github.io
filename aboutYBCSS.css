@@ -32,6 +32,30 @@ html,body
 
 
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 70px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #212121; 
+    border-radius: 70px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #33bc4d; 
+    border: 0.25px solid #ff0000;
+    box-shadow: 0 0 20px #e22424, 0 0 20px #1fff17, 0 0 20px #ff6c17;
+    border-radius: 70px;
+}
+
+
+
+
 /* nav bar */
 .nav, .navbar-nav {
     cursor: pointer;
