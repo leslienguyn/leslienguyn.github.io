@@ -1010,3 +1010,44 @@ html,body
 	padding: 15px 67px;
     }
 }
+
+
+
+
+
+@media only screen and (min-width: 1920px) {
+	.row {
+		margin-left: 270px;
+	}
+	
+	
+	.box1{
+		top: 40px;
+	}
+	
+	.box2{
+		top: -50px;
+	}
+	
+	.box1{
+		top: -250px;
+	}
+	
+	
+	.b4 {
+		margin-left: 340px;
+	}
+	
+	.mfp {
+		margin-left: 360px;
+	}
+	
+	.b5Text h3 {
+    		font-size: 3vw;
+	}
+	
+	.b5Text:hover p {
+	    font-size: 1.4vw;
+	    margin-top: -85px;
+	}
+}
