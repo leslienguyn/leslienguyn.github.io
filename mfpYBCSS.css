@@ -987,12 +987,16 @@ p {
         margin-top: 120px;
     }
 
-    .drawingL {
-        margin-top: -70px;
+   .drawingL {
+        margin-top: -40px;
     }
 
     .drawingR {
-        margin-top: -70px;
+        margin-top: -40px;
+    }
+
+    .prototype {
+        margin-bottom: -40px;
     }
 
     .homepages {
