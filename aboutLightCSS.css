@@ -567,3 +567,77 @@ html,body
         display: none;
     }*/
 } 
+
+
+
+
+
+
+
+@media only screen and (min-width: 1920px) {
+    .row {
+        margin-right: -15px;
+        margin-top: 100px;
+        margin-left: 300px;
+    }
+
+
+    .abt1 {
+        left: 235px;
+    }
+
+    .abtB1 {
+        width: 370px;
+        height: 490px;
+    }
+
+    .polaroid {
+        width: 327px;
+        height: 418px;
+        margin-left: 22px;
+    }
+
+
+    .abtB2 {
+        width: 545px;
+        height: 440px;
+    }
+
+    .abt2 p {
+        width: 520px;
+        height: 320px;
+        top: -380px;
+        font-size: 20px;
+    }
+
+
+    .abt3 {
+        margin-top: 380px;
+    }
+
+    .abtB3 {
+        width: 430px;
+        height: 270px;
+    }
+
+    .abt3 h3 {
+        font-size: 1.3vw;
+        width: 390px;
+        margin-top: -220px;
+        margin-left: 13px;
+    }
+
+    .abt3 a {
+        font-size: 1vw;
+        margin-top: 0px;
+    }
+
+    .abt3 p {
+        font-size: 0.9vw;
+        margin-top: 43px;
+    }
+
+    .labels {
+        font-size: 1.0vw;
+    }
+}
