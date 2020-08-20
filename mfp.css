@@ -902,6 +902,10 @@ p {
 
 
     /* 1 */
+    .lineTopBG {
+        margin-top: 80px;
+    }
+
     .titleImg {
         width: 100%;
     }
@@ -914,69 +918,120 @@ p {
         margin-left: 50px;
         margin-right: 0;
         width: 70%;
+        margin-top: -40px;
     }
 
     .annotatedR {
         margin-left: 50px;
         margin-right: 0;
         width: 70%;
+        margin-top: -40px;
+        margin-bottom: -40px;
     }
 
 
     /* 2 */
+    .lineTopResearch {
+        margin-top: 70px;
+    }
+
+
+    .infographic {
+        margin-top: -40px;
+        margin-bottom: -40px;
+    }
+
     .calory {
         margin-left: 50px;
         margin-right: 0;
         width: 70%;
+        margin-top: -40px;
+        margin-bottom: -40px;
     }
 
     .noom {
         margin-left: 50px;
         margin-right: 0;
         width: 70%;
+        margin-bottom: -40px;
     }
 
     .carbmanager {
         margin-left: 50px;
         margin-right: 0;
         width: 70%;
+        margin-bottom: -50px;
     }
     
 
     /* 3 */
+    .lineTopProcess {
+        margin-top: 120px;
+    }
+
+    .drawingL {
+        margin-top: -70px;
+    }
+
+    .drawingR {
+        margin-top: -70px;
+    }
+
+    .homepages {
+        padding-top: 10px;
+    }
+
+    .logFood {
+        padding-top: 5px;
+    }
+
     .homeGif {
-        margin-left: 50px;
+        margin-left: 45px;
         margin-right: 0;
-        width: 70%;
+        width: 71%;
+        margin-top: -20px;
     }
 
     .homeToLogFoodGif {
         margin-left: 50px;
         margin-right: 0;
         width: 70%;
+        margin-top: -20px;
     }
 
     .logFoodScroll {
         margin-left: 50px;
         margin-right: 0;
         width: 70%;
+        margin-top: -20px;
+        margin-bottom: -40px;
     }
     
     .logFoodAddResize {
-        margin-left: 50px;
+        margin-left: 45px;
         margin-right: 0;
-        width: 70%;
+        width: 71%;
+        margin-top: -40px;
     }
 
     .logFoodReturn {
         margin-left: 50px;
         margin-right: 0;
         width: 70%;
+        margin-top: -40px;
     }
 
     .logFoodReturnLog {
         margin-left: 50px;
         margin-right: 0;
         width: 70%;
+        margin-top: -40px;
+        margin-bottom: -50px;
+    }
+
+
+    /* 4 */
+    .lineTopConclusion {
+        margin-top: 120px;
     }
 }
