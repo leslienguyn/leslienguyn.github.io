@@ -1023,3 +1023,62 @@ html,body
 	    padding: 15px 67px;
     }
 }
+
+
+
+
+
+
+@media only screen and (min-width: 1920px) {
+	.row {
+		margin-left: 270px;
+	}
+	
+	
+	.box1{
+		top: 20px;
+    }
+    
+    .box1 h1 {
+        font-size: 7vw;
+        left: 125px;
+        top: 65px;
+    }
+    
+    
+	.box2{
+		top: -60px;
+    }
+    
+    .box2 h1 {
+        font-size: 4vw;
+        top: 90px;
+    }
+
+	
+	.box3{
+		top: -275px;
+    }
+    
+    .box3 h2 {
+        font-size: 1.7vw;
+    }
+	
+	
+	.b4 {
+		margin-left: 340px;
+	}
+	
+	.mfp {
+		margin-left: 360px;
+	}
+	
+	.b5Text h3 {
+    		font-size: 3vw;
+	}
+	
+	.b5Text:hover p {
+	    font-size: 1.4vw;
+	    margin-top: -85px;
+	}
+}
