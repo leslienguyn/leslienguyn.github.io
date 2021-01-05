@@ -378,7 +378,7 @@ html,body
 .b5Text p {
     color: #f0f0f0;
     font-family: Roboto;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 1.5vw;
     text-align: center;
     margin-top: 10px;
@@ -420,7 +420,7 @@ html,body
 .b5PTText p {
     color: #f0f0f0;
     font-family: Roboto;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 1.9vw;
     text-align: center;
     margin-top: 10px;
@@ -434,16 +434,16 @@ html,body
 .goBtn {
     display: inline-block;
     
-	color:#f0f0f0;
-	font-family: Roboto;
+    color:#f0f0f0;
+    font-family: Roboto;
     font-weight: 500;
     font-style: normal;
     /*font-size: 2vw;  */
     font-size: 30px;
     
     border-radius: 42px;
-	padding: 19px 70px;
-	text-decoration: none; 
+    padding: 19px 70px;
+    text-decoration: none; 
 
     margin-left: -302px;
     margin-top: 450px;
