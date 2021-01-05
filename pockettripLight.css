@@ -162,40 +162,6 @@ html,body
 
 
 
-.scroll {
-    color: #fff;
-    margin-top: 100px
-}
-
-.js .cd-top--fade-out {
-    opacity: .5
-}
-
-.js .cd-top--is-visible {
-    visibility: visible;
-    opacity: 1
-}
-
-.js .cd-top {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .3s, visibility .3s, background-color .3s
-}
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -324,7 +290,7 @@ p {
     font-weight: normal;
     font-size: 23px; 
     margin-top: 3px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .text a {
