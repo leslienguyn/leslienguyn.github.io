@@ -158,19 +158,6 @@ html,body
 
 
 
-.scroll {
-    color: #fff;
-    margin-top: 100px
-}
-
-
-
-
-
-
-
-
-
 
 
 .box1 {
@@ -245,14 +232,14 @@ html,body
 
 .box2 h1 {
     position: absolute; 
-    font-size: 72px; 
+    font-size: 60px; 
     font-family: Roboto;
     font-style: italic;
     font-weight: 500;
     color: #f0f0f0;
 
-    left: 80px;
-    top: 100px;
+    left: 105px;
+    top: 40px;
     text-align: center;
 }
 
@@ -315,10 +302,18 @@ html,body
     padding-bottom: 70px;
 }
 
+.PortfolioPT {
+    padding-bottom: 800px;
+}
+
 .Portfolio:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.Portfolio .b4 {
+    margin-left: 133px;
 }
 
 .b4 {
@@ -326,7 +321,16 @@ html,body
     height: 570px;
     position: relative;
     margin-left: 120px;
-    margin-top: -40px;
+    margin-top: 50px;
+}
+
+.pockettrip {
+    width: 500px;
+    height: 497px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 102px;
+    margin-left: 140px;
 }
 
 .mfp {
@@ -334,8 +338,8 @@ html,body
     height: 497px;
     position: absolute;
     z-index: 1;
-    margin-top: 12px;
-    margin-left: 140px;
+    margin-top: 102px;
+    margin-left: 153px;
 }
 
 
@@ -346,7 +350,7 @@ html,body
 
     position: relative;
 
-    margin-top: 20px;
+    margin-top: 100px;
     margin-left: 60px;
 } 
 
@@ -355,40 +359,29 @@ html,body
     height: 150px;
     position: absolute;
 
-    margin-top: 100px;
+    margin-top: 180px;
     margin-left: 90px;
     
     text-align: center;
 }
 
+.b5Text h3 {
+    font-size: 3.3vw; 
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    color: #f0f0f0;
+
+    margin-top: -15px;
+}
+
 .b5Text p {
-    visibility: hidden;
-}
-
-.b5Text:hover{
-    width: 415px;
-    height: 240px;
-    margin-top: 62px;
-    margin-left: 78px;
-    background-color: #110f11;
-    transition: ease-in 0.2s;
-
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.b5Text:hover p {
     color: #f0f0f0;
     font-family: Roboto;
-    font-weight: 500;
-    font-size: 1.9vw;
+    font-weight: 300;
+    font-size: 1.5vw;
     text-align: center;
-    visibility: visible;
-    margin-top: -80px;
-}
-
-.b5Text:hover h3{
-    visibility: hidden;
+    margin-top: 10px;
 }
 
 .b5Text h3 {
@@ -397,6 +390,40 @@ html,body
     font-style: italic;
     font-weight: 500;
     color: #f0f0f0;
+} 
+
+
+
+
+
+.b5PTText {
+    width: 390px;
+    height: 150px;
+    position: absolute;
+
+    margin-top: 180px;
+    margin-left: 90px;
+    
+    text-align: center;
+}
+
+.b5PTText h3 {
+    font-size: 3.7vw; 
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    color: #f0f0f0;
+
+    margin-top: 0px;
+}
+
+.b5PTText p {
+    color: #f0f0f0;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1.9vw;
+    text-align: center;
+    margin-top: 10px;
 }
 
 
@@ -407,18 +434,19 @@ html,body
 .goBtn {
     display: inline-block;
     
-    color:#f0f0f0;
-    font-family: Roboto;
+	color:#f0f0f0;
+	font-family: Roboto;
     font-weight: 500;
     font-style: normal;
+    /*font-size: 2vw;  */
     font-size: 30px;
     
     border-radius: 42px;
-    padding: 19px 70px;
-    text-decoration: none; 
+	padding: 19px 70px;
+	text-decoration: none; 
 
     margin-left: -302px;
-    margin-top: 380px;
+    margin-top: 450px;
     position: relative;
 
     overflow: hidden;
@@ -444,11 +472,9 @@ html,body
 
 
 
+/* try uploading everything then adjust media response according to that*/
 
-
-
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) { /* iphone 6/7/8/x? */
     .body {
         margin: 0;
         padding: 0;
@@ -456,8 +482,8 @@ html,body
 
         overflow: visible;
     }
-	
-	
+
+
     .row {
         margin-left: -15px;
     }
@@ -465,7 +491,6 @@ html,body
     .container-fluid {
         margin-left: -25px;
     }
-
 
 
     .box1 {
@@ -514,17 +539,12 @@ html,body
 
     }
 
-    .box2:hover {
-        animation: none;
-    }
-
     .box2 h1 {
         position: absolute; 
         font-size: 3em;
     
         text-align: center;
-        margin-top: -20px;
-
+        margin-top: 20px;
     }
 
 
@@ -635,7 +655,8 @@ html,body
 
 
 
-@media only screen and (max-width: 576px) {
+
+@media only screen and (max-width: 576px) { 
     .body {
         margin: 0;
         padding: 0;
@@ -690,10 +711,6 @@ html,body
         height: 200px;
         position: relative;
 
-    }
-
-    .box2:hover {
-        animation: none;
     }
 
     .box2 h1 {
@@ -777,25 +794,6 @@ html,body
         text-align: center;
     }
 
-    .b5Text:hover{
-        width: 305px;
-        height: 175px;
-        margin-top: -24px;
-        margin-left: 23px;
-        background-color: #110f11;
-        transition: ease-in 0.2s;
-    
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .b5Text:hover p {
-        font-size: 1em;
-        text-align: center;
-        visibility: visible;
-        margin-top: 20px;
-    }
-
 
 
     .goBtn {
@@ -814,7 +812,7 @@ html,body
 
 
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 786px) { /* Pixel 2 */
     .body {
         margin: 0;
         padding: 0;
@@ -824,11 +822,16 @@ html,body
         overflow: visible;
     }
 
+    .PortfolioPT {
+        padding-bottom: 150px;
+    }
+
     .box1 {
         width: 130px;
         height: 150px;
         margin-left: -400px;
     }
+
 
 
     .box2 {
@@ -856,7 +859,8 @@ html,body
         font-size: 3em;
     
         text-align: center;
-        margin-top: -20px;
+        margin-top: 0px;
+        margin-left: -25px;
 
     }
 
@@ -900,7 +904,7 @@ html,body
         margin-top: -40px;
     }
 
-    .mfp {
+    .pockettrip {
         width: 315px;
         height: 323px;
         position: absolute;
@@ -909,13 +913,37 @@ html,body
         margin-left: 18px;
     }
 
+    .Portfolio .b4 { /* .Portfolio refers to mfp boxes */
+        width: 340px;
+        height: 370px;
+        position: relative;
+        margin-left: 18px;
+        margin-top: -40px;
+    }
+
+    .mfp {
+        width: 315px;
+        height: 323px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: 31px;
+    }
+
+    .Portfolio .b5 {
+        width: 330px;
+        height: 220px;
+        margin-top: -55px;
+        margin-left: 23px;
+    }
+
     .b5Text {
-        width: 300px;
+        width: 306px;
         height: 50px;
         position: absolute;
 
         margin-top: 30px;
-        margin-left: 25px;
+        margin-left: 35px;
         
         text-align: center;
     }
@@ -927,28 +955,38 @@ html,body
         margin-left: 10px;
     }
 
-    .b5Text h3 {
-        font-size: 1.7em;
-        text-align: center;
+    .b5Text {
+        margin-top: 35px;
     }
 
-    .b5Text:hover{
-        width: 305px;
-        height: 175px;
-        margin-top: -24px;
-        margin-left: 23px;
-        background-color: #110f11;
-        transition: ease-in 0.2s;
-    
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .b5Text:hover p {
-        font-size: 1em;
-        text-align: center;
-        visibility: visible;
+    .b5PTText {
         margin-top: 20px;
+    }
+
+    .b5Text h3 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .b5PTText h3 {
+        font-size: 2.4em;
+        text-align: center;
+        width: 306px;
+        margin-left: -68px;
+    }
+
+    .b5Text p {
+        font-size: 3.2vw;
+        margin-top: 10px;
+        width: 250px;
+        margin-left: 30px;
+    }
+
+    .b5PTText p {
+        font-size: 3.2vw;
+        margin-top: 10px;
+        width: 250px;
+        margin-left: -40px;
     }
 
 
@@ -962,7 +1000,7 @@ html,body
         position: relative;
 
         border-radius: 39px;
-	padding: 15px 67px;
+	    padding: 15px 67px;
     }
 }
 
@@ -970,14 +1008,14 @@ html,body
 
 
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1920px) { /* desktop */
 	.row {
 		margin-left: 270px;
 	}
 	
 	
 	.box1{
-		top: 20px;
+        top: 20px;
 	}
 	
 	.box2{
@@ -988,21 +1026,67 @@ html,body
 		top: -275px;
 	}
 	
-	
+    
+    /* mfp portfolio boxes */
 	.b4 {
 		margin-left: 340px;
 	}
 	
 	.mfp {
-		margin-left: 360px;
+		margin-left: 374px;
 	}
 	
 	.b5Text h3 {
-    		font-size: 3vw;
-	}
+    	font-size: 3vw;
+    }
+
+    .Portfolio .b4 {
+        margin-left: 354px;
+    }
+
+    .Portfolio h3 {
+        font-size: 2.1vw;
+    }
+
+    .Portfolio p {
+        font-size: 1vw;
+    }
+
+    .Portfolio .b5Text {
+        margin-top: 195px;
+    }
+    
+
+    /* pocket trip portfolio boxes */
+    .pockettrip {
+        margin-left: 360px;
+    }
+
+    .b5PTText {
+        margin-top: 190px;
+    }
+
+    .b5PTText h3 {
+        font-size: 2.4vw;
+    }
+
+    .b5PTText p {
+        font-size: 1.3vw;
+    }
 	
-	.b5Text:hover p {
-	    font-size: 1.4vw;
-	    margin-top: -85px;
-	}
 }
+
+
+
+
+/* Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) 
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 992px) { ... }
+
+ Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) { ... } */
