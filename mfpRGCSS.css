@@ -164,16 +164,6 @@ html,body
 
 
 
-
-
-
-
-
-
-
-
-
-
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -260,7 +250,7 @@ h2 {
     width: 100%;
     border: 3px solid #1249ff;
     box-shadow: 1px -2px 12px #4012ff;
-    margin-top: 150px;
+    margin-top: 120px;
 
     margin-left: auto;
     margin-right: auto;
@@ -302,7 +292,7 @@ p {
     font-weight: normal;
     font-size: 23px; 
     margin-top: 3px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .annotatedL {
@@ -368,7 +358,7 @@ p {
     width: 100%;
     border: 3px solid #1249ff;
     box-shadow: 1px -2px 12px #4012ff;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -481,7 +471,7 @@ p {
     width: 100%;
     border: 3px solid #1249ff;
     box-shadow: 1px -2px 12px #4012ff;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -549,7 +539,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -558,7 +548,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -567,7 +557,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -576,7 +566,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -585,7 +575,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
 
     width: 38%;
@@ -595,7 +585,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -606,7 +596,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -617,7 +607,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
 
     width: 32.5%;
@@ -627,7 +617,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -638,7 +628,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -672,7 +662,7 @@ p {
     width: 100%;
     border: 3px solid #1249ff;
     box-shadow: 1px -2px 12px #4012ff;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -754,12 +744,12 @@ p {
         padding-right: 0;
     }
 
-    h3 {
+    .h3 {
         font-size: 1.7em;
     }
 
-    p {
-        font-size: 1em;
+    .p {
+        font-size: 0.9em;
         line-height: 20px;
     }
 
