@@ -754,6 +754,10 @@ a:hover {
 
         overflow: visible;
     }
+	
+    .scroll-down {
+        left: 50%;
+    }
 
 
 
@@ -911,9 +915,16 @@ a:hover {
         margin-right: auto;
         overflow: visible;
     }
+	
+    .scroll-down {
+        left: 50%;
+    }
+	
+	
 
     .PortfolioPT {
         padding-bottom: 150px;
+	padding-top: 100px;
     }
 
     .box1 {
