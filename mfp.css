@@ -61,83 +61,87 @@ html,body
     text-decoration: none;
     justify-content: flex-end;
     float: right;
-}
+  }
   
-.nav a {
+  .nav a {
     color: #f0f0f0;
     margin-left: 10px;
-}
+  }
   
-.nav a:hover {
+  .nav a:hover {
     background-color: transparent !important;
     text-shadow: 5px 3px 8px rgb(166, 33, 255);
     transition: 0.4s;
     font-style: italic;
-}
+  }
   
-.nav:hover {
+  .nav:hover {
     background-color: transparent;
-}
+  }
   
-.navbar-collapse {
+  .navbar-collapse {
     justify-content: flex-end;
     color: #f0f0f0;
     background-color: transparent;
-}
+  }
   
-.nav li:hover a {
+  .nav li:hover a {
     color: #f0f0f0;
     background-color: transparent;
-}
+  }
   
-.navbar-expand-md {
+  .navbar-expand-md {
       justify-content: flex-end;
-}
+  }
   
   
-/* Mode */
-.dropdown { /* mode tab itself minus dropdown */
+  /* Mode */
+  .dropdown { /* mode tab itself minus dropdown */
     font-style: normal;
-}
+  }
   
-.dropdown-menu { /* white hover box */
+  .dropdown-menu { /* white hover box */
     text-decoration: none;
     background-color: transparent !important;
-}
+  }
   
-.dropdown-menu li a {
+  .dropdown-menu li a {
     color: #646464;
-}
+  }
   
-.dropdown-menu li { /* font size for collapse options */
+  .dropdown-menu li { /* font size for collapse options */
     background-color: #212121;
     font-size: 20px;
     font-style: normal;
     text-decoration: none;
-}
+  }
   
-.dropdown-menu a:hover {
+  /*.dropdown-menu a {
+    opacity: 50%;
+  } */
+  
+  .dropdown-menu a:hover {
     color: #f0f0f0;
     text-shadow: 5px 3px 8px rgb(166, 33, 255);
     transition: 0.4s;
     opacity: 100%;
-}
+  }
   
-.dropdown-menu li:hover a { /*when hovered over, single choice stays white */
+  .dropdown-menu li:hover a { /*when hovered over, single choice stays white */
     background-color: transparent !important;
     font-style: italic;
   
     color: #f0f0f0;
     text-shadow: 5px 3px 8px rgb(166, 33, 255);
     transition: 0.4s;
-}
+  }
   
-.dropdown-menu li:hover a { 
+  .dropdown-menu li:hover a { 
     background-color: transparent !important;
     font-style: italic;
-}
+  }
   
- .dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
+  .dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
     color: #f0f0f0;
     background-color: transparent !important;
     cursor: pointer;
@@ -146,12 +150,6 @@ html,body
     font-weight: 500;
     font-size: 25px;
 }
-  
-
-
-
-
-
 
 
 
@@ -244,7 +242,7 @@ h2 {
     width: 100%;
     border: 3px solid #a417ff;
     box-shadow: 1px -2px 12px #d817ff;
-    margin-top: 150px;
+    margin-top: 120px;
 
     margin-left: auto;
     margin-right: auto;
@@ -286,7 +284,7 @@ p {
     font-weight: normal;
     font-size: 23px; 
     margin-top: 3px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .annotatedL {
@@ -352,7 +350,7 @@ p {
     width: 100%;
     border: 3px solid #a417ff;
     box-shadow: 1px -2px 12px #d817ff;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -465,7 +463,7 @@ p {
     width: 100%;
     border: 3px solid #a417ff;
     box-shadow: 1px -2px 12px #d817ff;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -533,7 +531,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -542,7 +540,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -551,7 +549,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -560,7 +558,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -569,7 +567,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
 
     width: 38%;
@@ -579,7 +577,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -590,7 +588,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -601,7 +599,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
 
     width: 32.5%;
@@ -611,7 +609,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -622,7 +620,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -656,7 +654,7 @@ p {
     width: 100%;
     border: 3px solid #a417ff;
     box-shadow: 1px -2px 12px #d817ff;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -739,7 +737,7 @@ p {
     }
 
     p {
-        font-size: 1em;
+        font-size: 1.1em;
         line-height: 20px;
     }
 
