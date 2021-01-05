@@ -99,54 +99,54 @@ html,body
   }
   
   
-  /* Mode */
-  .dropdown { /* mode tab itself minus dropdown */
+/* Mode */
+.dropdown { /* mode tab itself minus dropdown */
     font-style: normal;
-  }
+}
   
-  .dropdown-menu { /* white hover box */
+.dropdown-menu { /* white hover box */
     text-decoration: none;
     background-color: transparent !important;
-  }
+}
   
-  .dropdown-menu li a {
+.dropdown-menu li a {
     color: #000000;
-  }
+}
   
-  .dropdown-menu li { /* font size for collapse options */
+.dropdown-menu li { /* font size for collapse options */
     background-color: #831919;
     font-size: 20px;
     font-style: normal;
     text-decoration: none;
-  }
+}
   
   /*
   .dropdown-menu a {
     opacity: 50%;
   } */
   
-  .dropdown-menu a:hover {
+.dropdown-menu a:hover {
     color: #ffffff;
     text-shadow: 5px 3px 8px #36f358;
     transition: 0.4s;
     opacity: 100%;
-  }
+}
   
-  .dropdown-menu li:hover a { /*when hovered over, single choice stays white */
+.dropdown-menu li:hover a { /*when hovered over, single choice stays white */
     background-color: transparent !important;
     font-style: italic;
   
     color: #ffffff;
     text-shadow: 5px 3px 8px #36f358;
     transition: 0.4s;
-  }
+}
   
-  .dropdown-menu li:hover a { 
+.dropdown-menu li:hover a { 
     background-color: transparent !important;
     font-style: italic;
-  }
+}
   
-  .dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
+.dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
     color: #ffffff;
     background-color: transparent !important;
     cursor: pointer;
@@ -154,23 +154,10 @@ html,body
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
-  }
-  
-  
-
-
-
-
-
+}
   
   
   
-  
-  
-  
-  
-
-
 
 
 .container-fluid {
@@ -301,7 +288,7 @@ p {
     font-weight: normal;
     font-size: 23px; 
     margin-top: 3px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .annotatedL {
@@ -367,7 +354,7 @@ p {
     width: 100%;
     border: 3px solid #15e631;
     box-shadow: 1px -2px 12px #1fff17;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -480,7 +467,7 @@ p {
     width: 100%;
     border: 3px solid #15e631;
     box-shadow: 1px -2px 12px #1fff17;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -548,7 +535,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -557,7 +544,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -566,7 +553,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -575,7 +562,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -584,7 +571,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
 
     width: 38%;
@@ -594,7 +581,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -605,7 +592,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -616,7 +603,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
 
     width: 32.5%;
@@ -626,7 +613,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -637,7 +624,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -671,7 +658,7 @@ p {
     width: 100%;
     border: 3px solid #15e631;
     box-shadow: 1px -2px 12px #1fff17;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -732,7 +719,6 @@ p {
 
 
 
-
 @media only screen and (max-width: 400px) {
     .container-fluid {
         overflow: auto;
@@ -752,12 +738,12 @@ p {
         padding-right: 0;
     }
 
-    h3 {
+    .h3 {
         font-size: 1.7em;
     }
 
-    p {
-        font-size: 1em;
+    .p {
+        font-size: 0.9em;
         line-height: 20px;
     }
 
@@ -941,7 +927,7 @@ p {
         margin-top: 120px;
     }
 
-   .drawingL {
+    .drawingL {
         margin-top: -40px;
     }
 
