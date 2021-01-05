@@ -391,7 +391,7 @@ html,body
 .b5Text p {
     color: #151515;
     font-family: Roboto;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 1.5vw;
     text-align: center;
     margin-top: 10px;
@@ -423,7 +423,7 @@ html,body
 .b5PTText p {
     color: #151515;
     font-family: Roboto;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 1.9vw;
     text-align: center;
     margin-top: 10px;
