@@ -54,110 +54,104 @@ html,body
 
 /* nav bar */
 .nav, .navbar-nav {
-  cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  text-decoration: none;
-  justify-content: flex-end;
-  float: right;
-}
-
-.nav a {
-  color: #151515;
-  margin-left: 10px;
-}
-
-.nav a:hover {
-  background-color: transparent !important;
-  text-shadow: 5px 3px 8px rgb(166, 33, 255);
-  transition: 0.4s;
-  font-style: italic;
-}
-
-.nav:hover {
-  background-color: transparent;
-}
-
-.navbar-collapse {
-  justify-content: flex-end;
-  color: #151515;
-  background-color: transparent;
-}
-
-.nav li:hover a {
-  color: #151515;
-  background-color: transparent;
-}
-
-.navbar-expand-md {
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
     justify-content: flex-end;
-}
-
-
+    float: right;
+  }
+  
+  .nav a {
+    color: #151515;
+    margin-left: 10px;
+  }
+  
+  .nav a:hover {
+    background-color: transparent !important;
+    text-shadow: 5px 3px 8px #ef9cff;
+    transition: 0.4s;
+    font-style: italic;
+  }
+  
+  .nav:hover {
+    background-color: transparent;
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+    color: #151515;
+    background-color: transparent;
+  }
+  
+  .nav li:hover a {
+    color: #151515;
+    background-color: transparent;
+  }
+  
+  .navbar-expand-md {
+      justify-content: flex-end;
+  }
+  
+  
 /* Mode */
 .dropdown { /* mode tab itself minus dropdown */
-  font-style: normal;
-}
-
-.dropdown-menu { /* white hover box */
-  text-decoration: none;
-  background-color: transparent !important;
-}
-
-.dropdown-menu li a {
-  color: #2e2e2e;
-}
-
-.dropdown-menu li { /* font size for collapse options */
-  background-color: #f8f8f8;
-  font-size: 20px;
-  font-style: normal;
-  text-decoration: none;
-}
-
-.dropdown-menu a {
-  opacity: 50%;
-}
-
-.dropdown-menu a:hover {
-  color: #151515;
-  text-shadow: 5px 3px 8px rgb(166, 33, 255);
-  transition: 0.4s;
-  opacity: 100%;
-}
-
-.dropdown-menu li:hover a { /*when resting font stays white */
-  background-color: transparent !important;
-  font-style: italic;
-
-  color: #151515;
-  text-shadow: 5px 3px 8px rgb(166, 33, 255);
-  transition: 0.4s;
-}
-
-.dropdown-menu li:hover a { 
-  background-color: transparent !important;
-  font-style: italic;
-}
-
-.dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
-  color: #151515;
-  background-color: transparent !important;
-  cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
+    font-style: normal;
 }
   
-
-
-
-
-
-
+.dropdown-menu { /* white hover box */
+    text-decoration: none;
+    background-color: transparent !important;
+}
+  
+.dropdown-menu li a {
+    color: #505050;
+}
+  
+.dropdown-menu li { /* font size, panel bg color for collapse options */
+    background-color: #f8f8f8;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+}
+  
+.dropdown-menu a {
+    opacity: 50%;
+}
+  
+.dropdown-menu a:hover {
+    color: #f0f0f0;
+    text-shadow: 5px 3px 8px #ef9cff;
+    transition: 0.4s;
+    opacity: 100%;
+}
+  
+.dropdown-menu li:hover a { /*when hovered over, single choice stays dark */
+    background-color: transparent !important;
+    font-style: italic;
+  
+    color: #151515;
+    text-shadow: 5px 3px 8px #ef9cff;
+    transition: 0.4s;
+}
+  
+.dropdown-menu li:hover a { 
+    background-color: transparent !important;
+    font-style: italic;
+}
+  
+.dropdown-toggle:focus, .dropdown-toggle:active, .dropdown-toggle:visited { /* makes mode font white */
+    color: #151515;
+    background-color: transparent !important;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+}
+  
 
 
 
@@ -251,7 +245,7 @@ h2 {
     width: 100%;
     border: 3px solid #eb87ff;
     box-shadow: 1px -2px 12px #da78ff;
-    margin-top: 150px;
+    margin-top: 120px;
 
     margin-left: auto;
     margin-right: auto;
@@ -293,7 +287,7 @@ p {
     font-weight: normal;
     font-size: 23px; 
     margin-top: 3px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .annotatedL {
@@ -359,7 +353,7 @@ p {
     width: 100%;
     border: 3px solid #eb87ff;
     box-shadow: 1px -2px 12px #da78ff;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -472,7 +466,7 @@ p {
     width: 100%;
     border: 3px solid #eb87ff;
     box-shadow: 1px -2px 12px #da78ff;
-    margin-top: 220px;
+    margin-top: 120px;
 
     /* border-radius: 50px; */ /* makes rounded corner */
 }
@@ -540,7 +534,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -549,7 +543,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -558,7 +552,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -567,7 +561,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     width: 100%;
 }
@@ -576,7 +570,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
 
     width: 38%;
@@ -586,7 +580,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -597,7 +591,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -608,7 +602,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
 
     width: 32.5%;
@@ -618,7 +612,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -629,7 +623,7 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 5px;
 
@@ -741,12 +735,12 @@ p {
         padding-right: 0;
     }
 
-    h3 {
+    .h3 {
         font-size: 1.7em;
     }
 
-    p {
-        font-size: 1em;
+    .p {
+        font-size: 0.9em;
         line-height: 20px;
     }
 
