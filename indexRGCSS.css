@@ -1187,7 +1187,6 @@ a:hover {
 
 
 
-
 @media only screen and (min-width: 2560px) { /* desktop */
 	.row {
         margin-left: 550px;
@@ -1209,12 +1208,13 @@ a:hover {
     
 	
 	.box1{
-        top: 20px;
+        top: 80px;
+        left: 380px;
     }
     
     .box1 h1 {
-        top: 100px;
-        left: 167px;
+        top: 60px;
+        left: 133px;
         font-size: 145px;
     }
 
@@ -1225,7 +1225,7 @@ a:hover {
     }
 
     .box2 h1 {
-        left: 145px;
+        left: 190px;
         top: 60px;
     }
     
@@ -1236,7 +1236,7 @@ a:hover {
 
 	
 	.box3{
-        top: -185px;
+        top: -220px;
         width: 600px;
         left: 145px;
     }
