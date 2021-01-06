@@ -578,6 +578,19 @@ html,body
 
 
 
+@media only screen and (max-width: 786px) { /* iphone */
+    .abt3 {
+        margin-left: -450px;
+        margin-top: 518px;
+    }
+
+    .polaroid {
+        margin-left: -144px;
+        width: 193px;
+    }
+}
+
+
 
 
 @media only screen and (min-width: 1920px) {
