@@ -672,6 +672,12 @@ html,body
 
 
 @media only screen and (min-width: 2560px) {
+    .row {
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+
+
     .abt1 {
         left: 200px;
         top: 70px;
@@ -684,9 +690,9 @@ html,body
 
     .polaroid {
         width: 366px;
-        height: 464px;
+        height: 458px;
         margin-left: 12px;
-        margin-top: 54px;
+        margin-top: 60px;
     }
 
     @keyframes wiggleB1 {
@@ -713,6 +719,8 @@ html,body
     .abt3 {
         width: 550px;
         height: 330px;
+        margin-top: 470px;
+        margin-left: 460px;
     }
 
     .abt3 h3 {
