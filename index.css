@@ -1193,10 +1193,10 @@ a:hover {
 
 
 @media only screen and (min-width: 2560px) { /* desktop */
-	.row {
+    .row {
         margin-left: 550px;
         margin-top: 70px;
-	}
+    }
     
     .scroll-down {
         left: 95%;
@@ -1212,7 +1212,7 @@ a:hover {
     }
     
 	
-	.box1{
+    .box1{
         top: 80px;
         left: 380px;
     }
@@ -1224,7 +1224,7 @@ a:hover {
     }
 
 	
-	.box2{
+    .box2{
         top: -60px;
         left: 720px;
     }
@@ -1239,8 +1239,11 @@ a:hover {
         height: 400px;
     }
 
+    @keyframes wiggleB2 {
+        from {left: 700px;} to {left: 750px;}
+    }
 	
-	.box3{
+    .box3 {
         top: -220px;
         width: 600px;
         left: 145px;
@@ -1296,22 +1299,22 @@ a:hover {
         margin-left: 138px;
     }
 
-	.b4 {
+    .b4 {
         width: 640px;
         height: 670px;
-		margin-left: 340px;
-	}
+	margin-left: 340px;
+    }
 	
-	.mfp {
-		width: 593px;
+     .mfp {
+	width: 593px;
         height: 586px;
         margin-top: 110px;
         margin-left: 378px;
-	}
+      }
 	
-	.b5Text h3 {
+     .b5Text h3 {
     	font-size: 3vw;
-    }
+     }
 
     .Portfolio .b5Text {
         margin-left: 140px;
