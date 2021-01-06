@@ -660,3 +660,77 @@ html,body
         font-size: 1.0vw;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 2560px) {
+    .abt1 {
+        left: 200px;
+        top: 70px;
+    }
+
+    .abtB1 {
+        width: 400px;
+        height: 540px;
+    }
+
+    .polaroid {
+        width: 366px;
+        height: 464px;
+        margin-left: 12px;
+        margin-top: 54px;
+    }
+
+    @keyframes wiggleB1 {
+        from {left: 200px;} to {left: 150px;}
+    }    
+
+
+    .abtB2 {
+        width: 650px;
+        height: 530px;
+    }
+
+    .abt2 p {
+        margin-left: 25px;
+        width: 590px;
+        height: 380px;
+        top: -450px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: -15px;
+    }
+
+
+    .abt3 {
+        width: 550px;
+        height: 330px;
+    }
+
+    .abt3 h3 {
+        width: 400px;
+        margin-top: -270px;
+        margin-left: 20px;
+    }
+
+    .abt3 a {
+        width: 500px;
+        margin-left: 20px;
+    }
+
+    .abt3 p {
+        margin-top: 48px;
+    }
+
+    .labels {
+        margin-left: 20px;
+    }
+}
