@@ -366,7 +366,6 @@ html,body
         margin-left: -40px;
     }
 
-
     .container-fluid {
         overflow-x: hidden;
     } 
@@ -420,7 +419,7 @@ html,body
 
     .abt3 {
         margin-left: -480px;
-        margin-top: 500px;
+        margin-top: 90px;
     }
 
     .abtB3 {
@@ -472,18 +471,15 @@ html,body
     }
 
 
-    .container-fluid {
-        overflow-x: hidden;
-    } 
-
 
     .abt1 {
-        margin-top: -40px;
+        margin-top: -45px;
+        margin-top: -15px;
     }
 
     .abtB1 {
-        width: 200px;
-        height: 270px;
+        width: 210px;
+        height: 275px;
         position: relative;
         margin-left: -150px;
     }
@@ -493,10 +489,10 @@ html,body
     }
 
     .polaroid {
-        width: 183px;
-        height: 231px;
+        width: 187px;
+        height: 236px;
         margin-top: 28px;
-        margin-left: -144px;
+        margin-left: -138px;
     }
 
 
@@ -529,7 +525,7 @@ html,body
 
     .abt3 {
         margin-left: -460px;
-        margin-top: 350px;
+        margin-top: 35px;
     }
 
     .abtB3 {
@@ -593,8 +589,9 @@ html,body
     }
 
     .polaroid {
-        width: 341px;
-        height: 422px;
+        width: 327px;
+        height: 418px;
+        margin-left: 22px;
     }
 
 
