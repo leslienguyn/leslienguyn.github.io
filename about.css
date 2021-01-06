@@ -571,14 +571,15 @@ html,body
 
 
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 786px) { /* iphone */
     .abt3 {
-        margin-left: -460px;
-        margin-top: 500px;
+        margin-left: -480px;
+        margin-top: 518px;
     }
 
     .polaroid {
         margin-left: -144px;
+        width: 193px;
     }
 }
 
