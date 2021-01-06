@@ -571,6 +571,20 @@ html,body
 
 
 
+@media only screen and (max-width: 786px) {
+    .abt3 {
+        margin-left: -460px;
+        margin-top: 500px;
+    }
+
+    .polaroid {
+        margin-left: -144px;
+    }
+}
+
+
+
+
 @media only screen and (min-width: 1920px) {
     .row {
         margin-right: -15px;
