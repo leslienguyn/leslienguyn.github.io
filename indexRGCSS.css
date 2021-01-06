@@ -1185,6 +1185,153 @@ a:hover {
 
 
 
+
+
+
+@media only screen and (min-width: 2560px) { /* desktop */
+	.row {
+        margin-left: 550px;
+        margin-top: 70px;
+	}
+    
+    .scroll-down {
+        left: 95%;
+    }
+
+    .scroll-down a {
+        font-size: 2vw;
+    }
+
+    .goBtn {
+        margin-left: -350px;
+        margin-top: 510px;
+    }
+    
+	
+	.box1{
+        top: 20px;
+    }
+    
+    .box1 h1 {
+        top: 100px;
+        left: 167px;
+        font-size: 145px;
+    }
+
+	
+	.box2{
+        top: -60px;
+        left: 720px;
+    }
+
+    .box2 h1 {
+        left: 145px;
+        top: 60px;
+    }
+    
+    .b2 {
+        width: 620px;
+        height: 400px;
+    }
+
+	
+	.box3{
+        top: -185px;
+        width: 600px;
+        left: 145px;
+    }
+
+    .box3 h2 {
+        font-size: 45px;
+        top: 80px;
+        left: 110px;
+    }
+    
+    .b3 {
+        width: 600px;
+        height: 400px;
+    }
+
+
+    /* pocket trip portfolio boxes */
+    .PortfolioPT {
+        padding-top: 300px;
+        padding-bottom: 900px;
+        margin-left: 140px;
+    }
+
+    .pockettrip {
+        width: 593px;
+        height: 586px;
+        margin-top: 110px;
+        margin-left: 364px;
+    }
+
+    .b5 {
+        width: 550px;
+        height: 350px;
+    }
+
+    .b5PTText {
+        margin-top: 170px;
+        margin-left: 145px;
+    }
+
+    .b5PTText h3 {
+        font-size: 2.4vw;
+    }
+
+    .b5PTText p {
+        font-size: 1.3vw;
+    }
+	
+    
+    /* mfp portfolio boxes */
+    .Portfolio {
+        margin-left: 138px;
+    }
+
+	.b4 {
+        width: 640px;
+        height: 670px;
+		margin-left: 340px;
+	}
+	
+	.mfp {
+		width: 593px;
+        height: 586px;
+        margin-top: 110px;
+        margin-left: 378px;
+	}
+	
+	.b5Text h3 {
+    	font-size: 3vw;
+    }
+
+    .Portfolio .b5Text {
+        margin-left: 140px;
+        margin-top: 180px;
+    }
+
+    .Portfolio .b4 {
+        margin-left: 354px;
+    }
+
+    .Portfolio h3 {
+        font-size: 2.1vw;
+    }
+
+    .Portfolio p {
+        font-size: 1vw;
+    }
+
+    .Portfolio .b5Text {
+        margin-top: 195px;
+    }
+}
+
+
+
 /* Small devices (landscape phones, 576px and up) 
 @media (min-width: 576px) { ... }
 
