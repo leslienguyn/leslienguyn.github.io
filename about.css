@@ -661,7 +661,8 @@ html,body
 
 
 
-.row {
+@media only screen and (min-width: 2560px) {
+    .row {
         margin-top: 200px;
         margin-left: 500px;
     }
@@ -678,10 +679,10 @@ html,body
     }
 
     .polaroid {
-        width: 366px;
-        height: 464px;
-        margin-left: 12px;
-        margin-top: 54px;
+        width: 355px;
+        height: 455px;
+        margin-left: 23px;
+        margin-top: 60px;
     }
 
     @keyframes wiggleB1 {
@@ -712,9 +713,14 @@ html,body
         margin-left: 460px;
     }
 
+    .abtB3 {
+        width: 500px;
+        height: 320px;
+    }
+
     .abt3 h3 {
         width: 400px;
-        margin-top: -270px;
+        margin-top: -265px;
         margin-left: 20px;
     }
 
@@ -724,10 +730,15 @@ html,body
     }
 
     .abt3 p {
-        margin-top: 48px;
+        margin-top: 43px;
     }
 
     .labels {
         margin-left: 20px;
     }
 }
+
+
+
+
+   
