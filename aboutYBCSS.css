@@ -727,18 +727,23 @@ html,body
         width: 400px;
         margin-top: -270px;
         margin-left: 20px;
+        font-size: 1vw;
     }
 
     .abt3 a {
+        font-size: 0.9vw;
         width: 500px;
         margin-left: 20px;
+        margin-top: -8px;
     }
 
     .abt3 p {
-        margin-top: 48px;
+        margin-top: 35px;
+        font-size: 0.8vw;
     }
 
     .labels {
+        font-size: 0.9vw;
         margin-left: 20px;
     }
 }
