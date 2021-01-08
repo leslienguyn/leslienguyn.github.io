@@ -1132,7 +1132,7 @@ a:hover {
     }
 
     .b5PTText h3 {
-        font-size: 2.4em;
+        font-size: 10vw;
         text-align: center;
         width: 306px;
         margin-left: -68px;
@@ -1146,7 +1146,7 @@ a:hover {
     }
 
     .b5PTText p {
-        font-size: 3.2vw;
+        font-size: 3.5vw;
         margin-top: 10px;
         width: 250px;
         margin-left: -40px;
@@ -1154,9 +1154,9 @@ a:hover {
 
     .b5WOText {
         font-size: 3.2vw;
-        margin-top: 10px;
+        margin-top: 25px;
         width: 250px;
-        margin-left: -40px;
+        margin-left: 50px;
     }
 
 
@@ -1394,8 +1394,7 @@ a:hover {
     }
 
     .b5WOText {
-        margin-top: 170px;
-        margin-left: 145px;
+        margin-top: 190px;
     }
 
     .b5WOText h3 {
@@ -1417,13 +1416,17 @@ a:hover {
 	    margin-left: 340px;
     }
 	
-     .mfp {
+    .mfp {
 	    width: 593px;
         height: 586px;
         margin-top: 110px;
         margin-left: 378px;
-      }
-	
+    }
+    
+    .b5Text {
+        margin-top: 180px;
+    }
+
      .b5Text h3 {
     	font-size: 3vw;
      }
