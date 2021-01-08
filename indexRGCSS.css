@@ -629,6 +629,15 @@ a:hover {
         overflow: visible;
     }
 
+    .scroll-down {
+        left: 94%;
+    }
+  
+    .PortfolioPT {
+	    padding-top: 100px;
+    }
+	
+	
 
     .row {
         margin-left: -15px;
@@ -802,6 +811,8 @@ a:hover {
 
 
 
+
+
 @media only screen and (max-width: 576px) { 
     .body {
         margin: 0;
@@ -809,6 +820,10 @@ a:hover {
         border: none;
 
         overflow: visible;
+    }
+	
+    .scroll-down {
+        left: 94%;
     }
 
 
@@ -958,6 +973,9 @@ a:hover {
 
 
 
+
+
+
 @media only screen and (max-width: 786px) { /* Pixel 2 */
     .body {
         margin: 0;
@@ -967,16 +985,16 @@ a:hover {
         margin-right: auto;
         overflow: visible;
     }
-
+	
     .scroll-down {
         left: 94%;
     }
-
-
+	
+	
 
     .PortfolioPT, .PortfolioWO {
         padding-bottom: 150px;
-        padding-top: 60px;
+	    padding-top: 60px;
     }
 
     .box1 {
@@ -1126,10 +1144,8 @@ a:hover {
     }
 
     .b5WOText {
-        font-size: 3.2vw;
-        margin-top: 10px;
-        width: 250px;
-        margin-left: -40px;
+        margin-top: -5px;
+        margin-left: 50px;
     }
 
     .b5Text h3 {
@@ -1138,7 +1154,7 @@ a:hover {
     }
 
     .b5PTText h3 {
-        font-size: 2.4em;
+        font-size: 10vw;
         text-align: center;
         width: 306px;
         margin-left: -68px;
@@ -1152,17 +1168,17 @@ a:hover {
     }
 
     .b5PTText p {
-        font-size: 3.2vw;
+        font-size: 3.5vw;
         margin-top: 10px;
         width: 250px;
         margin-left: -40px;
     }
 
-    .b5WOText {
+    .b5WOText p {
         font-size: 3.2vw;
         margin-top: 10px;
         width: 250px;
-        margin-left: -40px;
+        margin-left: 50px;
     }
 
 
@@ -1179,6 +1195,7 @@ a:hover {
 	    padding: 15px 67px;
     }
 }
+
 
 
 
@@ -1229,7 +1246,7 @@ a:hover {
     }
 
     .Portfolio .b5Text {
-        margin-top: 195px;
+        margin-top: 180px;
     }
     
 
@@ -1249,8 +1266,8 @@ a:hover {
     .b5PTText p {
         font-size: 1.3vw;
     }
-    
-    
+
+
     /* watch over portfolio boxes */
     .watchover {
         margin-left: 360px;
@@ -1267,6 +1284,7 @@ a:hover {
     .b5WOText p {
         font-size: 1.3vw;
     }
+	
 }
 
 
@@ -1274,11 +1292,14 @@ a:hover {
 
 
 
+
+
+
 @media only screen and (min-width: 2560px) { /* desktop */
-	.row {
+    .row {
         margin-left: 550px;
         margin-top: 70px;
-	}
+    }
     
     .scroll-down {
         left: 95%;
@@ -1294,7 +1315,7 @@ a:hover {
     }
     
 	
-	.box1{
+    .box1{
         top: 80px;
         left: 380px;
     }
@@ -1306,7 +1327,7 @@ a:hover {
     }
 
 	
-	.box2{
+    .box2{
         top: -60px;
         left: 720px;
     }
@@ -1321,8 +1342,11 @@ a:hover {
         height: 400px;
     }
 
+    @keyframes wiggleB2 {
+        from {left: 700px;} to {left: 750px;}
+    }
 	
-	.box3{
+    .box3 {
         top: -220px;
         width: 600px;
         left: 145px;
@@ -1371,7 +1395,8 @@ a:hover {
     .b5PTText p {
         font-size: 1.3vw;
     }
-	
+    
+    
     /* Watch over boxes */
     .PortfolioWO {
         padding-bottom: 900px;
@@ -1391,8 +1416,8 @@ a:hover {
     }
 
     .b5WOText {
-        margin-top: 170px;
-        margin-left: 145px;
+        margin-top: 190px;
+        margin-left: 140px;
     }
 
     .b5WOText h3 {
@@ -1402,28 +1427,32 @@ a:hover {
     .b5WOText p {
         font-size: 1.3vw;
     }
-
+    
     /* mfp portfolio boxes */
     .Portfolio {
         margin-left: 138px;
     }
 
-	.b4 {
+    .b4 {
         width: 640px;
         height: 670px;
-		margin-left: 340px;
-	}
+	    margin-left: 340px;
+    }
 	
-	.mfp {
-		width: 593px;
+    .mfp {
+	    width: 593px;
         height: 586px;
         margin-top: 110px;
         margin-left: 378px;
-	}
-	
-	.b5Text h3 {
-    	font-size: 3vw;
     }
+    
+    .b5Text {
+        margin-top: 180px;
+    }
+
+     .b5Text h3 {
+    	font-size: 3vw;
+     }
 
     .Portfolio .b5Text {
         margin-left: 140px;
@@ -1443,9 +1472,10 @@ a:hover {
     }
 
     .Portfolio .b5Text {
-        margin-top: 195px;
+        margin-top: 180px;
     }
 }
+
 
 
 
