@@ -569,8 +569,6 @@ a:hover {
 
 
 
-
-
 @media only screen and (max-width: 400px) { /* iphone 6/7/8/x? */
     .body {
         margin: 0;
@@ -580,6 +578,15 @@ a:hover {
         overflow: visible;
     }
 
+    .scroll-down {
+        left: 94%;
+    }
+  
+    .PortfolioPT {
+	    padding-top: 100px;
+    }
+	
+	
 
     .row {
         margin-left: -15px;
@@ -753,6 +760,8 @@ a:hover {
 
 
 
+
+
 @media only screen and (max-width: 576px) { 
     .body {
         margin: 0;
@@ -761,11 +770,672 @@ a:hover {
 
         overflow: visible;
     }
+	
+    .scroll-down {
+        left: 94%;
+    }
 
 
 
     .box1 {
         width: 330px;
+        height: 240px;
+
+        text-align: center;
+    }
+
+    .box1:hover {
+        animation: none;
+    }
+
+    .b1 {
+        display: inline-block;
+        width: 310px;
+        height: 220px;
+        margin-left: 108px;
+        position: relative;
+    } 
+    
+    .box1 h1 {
+        position: absolute; 
+        font-size: 5em;
+    
+        text-align: center;
+        margin-left: 85px;
+        margin-top: 5px;
+    }
+
+
+
+    .box2 {
+        width: 330px;
+        height: 210px;
+        margin-left: -630px;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .b2 {
+        display: inline-block;
+        width: 310px;
+        height: 200px;
+        position: relative;
+
+    }
+
+    .box2 h1 {
+        position: absolute; 
+        font-size: 3em;
+    
+        text-align: center;
+        margin-top: -20px;
+
+    }
+
+
+
+    .box3 {
+        width: 300px;
+        height: 190px;
+        margin-left: -182px;
+        margin-top: 210px;
+        text-align: center;
+    }
+
+    .b3 {
+        display: inline-block;
+        width: 340px;
+        height: 210px;
+        position: relative;
+    }
+
+    .box3:hover {
+        animation: none;
+    }
+
+    .box3 h2 {
+        position: absolute; 
+        font-size: 1.5em;
+    
+        text-align: center;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+
+
+
+    .b4 {
+        width: 340px;
+        height: 370px;
+        position: relative;
+        margin-left: 5px;
+        margin-top: -40px;
+    }
+
+    .mfp {
+        width: 315px;
+        height: 323px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: 18px;
+    }
+
+    .b5Text {
+        width: 300px;
+        height: 50px;
+        position: absolute;
+
+        margin-top: 30px;
+        margin-left: 25px;
+        
+        text-align: center;
+    }
+
+    .b5 {
+        width: 330px;
+        height: 220px;
+        margin-top: -55px;
+        margin-left: 10px;
+    }
+
+    .b5Text h3 {
+        font-size: 1.7em;
+        text-align: center;
+    }
+
+
+
+    .goBtn {
+        display: inline-block;
+        font-size: 2em;
+        
+        margin-left: -250px;
+        margin-top: 200px;
+        position: relative;
+
+        border-radius: 39px;
+	    padding: 15px 67px;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 786px) { /* Pixel 2 */
+    .body {
+        margin: 0;
+        padding: 0;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: visible;
+    }
+	
+    .scroll-down {
+        left: 94%;
+    }
+	
+	
+
+    .PortfolioPT, .PortfolioWO {
+        padding-bottom: 150px;
+	    padding-top: 60px;
+    }
+
+    .box1 {
+        width: 130px;
+        height: 150px;
+        margin-left: -400px;
+    }
+
+
+
+    .box2 {
+        width: 330px;
+        height: 210px;
+        margin-left: -633px;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .b2 {
+        display: inline-block;
+        width: 310px;
+        height: 200px;
+        position: relative;
+
+    }
+
+    .box2:hover {
+        animation: none;
+    }
+
+    .box2 h1 {
+        position: absolute; 
+        font-size: 3em;
+    
+        text-align: center;
+        margin-top: 0px;
+        margin-left: -25px;
+
+    }
+
+
+
+    .box3 {
+        width: 300px;
+        height: 190px;
+        margin-left: -187px;
+        margin-top: 210px;
+        text-align: center;
+    }
+
+    .b3 {
+        display: inline-block;
+        width: 340px;
+        height: 210px;
+        position: relative;
+    }
+
+    .box3:hover {
+        animation: none;
+    }
+
+    .box3 h2 {
+        position: absolute; 
+        font-size: 1.5em;
+    
+        text-align: center;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+
+
+
+    .b4 {
+        width: 340px;
+        height: 370px;
+        position: relative;
+        margin-left: 5px;
+        margin-top: -40px;
+    }
+
+    .pockettrip {
+        width: 315px;
+        height: 323px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: 18px;
+    }
+
+    .watchover {
+        width: 315px;
+        height: 323px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: 18px;
+    }
+
+    .Portfolio .b4 { /* .Portfolio refers to mfp boxes */
+        width: 340px;
+        height: 370px;
+        position: relative;
+        margin-left: 18px;
+        margin-top: -40px;
+    }
+
+    .mfp {
+        width: 315px;
+        height: 323px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: 31px;
+    }
+
+    .Portfolio .b5 {
+        width: 330px;
+        height: 220px;
+        margin-top: -55px;
+        margin-left: 23px;
+    }
+
+    .b5Text {
+        width: 306px;
+        height: 50px;
+        position: absolute;
+
+        margin-top: 30px;
+        margin-left: 35px;
+        
+        text-align: center;
+    }
+
+    .b5 {
+        width: 330px;
+        height: 220px;
+        margin-top: -55px;
+        margin-left: 10px;
+    }
+
+    .b5Text {
+        margin-top: 35px;
+    }
+
+    .b5PTText {
+        margin-top: 20px;
+    }
+
+    .b5WOText {
+        margin-top: -5px;
+        margin-left: 50px;
+    }
+
+    .b5Text h3 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .b5PTText h3 {
+        font-size: 10vw;
+        text-align: center;
+        width: 306px;
+        margin-left: -68px;
+    }
+
+    .b5Text p {
+        font-size: 3.2vw;
+        margin-top: 10px;
+        width: 250px;
+        margin-left: 30px;
+    }
+
+    .b5PTText p {
+        font-size: 3.5vw;
+        margin-top: 10px;
+        width: 250px;
+        margin-left: -40px;
+    }
+
+    .b5WOText p {
+        font-size: 3.2vw;
+        margin-top: 10px;
+        width: 250px;
+        margin-left: 50px;
+    }
+
+
+
+    .goBtn {
+        display: inline-block;
+        font-size: 2em;
+        
+        margin-left: -250px;
+        margin-top: 200px;
+        position: relative;
+
+        border-radius: 39px;
+	    padding: 15px 67px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1920px) { /* desktop */
+	.row {
+		margin-left: 270px;
+	}
+	
+	
+	.box1{
+        top: 20px;
+	}
+	
+	.box2{
+		top: -60px;
+	}
+	
+	.box3{
+		top: -275px;
+	}
+	
+    
+    /* mfp portfolio boxes */
+	.b4 {
+		margin-left: 340px;
+	}
+	
+	.mfp {
+		margin-left: 374px;
+	}
+	
+	.b5Text h3 {
+    	font-size: 3vw;
+    }
+
+    .Portfolio .b4 {
+        margin-left: 354px;
+    }
+
+    .Portfolio h3 {
+        font-size: 2.1vw;
+    }
+
+    .Portfolio p {
+        font-size: 1vw;
+    }
+
+    .Portfolio .b5Text {
+        margin-top: 180px;
+    }
+    
+
+    /* pocket trip portfolio boxes */
+    .pockettrip {
+        margin-left: 360px;
+    }
+
+    .b5PTText {
+        margin-top: 190px;
+    }
+
+    .b5PTText h3 {
+        font-size: 2.4vw;
+    }
+
+    .b5PTText p {
+        font-size: 1.3vw;
+    }
+
+
+    /* watch over portfolio boxes */
+    .watchover {
+        margin-left: 360px;
+    }
+
+    .b5WOText {
+        margin-top: 190px;
+    }
+
+    .b5WOText h3 {
+        font-size: 2.4vw;
+    }
+
+    .b5WOText p {
+        font-size: 1.3vw;
+    }
+	
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 2560px) { /* desktop */
+    .row {
+        margin-left: 550px;
+        margin-top: 70px;
+    }
+    
+    .scroll-down {
+        left: 95%;
+    }
+
+    .scroll-down a {
+        font-size: 2vw;
+    }
+
+    .goBtn {
+        margin-left: -350px;
+        margin-top: 510px;
+    }
+    
+	
+    .box1{
+        top: 80px;
+        left: 380px;
+    }
+    
+    .box1 h1 {
+        top: 60px;
+        left: 133px;
+        font-size: 145px;
+    }
+
+	
+    .box2{
+        top: -60px;
+        left: 720px;
+    }
+
+    .box2 h1 {
+        left: 190px;
+        top: 60px;
+    }
+    
+    .b2 {
+        width: 620px;
+        height: 400px;
+    }
+
+    @keyframes wiggleB2 {
+        from {left: 700px;} to {left: 750px;}
+    }
+	
+    .box3 {
+        top: -220px;
+        width: 600px;
+        left: 145px;
+    }
+
+    .box3 h2 {
+        font-size: 45px;
+        top: 80px;
+        left: 110px;
+    }
+    
+    .b3 {
+        width: 600px;
+        height: 400px;
+    }
+
+
+    /* pocket trip portfolio boxes */
+    .PortfolioPT {
+        padding-top: 300px;
+        padding-bottom: 900px;
+        margin-left: 140px;
+    }
+
+    .pockettrip {
+        width: 593px;
+        height: 586px;
+        margin-top: 110px;
+        margin-left: 364px;
+    }
+
+    .b5 {
+        width: 550px;
+        height: 350px;
+    }
+
+    .b5PTText {
+        margin-top: 170px;
+        margin-left: 145px;
+    }
+
+    .b5PTText h3 {
+        font-size: 2.4vw;
+    }
+
+    .b5PTText p {
+        font-size: 1.3vw;
+    }
+    
+    
+    /* Watch over boxes */
+    .PortfolioWO {
+        padding-bottom: 900px;
+        margin-left: 140px;
+    }
+
+    .watchover {
+        width: 593px;
+        height: 586px;
+        margin-top: 110px;
+        margin-left: 364px;
+    }
+
+    .b5 {
+        width: 550px;
+        height: 350px;
+    }
+
+    .b5WOText {
+        margin-top: 190px;
+        margin-left: 140px;
+    }
+
+    .b5WOText h3 {
+        font-size: 2.4vw;
+    }
+
+    .b5WOText p {
+        font-size: 1.3vw;
+    }
+    
+    /* mfp portfolio boxes */
+    .Portfolio {
+        margin-left: 138px;
+    }
+
+    .b4 {
+        width: 640px;
+        height: 670px;
+	    margin-left: 340px;
+    }
+	
+    .mfp {
+	    width: 593px;
+        height: 586px;
+        margin-top: 110px;
+        margin-left: 378px;
+    }
+    
+    .b5Text {
+        margin-top: 180px;
+    }
+
+     .b5Text h3 {
+    	font-size: 3vw;
+     }
+
+    .Portfolio .b5Text {
+        margin-left: 140px;
+        margin-top: 180px;
+    }
+
+    .Portfolio .b4 {
+        margin-left: 354px;
+    }
+
+    .Portfolio h3 {
+        font-size: 2.1vw;
+    }
+
+    .Portfolio p {
+        font-size: 1vw;
+    }
+
+    .Portfolio .b5Text {
+        margin-top: 180px;
+    }
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) { ... }
+/* Medium devices (tablets, 768px and up) 
+@media (min-width: 768px) { ... }
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 992px) { ... }
+ Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) { ... } */
         height: 240px;
 
         text-align: center;
