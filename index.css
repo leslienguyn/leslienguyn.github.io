@@ -392,7 +392,7 @@ a:hover {
     padding-bottom: 70px;
 }
 
-.PortfolioPT {
+.PortfolioPT, .PortfolioWO {
     padding-bottom: 800px;
 }
 
@@ -423,6 +423,15 @@ a:hover {
     margin-left: 140px;
 }
 
+.watchover {
+    width: 500px;
+    height: 497px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 102px;
+    margin-left: 140px;
+}
+
 .mfp {
     width: 500px;
     height: 497px;
@@ -433,7 +442,7 @@ a:hover {
 }
 
 
-
+/* mfp */
 .b5 {
     width: 450px;
     height: 300px;
@@ -468,24 +477,15 @@ a:hover {
 .b5Text p {
     color: #f0f0f0;
     font-family: Roboto;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1.5vw;
     text-align: center;
     margin-top: 10px;
 }
 
-.b5Text h3 {
-    font-size: 3.7vw; 
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 500;
-    color: #f0f0f0;
-} 
 
 
-
-
-
+/* pocket trip */
 .b5PTText {
     width: 390px;
     height: 150px;
@@ -510,11 +510,45 @@ a:hover {
 .b5PTText p {
     color: #f0f0f0;
     font-family: Roboto;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1.9vw;
     text-align: center;
     margin-top: 10px;
 }
+
+
+/* Watch over */
+.b5WOText {
+    width: 390px;
+    height: 150px;
+    position: absolute;
+
+    margin-top: 180px;
+    margin-left: 90px;
+    
+    text-align: center;
+}
+
+.b5WOText h3 {
+    font-size: 3.7vw; 
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    color: #f0f0f0;
+
+    margin-top: -20px;
+}
+
+.b5WOText p {
+    color: #f0f0f0;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1.9vw;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
 
 
 
@@ -562,8 +596,6 @@ a:hover {
 
 
 
-/* try uploading everything then adjust media response according to that*/
-
 @media only screen and (max-width: 400px) { /* iphone 6/7/8/x? */
     .body {
         margin: 0;
@@ -578,7 +610,7 @@ a:hover {
     }
   
     .PortfolioPT {
-	padding-top: 100px;
+	    padding-top: 100px;
     }
 	
 	
@@ -755,6 +787,8 @@ a:hover {
 
 
 
+
+
 @media only screen and (max-width: 576px) { 
     .body {
         margin: 0;
@@ -915,6 +949,9 @@ a:hover {
 
 
 
+
+
+
 @media only screen and (max-width: 786px) { /* Pixel 2 */
     .body {
         margin: 0;
@@ -931,9 +968,9 @@ a:hover {
 	
 	
 
-    .PortfolioPT {
+    .PortfolioPT, .PortfolioWO {
         padding-bottom: 150px;
-	padding-top: 60px;
+	    padding-top: 60px;
     }
 
     .box1 {
@@ -1023,6 +1060,15 @@ a:hover {
         margin-left: 18px;
     }
 
+    .watchover {
+        width: 315px;
+        height: 323px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: 18px;
+    }
+
     .Portfolio .b4 { /* .Portfolio refers to mfp boxes */
         width: 340px;
         height: 370px;
@@ -1073,6 +1119,13 @@ a:hover {
         margin-top: 20px;
     }
 
+    .b5WOText {
+        font-size: 3.2vw;
+        margin-top: 10px;
+        width: 250px;
+        margin-left: -40px;
+    }
+
     .b5Text h3 {
         font-size: 1.8em;
         text-align: center;
@@ -1099,6 +1152,13 @@ a:hover {
         margin-left: -40px;
     }
 
+    .b5WOText {
+        font-size: 3.2vw;
+        margin-top: 10px;
+        width: 250px;
+        margin-left: -40px;
+    }
+
 
 
     .goBtn {
@@ -1113,6 +1173,7 @@ a:hover {
 	    padding: 15px 67px;
     }
 }
+
 
 
 
@@ -1183,8 +1244,28 @@ a:hover {
     .b5PTText p {
         font-size: 1.3vw;
     }
+
+
+    /* watch over portfolio boxes */
+    .watchover {
+        margin-left: 360px;
+    }
+
+    .b5WOText {
+        margin-top: 190px;
+    }
+
+    .b5WOText h3 {
+        font-size: 2.4vw;
+    }
+
+    .b5WOText p {
+        font-size: 1.3vw;
+    }
 	
 }
+
+
 
 
 
@@ -1292,7 +1373,38 @@ a:hover {
     .b5PTText p {
         font-size: 1.3vw;
     }
-	
+    
+    
+    /* Watch over boxes */
+    .PortfolioWO {
+        padding-bottom: 900px;
+        margin-left: 140px;
+    }
+
+    .watchover {
+        width: 593px;
+        height: 586px;
+        margin-top: 110px;
+        margin-left: 364px;
+    }
+
+    .b5 {
+        width: 550px;
+        height: 350px;
+    }
+
+    .b5WOText {
+        margin-top: 170px;
+        margin-left: 145px;
+    }
+
+    .b5WOText h3 {
+        font-size: 2.4vw;
+    }
+
+    .b5WOText p {
+        font-size: 1.3vw;
+    }
     
     /* mfp portfolio boxes */
     .Portfolio {
@@ -1302,11 +1414,11 @@ a:hover {
     .b4 {
         width: 640px;
         height: 670px;
-	margin-left: 340px;
+	    margin-left: 340px;
     }
 	
      .mfp {
-	width: 593px;
+	    width: 593px;
         height: 586px;
         margin-top: 110px;
         margin-left: 378px;
@@ -1343,12 +1455,9 @@ a:hover {
 
 /* Small devices (landscape phones, 576px and up) 
 @media (min-width: 576px) { ... }
-
 /* Medium devices (tablets, 768px and up) 
 @media (min-width: 768px) { ... }
-
 /* Large devices (desktops, 992px and up) 
 @media (min-width: 992px) { ... }
-
  Extra large devices (large desktops, 1200px and up) 
 @media (min-width: 1200px) { ... } */
