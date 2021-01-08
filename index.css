@@ -1120,10 +1120,8 @@ a:hover {
     }
 
     .b5WOText {
-        font-size: 3.2vw;
-        margin-top: 10px;
-        width: 250px;
-        margin-left: -40px;
+        margin-top: -5px;
+        margin-left: 50px;
     }
 
     .b5Text h3 {
@@ -1152,9 +1150,9 @@ a:hover {
         margin-left: -40px;
     }
 
-    .b5WOText {
+    .b5WOText p {
         font-size: 3.2vw;
-        margin-top: 25px;
+        margin-top: 10px;
         width: 250px;
         margin-left: 50px;
     }
