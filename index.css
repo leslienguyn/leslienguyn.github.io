@@ -477,7 +477,7 @@ a:hover {
 .b5Text p {
     color: #f0f0f0;
     font-family: Roboto;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 1.5vw;
     text-align: center;
     margin-top: 10px;
@@ -510,7 +510,7 @@ a:hover {
 .b5PTText p {
     color: #f0f0f0;
     font-family: Roboto;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 1.9vw;
     text-align: center;
     margin-top: 10px;
@@ -542,7 +542,7 @@ a:hover {
 .b5WOText p {
     color: #f0f0f0;
     font-family: Roboto;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 1.9vw;
     text-align: center;
     margin-top: 10px;
