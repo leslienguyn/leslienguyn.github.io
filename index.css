@@ -1116,12 +1116,12 @@ a:hover {
     }
 
     .b5PTText {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .b5WOText {
-        margin-top: -5px;
-        margin-left: 50px;
+        margin-top: 35px;
+        margin-left: 5px;
     }
 
     .b5Text h3 {
@@ -1134,6 +1134,11 @@ a:hover {
         text-align: center;
         width: 306px;
         margin-left: -68px;
+    }
+	
+    .b5WOText h3 {
+        font-size: 9vw;
+	width: 350px;
     }
 
     .b5Text p {
