@@ -64,7 +64,7 @@ html,body
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     justify-content: flex-end;
     float: right;
@@ -84,6 +84,8 @@ html,body
   
   .nav:hover {
     background-color: transparent;
+    text-shadow: 5px 3px 8px rgb(166, 33, 255);
+    transition: 0.4s;
   }
   
   .navbar-collapse {
