@@ -59,7 +59,7 @@ html,body
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     justify-content: flex-end;
     float: right;
@@ -441,6 +441,15 @@ a:hover {
     margin-left: 153px;
 }
 
+.MegTheeStallion {
+    width: 500px;
+    height: 497px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 102px;
+    margin-left: 140px;
+}
+
 
 /* mfp */
 .b5 {
@@ -540,6 +549,38 @@ a:hover {
 }
 
 .b5WOText p {
+    color: #f0f0f0;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 1.9vw;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Extras */
+.b5ExtrasText {
+    width: 390px;
+    height: 150px;
+    position: absolute;
+
+    margin-top: 180px;
+    margin-left: 90px;
+    
+    text-align: center;
+}
+
+.b5ExtrasText h3 {
+    font-size: 3.7vw; 
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    color: #f0f0f0;
+
+    margin-top: 0px;
+}
+
+.b5ExtrasText p {
     color: #f0f0f0;
     font-family: Roboto;
     font-weight: 100;
@@ -968,8 +1009,8 @@ a:hover {
 	
 	
 
-    .PortfolioPT, .PortfolioWO {
-        padding-bottom: 150px;
+    .PortfolioPT, .PortfolioWO, .Portfolio {
+        padding-bottom: 120px;
 	    padding-top: 60px;
     }
 
@@ -1086,6 +1127,15 @@ a:hover {
         margin-left: 31px;
     }
 
+    .MegTheeStallion {
+        width: 315px;
+        height: 323px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -6px;
+        margin-left: 18px;
+    }
+
     .Portfolio .b5 {
         width: 330px;
         height: 220px;
@@ -1124,6 +1174,11 @@ a:hover {
         margin-left: 5px;
     }
 
+    .b5ExtrasText {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+
     .b5Text h3 {
         font-size: 1.8em;
         text-align: center;
@@ -1138,7 +1193,12 @@ a:hover {
 	
     .b5WOText h3 {
         font-size: 9vw;
-	width: 350px;
+	    width: 350px;
+    }
+
+    .b5ExtrasText h3 {
+        font-size: 9vw;
+	    width: 350px;
     }
 
     .b5Text p {
@@ -1156,6 +1216,13 @@ a:hover {
     }
 
     .b5WOText p {
+        font-size: 3.2vw;
+        margin-top: 10px;
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .b5ExtrasText p {
         font-size: 3.2vw;
         margin-top: 10px;
         width: 250px;
@@ -1229,6 +1296,10 @@ a:hover {
     .Portfolio .b5Text {
         margin-top: 180px;
     }
+
+    .Portfolio {
+        padding-bottom: 100px;
+    }
     
 
     /* pocket trip portfolio boxes */
@@ -1263,6 +1334,24 @@ a:hover {
     }
 
     .b5WOText p {
+        font-size: 1.3vw;
+    }
+
+
+    /* extras portfolio boxes */
+    .MegTheeStallion {
+        margin-left: 360px;
+    }
+
+    .b5ExtrasText {
+        margin-top: 190px;
+    }
+
+    .b5ExtrasText h3 {
+        font-size: 2.4vw;
+    }
+
+    .b5ExtrasText p {
         font-size: 1.3vw;
     }
 	
