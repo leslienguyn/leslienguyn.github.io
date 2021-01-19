@@ -187,6 +187,8 @@ a:hover {
     font-style: italic;
     text-decoration: none;
     color: #f0f0f0;
+    text-shadow: 5px 3px 8px rgb(166, 33, 255);
+    transition: 0.4s;
 }
 
 
@@ -291,5 +293,80 @@ a:hover {
     .rPad {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .col-sm-4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .colBody {
+        padding-bottom: 50px;
+    }
+
+
+
+    h2 {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .desc {
+        padding-left: 20px;
+    }
+
+    .desc a {
+        font-size: 3.8vw;
+        margin-left: 40px;
+        position: none;
+    }
+
+
+
+    /* mobile - web */
+    .breaktime{
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    /* graphics */
+    .MegTheeStallion {
+        width: 100%;
+    }
+
+    /* typography */
+    .divine {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    /* illustrations */
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1920px) { /* desktop */
+    /* graphics */
+    .MegTheeStallion {
+        width: 160%;
+    }
+
+    /* illustrations */
+    .isotropic {
+        width: 115%;
+    }
+
+    .desc {
+        position: absolute;
+        margin-top: 2400px;
+        margin-left: 100px;
+    }
+
+    .desc a {
+        position: none;
+        font-size: 1.5vw;
     }
 }
