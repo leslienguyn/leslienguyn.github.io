@@ -60,7 +60,7 @@ html,body
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     justify-content: flex-end;
     float: right;
@@ -274,8 +274,8 @@ html,body
 }
 
 .abtB3 {
-    width: 400px;
-    height: 240px;
+    width: 330px;
+    height: 205px;
     position: relative;
     display: inline-block;
 }
@@ -289,39 +289,14 @@ html,body
 
     position: relative;
 
-    width: 373px;
+    width: 320px;
 
-    margin-top: -198px;
-    margin-left: 10px;
+    margin-top: -170px;
+    margin-left: 6px;
 
     padding-left: 10px;
     padding-top: 5px;
     padding-right: 10px;
-}
-
-.abt3 a {
-    font-size: 1.3vw; 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    color: #f0f0f0;
-
-    position: absolute;
-
-    width: 125px;
-
-    margin-top: 4px;
-    margin-left: 11px;
-
-    padding-left: 10px;
-    padding-top: 5px;
-    text-decoration: none;
-}
-
-.abt3 a:hover {
-    font-style: italic;
-    text-shadow: 4px 2px 7px rgb(166, 33, 255);
-    transition: 0.4s;
 }
 
 .abt3 p {
@@ -333,8 +308,8 @@ html,body
 
     position: absolute;
 
-    margin-left: 11px;
-    margin-top: 49px;
+    margin-left: 5px;
+    margin-top: 10px;
 }
 
 .labels {
@@ -529,8 +504,8 @@ html,body
     }
 
     .abtB3 {
-        width: 240px;
-        height: 140px;
+        width: 200px;
+        height: 120px;
     }
 
     .abt3 h3 {
@@ -539,12 +514,13 @@ html,body
         margin-top: -115px;
         margin-left: 5px;
 
-        padding-top: 5px;
+        padding-top: 25px;
+        width: 160px;
     }
 
     .abt3 p {
         font-size: 0.7em; 
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .abt3 a {
@@ -559,7 +535,7 @@ html,body
 
     .labels {
         font-size: 1em; 
-        margin-left: 4px;
+        margin-left: 10px;
     }
 
     /*.abt3 br {
@@ -574,7 +550,7 @@ html,body
 @media only screen and (max-width: 786px) { /* iphone */
     .abt3 {
         margin-left: -450px;
-        margin-top: 518px;
+        margin-top: 35px;
     }
 
     .polaroid {
@@ -618,26 +594,26 @@ html,body
 
     .abt2 p {
         width: 520px;
-        height: 320px;
-        top: -380px;
-        font-size: 22px;
+        top: -385px;
+        font-size: 20px;
+        line-height: 23px;
     }
 
 
     .abt3 {
         margin-top: 400px;
-        margin-left: 320px;
+        margin-left: 20px;
     }
 
     .abtB3 {
-        width: 430px;
-        height: 270px;
+        width: 350px;
+        height: 220px;
     }
 
     .abt3 h3 {
         font-size: 1.3vw;
-        width: 390px;
-        margin-top: -223px;
+        width: 300px;
+        margin-top: -170px;
         margin-left: 13px;
     }
 
@@ -648,7 +624,8 @@ html,body
 
     .abt3 p {
         font-size: 0.9vw;
-        margin-top: 43px;
+        margin-top: 10px;
+        margin-left: 13px;
     }
 
     .labels {
