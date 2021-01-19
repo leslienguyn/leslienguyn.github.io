@@ -1,372 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700&display=swap'); /* Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* Roboto thin */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap'); /* Roboto thin italics */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@1,500;1,700&display=swap'); /* Montserrat */
-
-/* Guidelines */
-/* text under pic padding-bottom: 25px;
-pic space between: 15px
-*/
-
-
-
-html,body
-{
-    margin: 0px;
-    background-color: #151515;
-
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 40px;
-}
-
-.body {
-    margin: 0;
-    border: none;
-    font-size: 0;
-}
-
-* { 
-    margin: 0; /* removes white bar on top */
-    box-sizing: border-box;
-}
-
-
-
-/* width */
-::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 70px;
-  }
-  
-/* Track */
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #212121; 
-    border-radius: 70px;
-}
-   
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #a417ff; 
-    border: 0.25px solid #ff2088;
-    box-shadow: 0 0 20px #ff17b9, 0 0 20px #ff17ec, 0 0 20px #ff17b9;
-    border-radius: 70px;
-}
-
-
-
-
-/* nav bar */
-.nav, .navbar-nav {
-    cursor: pointer;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    text-decoration: none;
-    justify-content: flex-end;
-    float: right;
-  }
-  
-  .nav a {
-    color: #f0f0f0;
-    margin-left: 10px;
-  }
-  
-  .nav a:hover {
-    background-color: transparent !important;
-    text-shadow: 5px 3px 8px rgb(166, 33, 255);
-    transition: 0.4s;
-    font-style: italic;
-  }
-  
-  .nav:hover {
-    background-color: transparent;
-  }
-  
-  .navbar-collapse {
-    justify-content: flex-end;
-    color: #f0f0f0;
-    background-color: transparent;
-  }
-  
-  .nav li:hover a {
-    color: #f0f0f0;
-    background-color: transparent;
-  }
-  
-  .navbar-expand-md {
-      justify-content: flex-end;
-  }
-  
-
-
-
-
-
-
-
-.container-fluid {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
-.rPad {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.col-sm-4 {
-    padding-left: 50px;
-}
-
-.colBody {
-    padding-left: 50px;
-    padding-bottom: 100px;
-}
-
-
-
-
-
-.lineTop {
-    width: 100%;
-    border: 3px solid #a417ff;
-    box-shadow: 1px -2px 12px #d817ff;
-    margin-top: 10px;
-}
-
-.lineBottom {
-    width: 100%;
-    border: 3px solid #a417ff;
-    box-shadow: 1px 2px 12px #d817ff;
-    margin-top: 17px;
-}
-
-h1 {
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 50px;
-    color: #f0f0f0;
-    text-align: center;
-    
-    margin-top: 15px;
-}
-
-h2 {
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 30px;
-    color: #f0f0f0;
-
-    margin-top: 20px;
-    margin-left: 50px;
-}
-
-
-.desc {
-    padding-left: 100px;
-}
-
-.desc a {
-    color: #f0f0f0;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.2vw; 
-
-    position: absolute;
-}
-
-a:hover {
-    font-style: italic;
-    text-decoration: none;
-    color: #f0f0f0;
-    text-shadow: 5px 3px 8px rgb(166, 33, 255);
-    transition: 0.4s;
-}
-
-
-
-/* Mobile/Web Design */
-.atthetable {
-    width: 100%;
-}
-
-.breaktime {
-    width: 181%;
-}
-
-
-
-/* Graphics */
-.MegTheeStallion {
-    width: 112%;
-}
-
-
-
-/* Typography */
-.crazy {
-    width: 100%;
-}
-
-.divine {
-    width: 100%;
-}
-
-
-
-/* Illustrations */
-.isotropic {
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 400px) {
-    .container-fluid {
-        overflow: auto;
-    }
-
-    * {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    ::-webkit-scrollbar {
-        display: none;
-    }
-    
-    .rPad {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-
-
-@media only screen and (max-width: 576px) { /* Pixel 2 */
-    .container-fluid {
-        overflow: auto;
-    }
-
-    * {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    ::-webkit-scrollbar {
-        display: none;
-    }
-    
-    .rPad {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .col-sm-4 {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .colBody {
-        padding-bottom: 50px;
-    }
-
-
-
-    h2 {
-        text-align: center;
-        margin-left: 0px;
-    }
-
-    .desc {
-        padding-left: 20px;
-    }
-
-    .desc a {
-        font-size: 3.8vw;
-        margin-left: 40px;
-        position: none;
-    }
-
-
-
-    /* mobile - web */
-    .breaktime{
-        width: 100%;
-        padding-top: 10px;
-    }
-
-    /* graphics */
-    .MegTheeStallion {
-        width: 100%;
-    }
-
-    /* typography */
-    .divine {
-        width: 100%;
-        padding-top: 10px;
-    }
-
-    /* illustrations */
-}
-
-
-
-
-
-
-@media only screen and (min-width: 1920px) { /* desktop */
-    /* graphics */
-    .MegTheeStallion {
-        width: 160%;
-    }
-
-    /* illustrations */
-    .isotropic {
-        width: 115%;
-    }
-
-    .desc {
-        position: absolute;
-        margin-top: 2400px;
-        margin-left: 100px;
-    }
-
-    .desc a {
-        position: none;
-        font-size: 1.5vw;
-    }
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Extras</title>
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <link rel="html" href="index.html">
+        <link rel="stylesheet" href="extras.css">
+    </head>
+        <body style="background-color: #151515;">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md">
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="main-navigation">
+                      <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#Portfolio">Portfolio</a></li>
+                        <li><a href="https://drive.google.com/file/d/1LNyQ_jlJDpWcQ3gTg0Nm1hwgBexLVgVE/view?usp=sharing">Resume</a></li>
+                      </ul>
+                    </div>
+                </nav>
+
+                <div class="row">
+                    <div class="col">
+                        <hr class="lineTop">
+                        <h1>Extras</h1>
+                        <hr class="lineBottom">
+                    </div>  
+                </div>
+
+                <div class="row rPad">
+                    <div class="colBody">
+                        <h2>Mobile and Web</h2>
+                        <div class="col-sm-4">
+                            <img src="/extras/atthetablelarge.jpg" class="atthetable">
+                        </div>
+
+                        <div class="col-sm-4">
+                            <img src="/extras/breaktime.png" class="breaktime">
+                        </div>
+
+                        <div class="col-sm-4">
+                        </div>
+                    </div>
+
+                    <div class="colBody">
+                        <h2>Graphics</h2>
+                        <div class="col-sm-4">
+                            <img src="/extras/MegRollingStone.jpg" class="MegTheeStallion">
+                        </div>
+
+                        <div class="col-sm-4">
+                        </div>
+
+                        <div class="col-sm-4">
+                        </div>
+                    </div>
+
+                    <div class="colBody">
+                        <h2>Typography</h2>
+                        <div class="col-sm-4">
+                            <img src="/extras/test.jpg" class="crazy">
+                        </div>
+
+                        <div class="col-sm-4">
+                            <img src="/extras/divine3.jpg" class="divine">
+                        </div>
+
+                        <div class="col-sm-4">
+                        </div>
+                    </div>
+
+                    <div class="colBody">
+                        <h2>Illustrations</h2>
+                        <div class="col-sm-4">
+                            <img src="/extras/isotropic.png" class="isotropic">
+                        </div>
+
+                        <div class="col-sm-4">
+                        </div>
+
+                        <div class="col-sm-4">
+                        </div>
+                    </div>
+
+                    <div class="desc">
+                        <a href="dribbble.com/leslienguyen">Check out more of my work on Dribbble →</a>
+                    </div>
+                    
+                </div>
+
+            
+            <!-- Dropdown menu script -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        </body>
+</html>
