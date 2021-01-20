@@ -100,6 +100,110 @@ html,body
   .navbar-expand-md {
       justify-content: flex-end;
   }
+
+
+
+
+
+footer {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 80px;
+    background-color: #151515;
+    color: #f0f0f0;
+}
+
+/* social media buttons */
+.fa:hover {
+    transition: 0.4s;
+    color: #f0f0f0;
+    text-shadow: none;
+    font-style: normal;
+    text-decoration: none;
+}  
+
+.fa-envelope {
+    background: #151515;
+    color: #f0f0f0;
+}
+
+.fa-envelope:hover {
+    background: #ad3f2b;
+    color: #f0f0f0;
+}
+
+.fa-linkedin {
+    background: #151515;
+    color: #f0f0f0;
+}
+
+.fa-linkedin:hover {
+    background: #0e76a8;
+    color: #f0f0f0;
+}
+
+.fa-dribbble {
+    background: #151515;
+    color: #f0f0f0;
+}
+
+.fa-dribbble:hover {
+    background: #ea4c89;
+    color: #f0f0f0;
+}
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none;
+}
+
+.social-icons li
+{
+  display:inline-block;
+}
+
+.fa {
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .4s linear
+}
+
+footer .social-icons
+{
+    text-align:right
+}
+
+.social-icons a
+{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#151515;
+}
+
+footer p {
+    font-family: Roboto;
+    font-weight: 100;
+    display: inline-block;
+    text-align: left;
+    padding-right: 1030px;
+    color: #f0f0f0;
+    font-size: 15px;
+}
   
 
 
@@ -304,6 +408,25 @@ a:hover {
         padding-bottom: 50px;
     }
 
+    footer p {
+        padding-right: 0;
+        margin-top: 100px;
+    }
+
+    footer {
+        padding-right: 55px;
+    }
+
+    footer .social-icons {
+        text-align: right;
+    }
+
+    .social-icons li {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
 
 
     h2 {
@@ -349,6 +472,15 @@ a:hover {
 
 
 @media only screen and (min-width: 1920px) { /* desktop */
+    footer {
+        margin-top: 100px;
+    }
+
+    footer p {
+        padding-right: 1520px;
+    }
+
+
     /* graphics */
     .MegTheeStallion {
         width: 160%;
@@ -362,7 +494,7 @@ a:hover {
     .desc {
         position: absolute;
         margin-top: 2400px;
-        margin-left: 100px;
+        width: 900px;
     }
 
     .desc a {
