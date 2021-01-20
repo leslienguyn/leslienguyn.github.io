@@ -8,7 +8,7 @@ html,body
 {
     margin: 0px;
     padding: 0px;
-    overflow: auto; 
+    overflow-x: none; 
     background-color: #151515;
 }
 
@@ -153,6 +153,110 @@ html,body
     font-weight: 500;
     font-size: 25px;
 }
+
+
+
+
+
+
+footer {
+    padding-bottom: 0px;
+    padding-left: 60px;
+    padding-right: 30px;
+    background-color: #151515;
+    color: #f0f0f0;
+}
+
+/* social media buttons */
+.fa:hover {
+    transition: 0.4s;
+    color: #f0f0f0;
+}  
+
+.fa-envelope {
+    background: #151515;
+    color: #f0f0f0;
+}
+
+.fa-envelope:hover {
+    background: #ad3f2b;
+    color: #f0f0f0;
+}
+
+.fa-linkedin {
+    background: #151515;
+    color: #f0f0f0;
+}
+
+.fa-linkedin:hover {
+    background: #0e76a8;
+    color: #f0f0f0;
+}
+
+.fa-dribbble {
+    background: #151515;
+    color: #f0f0f0;
+}
+
+.fa-dribbble:hover {
+    background: #ea4c89;
+    color: #f0f0f0;
+}
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none;
+}
+
+.social-icons li
+{
+  display:inline-block;
+}
+
+.fa {
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .4s linear
+}
+
+footer .social-icons
+{
+    text-align:right
+}
+
+.social-icons a
+{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#151515;
+}
+
+footer p {
+    font-family: Roboto;
+    font-weight: 100;
+    display: inline-block;
+    text-align: left;
+    padding-right: 1030px;
+    color: #f0f0f0;
+    font-size: 15px;
+}
+
+
+
 
 
 
@@ -445,8 +549,15 @@ html,body
         border: none;
     }
 
+    footer p {
+        padding-right: 20px;
+    }
 
+    .social-icons {
+        margin-bottom: 0;
+    }
 
+    
     .abt1 {
         margin-top: -45px;
         margin-top: -15px;
@@ -569,6 +680,9 @@ html,body
         margin-left: 290px;
     }
 
+    .social-icons {
+        margin-bottom: 500px;
+    }
 
     .abt1 {
         left: 235px;
