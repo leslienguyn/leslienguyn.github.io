@@ -171,6 +171,7 @@ footer {
 .fa:hover {
     transition: 0.4s;
     color: #f0f0f0;
+    text-decoration: none;
 }  
 
 .fa-envelope {
