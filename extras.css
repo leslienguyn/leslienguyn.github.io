@@ -227,8 +227,13 @@ footer p {
     padding-left: 50px;
 }
 
+.w-100 {
+    display: inline-flex;
+}
+
 .colBody {
     padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 100px;
 }
 
@@ -299,13 +304,21 @@ a:hover {
 
 /* Mobile/Web Design */
 .atthetable {
-    width: 100%;
+    width: 102%;
 }
 
 .breaktime {
-    width: 181%;
+    width: 184%;
 }
 
+.teamMeets {
+    width: 145%;
+}
+
+.RX {
+    width: 184%;
+    padding-left: 140px;
+}
 
 
 /* Graphics */
@@ -404,6 +417,10 @@ a:hover {
         padding-right: 10px;
     }
 
+    .w-100 {
+        display: none;
+    }
+
     .colBody {
         padding-bottom: 50px;
     }
@@ -452,6 +469,17 @@ a:hover {
         padding-top: 10px;
     }
 
+    .teamMeets {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .RX {
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
     /* graphics */
     .MegTheeStallion {
         width: 100%;
@@ -480,6 +508,22 @@ a:hover {
         padding-right: 1520px;
     }
 
+    .w-100 {
+        display: inline-flex;
+    }
+
+
+    /* web/mobile */
+    .teamMeets {
+        width: 142%;
+        padding-top: 10px;
+    }
+
+    .RX {
+        width: 183%;
+        padding-left: 215px;
+        padding-top: 10px;
+    }
 
     /* graphics */
     .MegTheeStallion {
@@ -493,7 +537,7 @@ a:hover {
 
     .desc {
         position: absolute;
-        margin-top: 2400px;
+        margin-top: 3000px;
         width: 900px;
     }
 
