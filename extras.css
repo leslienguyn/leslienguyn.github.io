@@ -320,6 +320,10 @@ a:hover {
     padding-left: 140px;
 }
 
+.watchover {
+    width: 145%;
+}
+
 
 /* Graphics */
 .MegTheeStallion {
@@ -479,6 +483,12 @@ a:hover {
         padding-left: 10px;
         padding-top: 10px;
     }
+    
+    .watchover {
+        width: 97%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
 
     /* graphics */
     .MegTheeStallion {
@@ -523,6 +533,10 @@ a:hover {
         width: 183%;
         padding-left: 215px;
         padding-top: 10px;
+    }
+    
+    .watchover {
+        width: 142%;
     }
 
     /* graphics */
