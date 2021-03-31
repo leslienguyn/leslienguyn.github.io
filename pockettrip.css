@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); /* Roboto thin */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap'); /* Roboto thin italics */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@1,500;1,700&display=swap'); /* Montserrat */
-
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap');
 /* Guidelines */
 /* text under pic padding-bottom: 25px;
 pic space between: 15px
@@ -337,6 +337,20 @@ h1 {
     text-align: center;
 }
 
+.PTscroll, .BFdeets, .BHdeets {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    width: 27%;
+}
+
+.gifsTop {
+    margin-left: 210px;
+}
+
 
 
 
@@ -400,7 +414,7 @@ p {
     color: #f0f0f0;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 100;
     font-size: 23px; 
     margin-top: 3px;
     line-height: 30px;
@@ -723,24 +737,14 @@ p {
     width: 75%;
 }
 
-.PTscroll {
-    display: inline-block;
-    margin-left: 80px;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 28%;
-}
-
 .manageItin {
     display: inline-block;
-    margin-left: auto;
+    margin-left: 190px;
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 8px;
-    width: 28%;
+    width: 30%;
 }
 
 .manageItinConfirm {
@@ -750,7 +754,7 @@ p {
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 8px;
-    width: 28%;
+    width: 30%;
 }
 
 /* Book flight */
@@ -806,7 +810,7 @@ p {
 
 .BFfilter {
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 170px;
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -824,16 +828,6 @@ p {
     width: 22%;
 }
 
-.BFdeets {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
 .BFconfirm {
     display: inline-block;
     margin-left: auto;
@@ -842,15 +836,6 @@ p {
     padding-bottom: 10px;
     padding-left: 8px;
     width: 22%;
-}
-
-.BFpayment {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    width: 55%;
 }
 
 
@@ -898,7 +883,7 @@ p {
 
 .BHfilter {
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 157px;
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -907,16 +892,6 @@ p {
 }
 
 .BHsort {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BHdeets {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -937,13 +912,24 @@ p {
 }
 
 
+.BFpayment {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    width: 43%;
+}
+
 .BHpayment {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 55%;
+    padding-left: 8px;
+    width: 43%;
 }
 
 .BHnotify {
@@ -1180,10 +1166,32 @@ p {
         width: 100%;
     }
 
+    .gifsTop {
+        margin-left: 0px;
+    }
+
+    .PTscroll {
+        display: inline-block;
+        width: 32%;
+        padding-top: 10px;
+        margin-left: 0px;
+    }
+
+    .BFdeets {
+        display: inline-block;
+        width: 32%;
+        padding-top: 10px;
+    }
+
+    .BHdeets {
+        display: inline-block;
+        width: 32%;
+        padding-top: 10px;
+    }
+
     .publishP {
         font-size: 1em;
     }
-
 
 
     /* 2 */
@@ -1281,18 +1289,15 @@ p {
         width: 80%;
     }
 
-    .PTscroll {
-        width: 30%;
-        padding-top: 0px;
-        margin-left: 15px;
-    }
-
     .manageItin {
+        display: inline-block;
         width: 30%;
         padding-top: 0px;
+        margin-left: 80px;
     }
 
     .manageItinConfirm { 
+        display: inline-block;
         width: 30%;
         padding-top: 0px;
     }
@@ -1329,7 +1334,7 @@ p {
     .BFfilter {
         width: 22%;
         padding-top: 0px;
-        margin-left: 15px;
+        margin-left: 70px;
     }
 
     .BFsort {
@@ -1337,18 +1342,9 @@ p {
         padding-top: 0px;
     }
 
-    .BFdeets {
-        width: 22%;
-        padding-top: 0px;
-    }
-
     .BFconfirm {
         width: 22%;
         padding-top: 0px;
-    }
-
-    .BFpayment {
-        width: 80%
     }
 
 
@@ -1377,15 +1373,10 @@ p {
     .BHfilter {
         width: 22%;
         padding-top: 0px;
-        margin-left: 15px;
+        margin-left: 65px;
     }
 
     .BHsort {
-        width: 22%;
-        padding-top: 0px;
-    }
-    
-    .BHdeets {
         width: 22%;
         padding-top: 0px;
     }
@@ -1395,9 +1386,15 @@ p {
         padding-top: 0px;
     }
 
-    .BHpayment {
-        width: 80%;
-        padding-top: 0px;
+    .BHpayment{
+        width: 35%;
+        padding-bottom: 20px;
+    }
+
+    .BFpayment {
+        width: 35%;
+        padding-bottom: 20px;
+        margin-left: 60px;
     }
     
 
@@ -1434,5 +1431,32 @@ p {
 
     footer p {
         padding-right: 1520px;
+    }
+
+    h3 {
+        font-size: 29px;
+    }
+
+    /* 1 */
+    .PTscroll {
+        margin-left: 45px;
+    }
+
+    /* 2 */
+    .BHheatmap {
+        margin-left: 200px;
+    }
+
+    /* 3 */
+    .manageItin {
+        margin-left: 315px;
+    }
+
+    .BFfilter {
+        margin-left: 260px;
+    }
+
+    .BHfilter {
+        margin-left: 260px;
     }
 }
