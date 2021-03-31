@@ -635,8 +635,8 @@ footer p {
     height: 150px;
     position: absolute;
 
-    margin-top: 197px; /* adjusts text placement in box */
-    margin-left: 90px;
+    margin-top: 200px; /* adjusts text placement in box */
+    margin-left: 100px;
     
     text-align: center;
 }
@@ -1477,7 +1477,7 @@ footer p {
     }
 
     .b5WOText {
-        margin-top: 210px;
+        margin-top: 205px;
     }
 
     .b5WOText h3 {
