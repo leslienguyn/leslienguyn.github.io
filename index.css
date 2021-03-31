@@ -526,7 +526,7 @@ footer p {
     margin-left: 140px;
 }
 
-.watchover {
+.depop {
     width: 500px;
     height: 497px;
     position: absolute;
@@ -629,13 +629,13 @@ footer p {
 }
 
 
-/* Watch over */
+/* depop */
 .b5WOText {
     width: 390px;
     height: 150px;
     position: absolute;
 
-    margin-top: 180px;
+    margin-top: 197px; /* adjusts text placement in box */
     margin-left: 90px;
     
     text-align: center;
@@ -1248,7 +1248,7 @@ footer p {
         margin-left: 18px;
     }
 
-    .watchover {
+    .depop {
         width: 315px;
         height: 323px;
         position: absolute;
@@ -1471,13 +1471,13 @@ footer p {
     }
 
 
-    /* watch over portfolio boxes */
-    .watchover {
+    /* depop portfolio boxes */
+    .depop {
         margin-left: 360px;
     }
 
     .b5WOText {
-        margin-top: 190px;
+        margin-top: 210px;
     }
 
     .b5WOText h3 {
@@ -1618,13 +1618,13 @@ footer p {
     }
     
     
-    /* Watch over boxes */
+    /* depop boxes */
     .PortfolioWO {
         padding-bottom: 900px;
         margin-left: 140px;
     }
 
-    .watchover {
+    .depop {
         width: 593px;
         height: 586px;
         margin-top: 110px;
@@ -1642,11 +1642,11 @@ footer p {
     }
 
     .b5WOText h3 {
-        font-size: 2.4vw;
+        font-size: 2.2vw;
     }
 
     .b5WOText p {
-        font-size: 1.3vw;
+        font-size: 1vw;
     }
     
     /* mfp portfolio boxes */
