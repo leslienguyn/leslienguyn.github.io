@@ -19,7 +19,7 @@ html,body
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .body {
@@ -398,9 +398,9 @@ h2 {
 
 h3 {
     font-family: Roboto;
-    font-style: italic;
+    font-style: normal;
     font-weight: 500;
-    font-size: 4vh;
+    font-size: 3.4vh;
     color: #f0f0f0;
     text-align: left;
     padding-top: 40px;
@@ -415,7 +415,7 @@ p {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 100;
-    font-size: 23px; 
+    font-size: 20px; 
     margin-top: 3px;
     line-height: 30px;
 }
@@ -757,192 +757,27 @@ p {
     width: 30%;
 }
 
-/* Book flight */
-.BFtime {
+/* Book flight, hotel */
+.bookFlightScreens, .bookHotelScreens {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 10px;
     width: 75%;
 }
 
-.BFswitch {
-    display: inline-block;
-    margin-left: 60px;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BFtwTo {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BFcalendar {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BFsouthwest {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-
-.BFfilter {
-    display: inline-block;
-    margin-left: 170px;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BFsort {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BFconfirm {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-
-/* Book hotel */
-.BHto {
-    display: inline-block;
-    margin-left: 60px;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BHcalendar {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BHtimeswitch {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BH {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-
-.BHfilter {
-    display: inline-block;
-    margin-left: 157px;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BHsort {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-.BHamenities {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 22%;
-}
-
-
-.BFpayment {
+.BH, .BFtwTo {
     display: inline-block;
     margin-left: 70px;
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 8px;
-    width: 43%;
-}
-
-.BHpayment {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 43%;
-}
-
-.BHnotify {
-    display: inline-block;
-    margin-left: 80px;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
     width: 28%;
 }
 
-.BHcompare {
+.BFcalendar, .BFsort, .BHnotify, .BHcompare {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -952,15 +787,6 @@ p {
     width: 28%;
 }
 
-.BHconfirm {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    width: 28%;
-}
 
 
 
@@ -1052,55 +878,7 @@ p {
 
 
 
-@media only screen and (max-width: 400px) {
-    .container-fluid {
-        overflow: auto;
-    }
 
-    * {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    ::-webkit-scrollbar {
-        display: none;
-    }
-    
-    .rPad {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    h3 {
-        font-size: 1.7em;
-    }
-
-    p {
-        font-size: 1.1em;
-        line-height: 20px;
-    }
-
-
-    /* Bg */
-    .titleImg {
-        width: 100%;
-    }
-
-    .publishP {
-        font-size: 1em;
-    }
-
-
-    /* 2 */
-    
-
-
-
-    
-
-    /* 3 */
-    
-}
 
 
 
@@ -1172,18 +950,12 @@ p {
 
     .PTscroll {
         display: inline-block;
-        width: 32%;
+        width: 33%;
         padding-top: 10px;
         margin-left: 0px;
     }
 
-    .BFdeets {
-        display: inline-block;
-        width: 32%;
-        padding-top: 10px;
-    }
-
-    .BHdeets {
+    .BFdeets, .BHdeets {
         display: inline-block;
         width: 32%;
         padding-top: 10px;
@@ -1273,72 +1045,29 @@ p {
         padding-top: 0px;
     }
 
-    .BHitinPre {
+    .BHitinPre, .BFitinPre {
         width: 49%;
         padding-top: 0px;
         margin-left: 0px;
     }
 
-    .BFitinPre {
-        width: 49%;
-        padding-top: 0px;
-    }
-
-
-    .planTripFinal {
+    .bookFlightScreens, .bookHotelScreens {
         width: 80%;
     }
 
-    .manageItin {
-        display: inline-block;
-        width: 30%;
+    .BFtwTo, .BH {
+        width: 25%;
         padding-top: 0px;
-        margin-left: 80px;
+        margin-left: 45px;
     }
 
-    .manageItinConfirm { 
-        display: inline-block;
-        width: 30%;
+    .BFcalendar, .BFsort, .BHnotify, .BHcompare {
+        width: 25%;
         padding-top: 0px;
-    }
-
-
-    .BFtime {
-        width: 80%;
-        padding-top: 0px;
-    }
-
-
-    .BFswitch {
-        width: 22%;
-        padding-top: 0px;
-        margin-left: 15px;
-    }
-
-    .BFtwTo {
-        width: 22%;
-        padding-top: 0px;
-    }
-
-    .BFcalendar {
-        width: 22%;
-        padding-top: 0px;
-    }
-
-    .BFsouthwest {
-        width: 22%;
-        padding-top: 0px;
-    }
-
-
-    .BFfilter {
-        width: 22%;
-        padding-top: 0px;
-        margin-left: 70px;
     }
 
     .BFsort {
-        width: 22%;
+        width: 25%;
         padding-top: 0px;
     }
 
@@ -1347,73 +1076,14 @@ p {
         padding-top: 0px;
     }
 
-
-    .BHto {
-        width: 22%;
-        padding-top: 0px;
-        margin-left: 15px;
+    .manageItin {
+        width: 40%;
+        margin-left: 10px;
     }
 
-    .BHcalendar {
-        width: 22%;
-        padding-top: 0px;
+    .manageItinConfirm {
+        width: 40%;
     }
-
-    .BHtimeswitch {
-        width: 22%;
-        padding-top: 0px;
-    }
-
-    .BH {
-        width: 22%;
-        padding-top: 0px;
-    }
-
-
-    .BHfilter {
-        width: 22%;
-        padding-top: 0px;
-        margin-left: 65px;
-    }
-
-    .BHsort {
-        width: 22%;
-        padding-top: 0px;
-    }
-    
-    .BHamenities {
-        width: 22%;
-        padding-top: 0px;
-    }
-
-    .BHpayment{
-        width: 35%;
-        padding-bottom: 20px;
-    }
-
-    .BFpayment {
-        width: 35%;
-        padding-bottom: 20px;
-        margin-left: 60px;
-    }
-    
-
-    .BHnotify {
-        width: 30%;
-        padding-top: 0px;
-        margin-left: 15px;
-    }
-
-    .BHcompare {
-        width: 30%;
-        padding-top: 0px;
-    }
-
-    .BHconfirm {
-        width: 30%;
-        padding-top: 0px;
-    }
-
 
     /* 4 */
     .lineTopConclusion {
