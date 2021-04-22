@@ -67,15 +67,24 @@
                             <p>Pocket Trip is a travel app that allows users to book their travel plans and manage their 
                                 itineraries all in one place at any time through their smartphone. </p>
 
-                            <h3>Who</h3>
-                            <p>This audience this app is aimed towards are for people who travel for work,
-                                vacation, school, or are looking for temporary alternative housing or transportation.
+                            <h3>Problem Statement</h3>
+                            <p>Travelers need a quick, accessible planning and booking process in order to stay organized, which can reduce
+                                stress and save money, while traveling.  
                             </p>
             
+                            <h3>Solution</h3>
+                            <p>By making a platform that includes both planning and booking into one, Pocket Trip enables users to compare
+                                prices, browse destination activities, and book flights, hotels, and other services in one app. The initerary
+                                is stored in Pocket Trip, where the rest of the traveler's plans are!
+                            </p>
+
                             <h3>Why</h3>
-                            <p>Going back and forth from my hometown in the Bay Area to school in San Diego, I found that my family 
-                                has trouble keeping track of all their itineraries. After talking to my peers, it turns out they're 
-                                always the one in charge of booking these trips because their families have the same problem.</p>
+                            <p>My parents, who are immigrants, struggle to keep track of all travel itineraries. Because there are millions of travel-booking
+                                websites out there in the world, it’s easy to get lost on what platform you booked a plan on. Considering how prices change
+                                everyday and deals showing up on these various websites, it makes sense how you want to optimize your savings while sticking
+                                with your original plan. As a result, I’m always the one keeping track of these itineraries. After searching for a way to
+                                manage booking and planning in one, it seems that there are none to help keep track of everything. 
+                            </p>
 
                             <h3>How</h3>
                             <p>Adobe XD</p>
@@ -92,48 +101,60 @@
                     <div class="col">
                         <div class="text">
                             <hr class="lineTopResearch">
-                            <h2>Research</h2>
+                            <h2>User Findings</h2>
                             <hr class="lineBottomResearch">
 
                             <h3 class="UB">When</h3>
-                            <p>The research period took 1.5 weeks. The card sorting took 2 days. Interviews took a total of
-                                3 days, averaging 30 minutes each.
+                            <p>I made a sitemap of the user flow among general travel websites. I put myself in the users' shoes and pretended
+                                to book a flight or hotel myself. This helped me think about what possible pain points or steps that can cause users to get
+                                frustrated. How might we improve this process while reducing user clicks? How might we make it more simple and easier for users
+                                to access information they need?
+                                <br><br>
+                                After performing a competitive analysis, I looked for certain features that would make users more likely to choose
+                                a certain website over another. What features would discourage users from making that booked trip on the website?
+                                I had a general idea of what Pocket Trip could include based off the competitive analysis.
+                                <br><br>
+                                More importantly, I wanted to know what features real travelers looked for and wanted.
                             </p>
 
                             <img src="/PTimg/map.png" class="map" alt="map outline of planning the app">
                             <img src="/PTimg/competitorChart.png" class="competitor" alt="chart comparison of competitors">
 
-                           <h3>How</h3>
-                            <p>I made three categories for fifteen cards that I planned to include for the app. I had 5 users
-                                participate in organizing these cards into what they think best fits the category on UXTweak.
-                                While it was hybrid sorting, no participant made new categories.
-                            </p>
-                            <p>I ended up making some features more flexible in multiple categories rathering than restricting 
-                                it to just one. These features, such as the QR/numerical code, were redesigned later on to have 
-                                less significance during the process to reduce confusion.
+                           <h3>Card Sorting</h3>
+                            <p>I conducted a card sorting test to see what features 5 users thought belonged to a certain travel category.
+                                Using the sitemap, I put in general features and sorted it into 3 categories, but also added in some unique
+                                features I thought would be helpful for Pocket Trip.
+                                <br><br>
+                                My findings were actually very surprising! While some features were more obvious, such as "Booking a Flight" matching with 
+                                the "Plan a Trip" category, other features did not fall into the same categories across all users. For example, users thought that
+                                "Save and compare listings" fell into "Manage Itineraries" AND "Plan a Trip." This made me realize that features shouldn't be
+                                constricted to one category; instead, they should be flexible by being accessible in multiple categories. 
                             </p>
 
                             <img src="/PTimg/cardsort.png" class="cardSort" alt="summary of card sort">
                             <img src="/PTimg/cardSortSample.png" class="cardSortSample" alt="sample of card sort">
                             
-                            <p>For the interviews, I asked 10 acquaintances and friends to participate in answering 3 pre- and post-task
-                                questions along with a user flow task. This was to measure if a user could get through the flow of 
-                                the app without any trouble. These tests were performed on Quant, which allowed me to view heat
-                                maps of where users were clicking. 
+                            <h3>Lo-fi Testing</h3>
+                            <p>After making lo-fi wireframes, I conducted user testing among 10 users. I performed convenient sampling on my 10 friends,
+                                and did a within-subjects testing through text and Quant to measure heatmaps. I first asked them how they felt about
+                                the overall booking process and what features they focused on while browsing for travel plans.
+                                <br><br>
+                                A majority of the users actually focused on deals. This was surprising to me because I thought the process itself could
+                                be improved, but users wanted to save money. One user even said that they felt "frustrated that the website showed 
+                                lower prices after booking." 
                             </p>
 
                             <img src="/PTimg/usabilitytest.png" class="usabilityTest" alt="summary of usability testing">
 
-                            <p>From the tasks, 7/10 users seemed to misinterpret the directions. After watching the screen recordings
-                                7/10 users tried to immediately book a flight instead of comparing listings. The heatmap also showed 
-                                that users expected certain icons to work associated with the certain words, i.e. users clicking the edit 
-                                icon button when asked to "edit details of trip."
-                            </p>
-
-                            <p>The post interview asked about the users' experience. While 7/10 said the process was intuitive,
-                                some suggested that there should be a drop down list of options while typing their desired location,
-                                notifications for price drops, and making the entire listing clickable instead of "see more."
-                                I implemented these suggestions into my design after.
+                            <p>While users were performing the tasks, 7/10 were unable to perform all the tasks even though they confidently said they did.
+                                After rewatching the heatmap recordings, it turns out users were confused about where to click and misinterpreted the directions.
+                                I realized that this was my mistake; their actions may have been affected because I put the screens and directions "out of order."
+                                I made users try to compare hotel listings before booking a flight. Typically, a user would book a flight before looking at hotels.
+                                The conceptual model the user had overrode the directions, thus making them confused which caused them to click everywhere for an exit.
+                                <br><br>
+                                Users also wanted to see more system feedback. They didn't really know what was happening without system notifications or button responses.
+                                <br><br>
+                                <a href="https://docs.google.com/spreadsheets/d/1_fwt4N3pCMHdidR1LY5ZjuemABWXOvLjNdnysU3iEyI/edit?usp=sharing">Interview answers were recorded on this spreadsheet →</a>
                             </p>
 
                             <p><a href="https://docs.google.com/spreadsheets/d/1_fwt4N3pCMHdidR1LY5ZjuemABWXOvLjNdnysU3iEyI/edit?usp=sharing">Interview answers were recorded on this spreadsheet →</a></p>
@@ -150,71 +171,67 @@
                     <div class="col">
                         <div class="text">
                             <hr class="lineTopProcess">
-                            <h2>Process</h2>
+                            <h2>Prepare for Takeoff</h2>
                             <hr class="lineBottomProcess">
     
-                            <h3 class="UB">What</h3>
-                            <p>I made low-fidelity wireframes on Quant. While these were used in user testing, these became rough blueprints
-                                of making the final design. I referred to these for general placements.
+                            <h3 class="UB">Design</h3>
+                            <p>As a result, I switched the orders for the final design and prioritized putting Flight before Hotel. Users also mentioned that they would like
+                                to see new airlines available to fly for the trip and a list of the best deals in town. Again, they all related to saving money for the trip.
+                                Additionally, 7/10 users said the overall user flow was "intuitive."
+                                <br><br>
+                                My initial design plans actually changed. Still focusing on the problem statement, I ended up rearranging some buttons, changed the color, 
+                                and refined naming conventions.
                             </p>
 
                             <img src="/PTimg/wireframeHotel.png" class="BHwireframe" alt="Booking Hotel wireframe">
                             <img src="/PTimg/manageBookingsWireframe.png" class="compareWireframe" alt="Compare listings wireframe">
-
-                            <h3>How</h3>
-                            <p>For the final design, I made high-fidelity designs on Adobe XD. I experimented with various designs before
-                                choosing final ones. I switched the flow order of Location and Date to better match how users typically approach their
-                                process of booking a trip. 
-                            </p>
-
-                            <img src="/PTimg/theme.png" class="theme" alt="color scheme and font themes">
+                            <img src="/PTimg/theme.png" class="theme" alt="Pocket Trip style guide">
                            
+                            <p>In the images below, I played around with the theme and placements of icons and text fields before settling on the final designs.</p>
                             <img src="/PTimg/plan_pre.png" class="planPre" alt="alternate versions of Plan Trip page">
                             <img src="/PTimg/BH_toPre.png" class="BHpre" alt="alternate versions of Book Hotel">
                             <img src="/PTimg/BH_notifyPre.png" class="notifyPre" alt="alternate versions of Notify Price Drop">
+                            <p>For the Notify Price Drop feature, I tried to figure out the trade-off between underline or not to signify that it's clicked. However,
+                                I decided against it since I figured that the clicked button color fill would benefit colorblind users as well in terms of contrast.
+                                Underlinked words may confuse other users thinking it would lead to an external link.
+                            </p>
                             <img src="/PTimg/BH_itineraryPre.png" class="BHitinPre" alt="alternate versions of Book Hotel itineraries">
                             <img src="/PTimg/BF_itineraryPre.png" class="BFitinPre" alt="alternate versions of Book Flight itineraries">
 
-                            <h3>Why</h3>
-                            <p>I also kept in mind of colorblind and people who may find it hard to see by adding 
-                                in underlines, which was also a suggestion made during the research process. One user suggested
-                                that "sign up should be first, or simply remove sign up altogether." I decided to get rid of
-                                the entire process since it allows users to keep track without needing an account, but kept the option
-                                and minimized it in case users wanted to sign up for faster check-out with saved information.
-                                I made wallet-like confirmation cards for iOS users to add to their Wallet book. 
+                            <!-- Book flight -->
+                            <h3>Book a Flight</h3>
+                            <p>Based on the user testing, I switched the Location and Date screens. To better match user flow and common system image
+                                in travel websites, I put the Destination first, and then the Dates. I made wallet-like confirmation cards for iOS users to
+                                add to their Wallet book.
                             </p>
+                            <img src="/PTimg/bookFlight1.jpg" class="bookFlightScreens" alt="Book Flight screens on iPhone">
+                            <img src="/PTimg/BF_twTo.gif" class="BFtwTo" alt="Book Flight showing To destination gif">
+                            <img src="/PTimg/BF_calendar.gif" class="BFcalendar" alt="Book Flight calendar feature gif">
+                            <img src="/PTimg/BF_sort.gif" class="BFsort" alt="Book Flight sort gif">
 
                             <img src="/PTimg/planTrip.png" class="planTripFinal" alt="Home screen gif">
                             <img src="/PTimg/manageIt.gif" class="manageItin" alt="Manage Itineraries gif">
                             <img src="/PTimg/manageIt_confirm.gif" class="manageItinConfirm" alt="Manage itineraries gif">
 
-                            <!-- Book flight -->
-                            <img src="/PTimg/BF_time.png" class="BFtime" alt="Book Flight insert time screen gif">
-
-                            <img src="/PTimg/BF_oneTwoSwitch.gif" class="BFswitch" alt="Book Flight switch feature gif">
-                            <img src="/PTimg/BF_twTo.gif" class="BFtwTo" alt="Book Flight showing To destination gif">
-                            <img src="/PTimg/BF_calendar.gif" class="BFcalendar" alt="Book Flight calendar feature gif">
-                            <img src="/PTimg/BF_southwest.gif" class="BFsouthwest" alt="Book Flight Southwest listings gif">
-
-                            <img src="/PTimg/BF_filters.gif" class="BFfilter" alt="Book Flight filters gif">
-                            <img src="/PTimg/BF_sort.gif" class="BFsort" alt="Book Flight sort gif">
-                            <img src="/PTimg/BF_confirm.gif" class="BFconfirm" alt="Book Flight confirmation gif">
-
                             <!-- Book hotel -->
-                            <img src="/PTimg/BH_to.gif" class="BHto" alt="Book Hotel To destination gif">
-                            <img src="/PTimg/BH_calendar.gif" class="BHcalendar" alt="Book Hotel calendar feature gif">
-                            <img src="/PTimg/BH_timeSwitch.gif" class="BHtimeswitch" alt="Book Hotel time switch feature gif">
+                            <h3>Book a Hotel</h3>
+                            <p>Prioritizing price notifications, I added in a button with a bell icon to signify notifications. Users can also compare saved listings
+                                with a comprehensive list of attractions and price comparison among other competitors.
+                            </p>
+                            <img src="/PTimg/bookHotel1.jpg" class="bookFlightScreens" alt="Book Hotel screens on iPhone">
                             <img src="/PTimg/BH.gif" class="BH" alt="Book Hotel search screen gif">
-
-                            <img src="/PTimg/BH_filter.gif" class="BHfilter" alt="Book Hotel filters gif">
-                            <img src="/PTimg/BH_sort.gif" class="BHsort" alt="Book Hotel sort gif">
-                            <img src="/PTimg/BH_amenities.gif" class="BHamenities" alt="Book Hotel amenities feature gif">
-
-                            <img src="/PTimg/BFpayment.png" class="BFpayment" alt="Book Flight payment screens">
-                            <img src="/PTimg/BHpayment.png" class="BHpayment" alt="Book Hotel payment screens">
                             <img src="/PTimg/BH_notify.gif" class="BHnotify" alt="Book Hotel notify price drop feature gif">
                             <img src="/PTimg/BH_compare.gif" class="BHcompare" alt="Book Hotel compare listings gif">
-                            <img src="/PTimg/BH_confirm.gif" class="BHconfirm" alt="Book Hotel confirmation gif">
+                            
+                            <!-- Manage bookings -->
+                            <h3>Manage Bookings</h3>
+                            <p>One user suggested that "sign up should be first, or simply remove sign up altogether." I decided to get rid of
+                                the entire process since it allows users to keep track without needing an account, but kept the option
+                                and minimized it in case users wanted to sign up for faster check-out with saved information. Of course,
+                                I included the system feedback of letting the user know that their actions were confirmed.
+                            </p>
+                            <img src="/PTimg/manageIt.gif" class="manageItin" alt="Manage Itineraries gif">
+                            <img src="/PTimg/manageIt_confirm.gif" class="manageItinConfirm" alt="Manage itineraries gif">
                         </div>
                     </div>
                 </div>
@@ -228,15 +245,16 @@
                             <hr class="lineBottomConclusion">
     
                             <h3 class="UB">What</h3>
-                            <p>The challenge for this app was figuring out logistics and the organization of the listings. Originally,
-                                I had thought that there would be less steps and options for booking travel plans, but after conducting
+                            <p>In the end, I learned that creating an app from scratch is not easy! Nonetheless, I also gained lots of insights
+                                about the travel process and how much more it can be improved on. The challenge for this app was figuring out logistics
+                                and the organization of the listings.
+                                <br><br>
+                                 Originally, I had thought that there would be less steps and options for booking travel plans, but after conducting
                                 research, a common and popular response related towards low prices. It challenged me to think about the
                                 possible options that would center around having low prices as the main drive for booking travel plans
                                 while making it easy, accessible, and visually appealing for the user to keep track of.
-                            </p>
-
-                            <h3>How</h3>
-                            <p>The next steps would be implementing multiple selections for flight listings instead of one.
+                                <br><br>
+                                The next steps would be implementing multiple selections for flight listings instead of one.
                                 Allowing users to register their place as rentals (similar to Airbnb) would be another feature
                                 that could expand the options for this app in a business-oriented way. Improving the flow 
                                 and logistics for this app is another step that would be interesting to look at.
