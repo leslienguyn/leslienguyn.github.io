@@ -323,7 +323,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    width: 65%;
+    width: 45%;
 }
 
 .depop1 {
@@ -354,19 +354,17 @@ h2 {
     text-align: center;
 }
 
-.lineTopBG {
+.lineTopBG, .lineTopResearch, .lineTopProcess, .lineTopConclusion {
     width: 100%;
     border: 3px solid #a417ff;
     box-shadow: 1px -2px 12px #d817ff;
-    margin-top: 150px;
+    margin-top: 80px;
 
     margin-left: auto;
     margin-right: auto;
-
-    /* border-radius: 50px; */ /* makes rounded corner */
 }
 
-.lineBottomBG {
+.lineBottomBG, .lineBottomResearch, .lineBottomProcess, .lineBottomConclusion {
     width: 100%;
     border: 3px solid #a417ff;
     box-shadow: 1px 2px 12px #d817ff;
@@ -374,10 +372,7 @@ h2 {
 
     margin-left: auto;
     margin-right: auto;
-
-    /* border-radius: 50px; */
 }
-
 
 h3 {
     font-family: Roboto;
@@ -438,47 +433,29 @@ p {
     padding-right: 181px;
 }
 
-.lineTopResearch {
-    width: 100%;
-    border: 3px solid #a417ff;
-    box-shadow: 1px -2px 12px #d817ff;
-    margin-top: 120px;
-
-    /* border-radius: 50px; */ /* makes rounded corner */
-}
-
-.lineBottomResearch {
-    width: 100%;
-    border: 3px solid #a417ff;
-    box-shadow: 1px 2px 12px #d817ff;
-    margin-top: 20px;
-
-    /* border-radius: 50px; */
-}
-
-.researchText h2 {
+.researchText h2, .processText h2, .conclusionText h2 {
     font-family: Roboto;
     font-style: italic;
     font-weight: 500;
     font-size: 7vh;
-    color: #f0f0f0;
+    color: #ececec;
 
     margin-top: 20px;
     text-align: center;
 }
 
-.researchText h3 {
+.researchText h3, .processText h3, .conclusionText h3 {
     font-family: Roboto;
     font-style: italic;
     font-weight: 500;
     font-size: 4vh;
-    color: #f0f0f0;
+    color: #ececec;
     text-align: left;
     padding-top: 40px;
 }
 
-.researchText p {
-    color: #f0f0f0;
+.researchText p, .processText p, .conclusionText p {
+    color: #ececec;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -500,7 +477,7 @@ p {
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .storyboard {
@@ -509,7 +486,7 @@ p {
     margin-right: auto;
     padding-top: 25px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .persona1, .persona2 {
@@ -547,60 +524,13 @@ p {
     padding-right: 181px;
 }
 
-.lineTopProcess {
-    width: 100%;
-    border: 3px solid #a417ff;
-    box-shadow: 1px -2px 12px #d817ff;
-    margin-top: 120px;
-
-    /* border-radius: 50px; */ /* makes rounded corner */
-}
-
-.lineBottomProcess {
-    width: 100%;
-    border: 3px solid #a417ff;
-    box-shadow: 1px 2px 12px #d817ff;
-    margin-top: 20px;
-
-    /* border-radius: 50px; */
-}
-
-.processText h2 {
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 7vh;
-    color: #f0f0f0;
-
-    margin-top: 20px;
-    text-align: center;
-}
-
-.processText h3 {
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 4vh;
-    color: #f0f0f0;
-    text-align: left;
-    padding-top: 40px;
-}
-
-.processText p {
-    color: #f0f0f0;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.6vw; 
-    margin-top: 3px;
-}
 
 .wireframes {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
-    width: 75%;
+    width: 55%;
 }
 
 .homeLow, .searchLow{
@@ -608,7 +538,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-top: 15px;
-    width: 75%;
+    width: 55%;
 }
 
 .ssLow {
@@ -617,7 +547,7 @@ p {
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .homeHigh {
@@ -625,7 +555,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
-    width: 75%;
+    width: 55%;
 }
 
 .searchHigh {
@@ -634,7 +564,7 @@ p {
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .ssHigh {
@@ -643,7 +573,7 @@ p {
     margin-right: auto;
     padding-top: 25px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .final1 {
@@ -651,7 +581,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
-    width: 75%;
+    width: 55%;
 }
 
 .final2, .final3 {
@@ -659,16 +589,25 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-top: 15px;
-    width: 75%;
+    width: 55%;
 }
 
-.homeGif, .searchGif, .scanGif {
+.homeGif {
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    width: 26%;
+}
+
+.searchGif, .scanGif {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 31%;
+    width: 26%;
 }
 
 
@@ -699,64 +638,6 @@ p {
     padding-right: 181px;
 }
 
-.lineTopConclusion {
-    width: 100%;
-    border: 3px solid #a417ff;
-    box-shadow: 1px -2px 12px #d817ff;
-    margin-top: 120px;
-
-    /* border-radius: 50px; */ /* makes rounded corner */
-}
-
-.lineBottomConclusion {
-    width: 100%;
-    border: 3px solid #a417ff;
-    box-shadow: 1px 2px 12px #d817ff;
-    margin-top: 20px;
-
-    /* border-radius: 50px; */
-}
-
-.conclusionText h2 {
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 7vh;
-    color: #f0f0f0;
-
-    margin-top: 20px;
-    text-align: center;
-}
-
-.conclusionText h2 {
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 7vh;
-    color: #f0f0f0;
-
-    margin-top: 20px;
-    text-align: center;
-}
-
-.conclusionText h3 {
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 4vh;
-    color: #f0f0f0;
-    text-align: left;
-    padding-top: 40px;
-}
-
-.conclusionText p {
-    color: #f0f0f0;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.6vw; 
-    margin-top: 3px;
-}
 
 
 
