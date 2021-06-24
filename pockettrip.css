@@ -321,7 +321,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    width: 65%;
+    width: 45%;
 }
 
 .publishP {
@@ -511,7 +511,7 @@ p {
     margin-right: auto;
     padding-top: 25px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .competitor {
@@ -520,7 +520,7 @@ p {
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .cardSort {
@@ -529,7 +529,7 @@ p {
     margin-right: auto;
     padding-top: 25px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .cardSortSample {
@@ -538,7 +538,7 @@ p {
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 25px;
-    width: 75%;
+    width: 55%;
 }
 
 .usabilityTest {
@@ -548,7 +548,7 @@ p {
     padding-top: 15px;
     padding-bottom: 25px;
     padding-right: 8px;
-    width: 75%;
+    width: 55%;
 }
 
 .BHuserflow {
@@ -557,17 +557,17 @@ p {
     margin-right: auto;
     padding-top: 25px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .BHheatmap {
     display: inline-block;
-    margin-left: 145px;
+    margin-left: 243px;
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
     padding-right: 8px;
-    width: 37%;
+    width: 27.3%;
 }
 
 .EBheatmap {
@@ -577,7 +577,7 @@ p {
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 8px;
-    width: 37%;
+    width: 27.3%;
 }
 
 
@@ -659,7 +659,7 @@ p {
     margin-right: auto;
     padding-top: 25px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .compareWireframe {
@@ -668,7 +668,7 @@ p {
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 0px;
-    width: 75%;
+    width: 55%;
 }
 
 .theme {
@@ -677,7 +677,7 @@ p {
     margin-right: auto;
     padding-top: 25px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .planPre {
@@ -686,7 +686,7 @@ p {
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .BHpre {
@@ -695,7 +695,7 @@ p {
     margin-right: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .notifyPre {
@@ -704,7 +704,7 @@ p {
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .BHitinPre {
@@ -734,17 +734,17 @@ p {
     margin-right: auto;
     padding-top: 25px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .manageItin {
     display: inline-block;
-    margin-left: 190px;
+    margin-left: 280px;
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 8px;
-    width: 30%;
+    width: 24%;
 }
 
 .manageItinConfirm {
@@ -754,7 +754,7 @@ p {
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 8px;
-    width: 30%;
+    width: 24%;
 }
 
 /* Book flight, hotel */
@@ -764,17 +764,17 @@ p {
     margin-right: auto;
     padding-top: 25px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 55%;
 }
 
 .BH, .BFtwTo {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 140px;
     margin-right: auto;
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 8px;
-    width: 28%;
+    width: 24%;
 }
 
 .BFcalendar, .BFsort, .BHnotify, .BHcompare {
@@ -784,7 +784,7 @@ p {
     padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 8px;
-    width: 28%;
+    width: 24%;
 }
 
 
