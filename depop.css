@@ -348,7 +348,7 @@ h2 {
     font-style: italic;
     font-weight: 500;
     font-size: 40px;
-    color: #f0f0f0;
+    color: #ececec;
 
     margin-top: 20px;
     text-align: center;
@@ -379,7 +379,7 @@ h3 {
     font-style: normal;
     font-weight: 500;
     font-size: 3.4vh;
-    color: #f0f0f0;
+    color: #ececec;
     text-align: left;
     padding-top: 40px;
 }
@@ -389,7 +389,7 @@ h3.UB {
 }
 
 p {
-    color: #f0f0f0;
+    color: #eeccee;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -399,7 +399,7 @@ p {
 }
 
 .text a {
-    color: #f0f0f0;
+    color: #ececec;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
