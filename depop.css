@@ -468,7 +468,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
-    width: 75%;
+    width: 55%;
 }
 
 .affinity {
@@ -762,6 +762,10 @@ p {
         margin-right: 0px;
         width: 32.7%;
     }
+
+    .depop1 {
+        margin-bottom: 40px;
+    }
    
 
 
@@ -769,6 +773,13 @@ p {
     /* 4 */
     .lineTopConclusion {
         margin-top: 50px;
+    }
+
+
+
+
+    footer {
+        margin-top: 0px;
     }
 }
 
@@ -790,5 +801,13 @@ p {
 
     h3 {
         font-size: 32px;
+    }
+
+    .homeGif, .searchGif, .scanGif {
+        width: 20%;
+    }
+
+    .homeGif {
+        margin-left: 285px;
     }
 }
