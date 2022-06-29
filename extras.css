@@ -303,63 +303,68 @@ a:hover {
 
 
 /* Mobile/Web Design */
+.col{
+    margin-left: 35px;
+}
+
 .atthetable {
-    width: 102%;
+    width: 95%;
 }
 
 .breaktime {
-    width: 184%;
+    width: 95%;
 }
 
 .teamMeets {
-    width: 145%;
+    width: 95%;
 }
 
 .RX {
-    width: 184%;
-    padding-left: 140px;
+    width: 95%;
 }
 
 .watchover {
-    width: 140%;
+    width: 95%;
 }
 
 .shop808 {
-    width: 222%;
-    padding-left: 130px;
+    width: 95%;
 }
 
 .siria {
-    width: 161%;
+    width: 95%;
 }
 
 .silverCrescent {
-    width: 222%;
-    padding-left: 190px;
+    width: 95%;
 }
 
+.opulent {
+    width: 95%;
+
+} 
 
 /* Graphics */
 .MegTheeStallion {
-    width: 112%;
+    width: 100%;
 }
 
 
 
 /* Typography */
 .crazy {
-    width: 100%;
+    width: 95%;
 }
 
 .divine {
-    width: 100%;
+    width: 95%;
 }
 
 
 
 /* Illustrations */
 .isotropic {
-    width: 100%;
+    width: 95%;
 }
 
 
@@ -430,9 +435,9 @@ a:hover {
         padding-right: 0;
     }
 
-    .col-sm-4 {
-        padding-left: 10px;
-        padding-right: 10px;
+    .col {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .w-100 {
@@ -449,7 +454,7 @@ a:hover {
     }
 
     footer {
-        padding-right: 55px;
+        padding-right: 40px;
     }
 
     footer .social-icons {
@@ -470,7 +475,7 @@ a:hover {
     }
 
     .desc {
-        padding-left: 20px;
+        padding-left: 10px;
     }
 
     .desc a {
@@ -482,34 +487,52 @@ a:hover {
 
 
     /* mobile - web */
+    .atthetable {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
     .breaktime{
         width: 100%;
-        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .teamMeets {
         width: 100%;
-        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .RX {
         width: 100%;
-        padding-left: 10px;
-        padding-top: 10px;
+        padding-bottom: 10px;
     }
-    
+
     .watchover {
-        width: 97%;
-        padding-left: 0px;
-        padding-top: 10px;
+        width: 100%;
+        padding-bottom: 10px;
+        margin-left: -10px;
     }
 
     .shop808 {
         width: 100%;
-        padding-top: 10px;
-        padding-left: 10px;
+        padding-bottom: 10px;
     }
-    
+
+    .siria {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .silverCrescent{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .opulent{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
 
     /* graphics */
     .MegTheeStallion {
@@ -517,10 +540,15 @@ a:hover {
     }
 
     /* typography */
+    .crazy {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
     .divine {
         width: 100%;
-        padding-top: 10px;
     }
+
 
     /* illustrations */
 }
@@ -545,41 +573,56 @@ a:hover {
 
 
     /* web/mobile */
+    .atthetable{
+        width: 60%;
+        padding-bottom: 10px;
+    }
+
+    .breaktime{
+        width: 95%;
+        padding-bottom: 10px;
+    }
+
     .teamMeets {
-        width: 142%;
-        padding-top: 10px;
+        width: 95%;
+        padding-bottom: 10px;
     }
 
     .RX {
-        width: 183%;
-        padding-left: 215px;
-        padding-top: 10px;
+        width: 95%;
+        padding-bottom: 10px;
     }
-    
+
     .watchover {
-        width: 130%;
-        padding-top: 10px;
+        width: 95%;
+        padding-bottom: 10px;
     }
 
     .shop808 {
-        width: 203%;
-        padding-left: 170px;
-        padding-top: 10px;
+        width: 95%;
+        padding-bottom: 10px;
     }
+
 
     /* graphics */
     .MegTheeStallion {
-        width: 160%;
+        width: 120%;
+    }
+
+    /* typography */
+    .crazy{
+        width: 95%;
+        padding-bottom: 10px;
     }
 
     /* illustrations */
     .isotropic {
-        width: 115%;
+        width: 60%;
     }
 
     .desc {
         position: absolute;
-        margin-top: 3000px;
+        margin-top: 15350px;
         width: 900px;
     }
 
