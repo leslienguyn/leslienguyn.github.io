@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta charset="UTF-8">
+        <title>Leslie Nguyen</title>
+        <link rel="icon" type="image/x-icon" href="/Users/leslienguyen/Desktop/Projects/darkmode1/logo.svg">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css"/>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,700;1,400&display=swap');
+            @font-face {
+                font-family: "Geometos";
+                src: url("C:/Users/leslienguyen/Desktop/Projects/fonts/geometos");
+            }
+        </style>
+            
+    </head>
+    
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md">
+            <!-- <a class="navbar-brand"><img src="/Users/leslienguyen/Desktop/Projects/darkmode1/logo.svg" class="logo"></a> -->
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navigation">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://drive.google.com/file/d/1DjX_nIrjnI5ENsSQUd4x0DY66cPTGyOV/view?usp=sharing">Resume</a></li>
+              </ul>
+            </div>
+          </nav>
+
+        <div class=".container-fluid">
+            <!-- Landing page -->
+            <div class="row">
+                <div class="headerCol">
+                    <h1>Leslie Nguyen</h1>
+                </div>
+                <div class="infoCol">
+                    <img src="/Users/leslienguyen/Desktop/pfp.jpg" id="pfp" class="pfp" alt="Leslie smiling in the center of Balboa Park in San Diego">
+                    <h1><span class="char">U</span><span class="char">X&#20;</span><span class="char">D</span><span class="char">E</span><span class="char">S</span><span class="char">I</span><span class="char">G</span><span class="char">N</span><span class="char">E</span><span class="char">R</span></h1>
+                    <p>&#127796; Based remotely in San Diego, CA</p>
+                    <p>&#128105;&#127995;&#8205;&#128187; Experienced in designing SaaS applications</p>
+                    <p>&#128227; Advocate for accessibility in marginalized communities</p>
+                </div>
+
+                <!-- scroll down arrow -->
+                <a href="#portfolio" class="scroll-down">
+                    <p>scroll down</p>
+                    <div class="arrow">
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+           
+            <!-- Portfolio -->
+            <div class="portfolioHeader" id="portfolio">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="container"> <!-- grid -->
+                <div class="row">
+                    <div class="box">
+                        <img src="/Users/leslienguyen/Desktop/Projects/Modern Meliora/modernmeliora.png" draggable="false" alt="Cover photo for Modern Meliora on desktop">
+                        <button onclick="window.location.href='modernmeliora.html';">Modern Meliora →</button>
+                        <p>Freelance website designed for a small business using Squarespace</p>
+                    </div>
+                    
+                    <div class="box">
+                        <img src="/Users/leslienguyen/Desktop/Projects/pocket trip/graphics:charts/pockettrip.jpg" draggable="false" alt="Cover photo for Pocket Trip on mobile">
+                        <button onclick="window.location.href='pockettrip.html';">Pocket Trip →</button>
+                        <p>Book travel plans and manage your itineraries all in one place</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="box">
+                        <img src="/Users/leslienguyen/Desktop/Projects/depop/depopcov.png" draggable="false" alt="Cover photo for Depop redesign on mobile">
+                        <button onclick="window.location.href='depop.html';">Depop Redesign →</button>
+                        <p>Promoting sustainable, affordable eco-friendly fashion</p>
+                    </div>
+    
+                    <div class="box">
+                        <img src="/Users/leslienguyen/Desktop/Projects/Artwork/atthetablelarge.jpg" draggable="false" alt="Cover mockup of At the Table design on mobile">
+                        <button onclick="window.location.href='extras.html';">Extras →</button>
+                        <p>Other fun designs I do in my free time</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer id="footer" class="footer">
+                <p>Coded and designed by &#128587;&#127995;&#8205;&#9792;&#65039; Connect with me!</p>
+                <div class="icons">
+                    <a href="mailto:leslienguyen98@gmail.com"><i class="bi bi-postcard-heart"></i></a>
+                    <a href="https://www.linkedin.com/in/leslienguyen98/"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://dribbble.com/leslienguyen"><i class="bi bi-dribbble"></i></a>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Bootstrap JS scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
