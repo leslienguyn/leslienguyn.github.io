@@ -577,6 +577,7 @@ i {
     }
 
     .infoCol h1 {
+        font-family: "Geometos";
         font-size: 2.3rem;
     }
 
@@ -629,12 +630,9 @@ i {
     }
 
     .box button {
+        font-family: "Geometos";
         margin-top: 0;
         font-size: 0.5em;
-    }
-    
-    button {
-        font-family: "Geometos";
     }
 
     .box p {
