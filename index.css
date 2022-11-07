@@ -568,6 +568,7 @@ i {
 
     .headerCol h1 {
         font-size: 3.5rem;
+        font-weight: bold;
         font-family: "Geometos";
     }
 
@@ -577,6 +578,7 @@ i {
     }
 
     .infoCol h1 {
+        font-weight: bold;
         font-family: "Geometos";
         font-size: 2.3rem;
     }
