@@ -299,7 +299,7 @@ a:hover {
 /* Portfolio */
 .container {
     margin-top: 40px;
-    margin-left: 150px;
+    margin-left: 125px;
     height: 1600px;
     display: inline-grid;
     grid-template-columns: repeat(2, 1fr);
@@ -309,7 +309,7 @@ a:hover {
 }
 
 .portfolioHeader {
-    margin-top: 300px;
+    margin-top: 400px;
     margin-left: -380px;
 }
 
@@ -317,10 +317,12 @@ a:hover {
     font-weight: bold;
     font-family: "Geometos";
     font-size: 60px;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
+    width: 94%;
+    text-align: center;
+    /*writing-mode: vertical-rl;
+    transform: rotate(180deg);*/
     position: absolute;
-    margin-top: 530px;
+    margin-top: -30px;
 }
 
 .box {
