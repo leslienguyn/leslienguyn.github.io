@@ -602,7 +602,7 @@ i {
     .scroll-down {
         position: absolute;
         bottom: -1rem;
-        left: 64%;
+        left: 63%;
     }
 
 
@@ -621,7 +621,7 @@ i {
     }
 
     .container {
-        margin-left: 50px;
+        margin-left: 47px;
         grid-template-columns: unset;
         grid-auto-rows: unset;
         grid-column-gap: unset;
@@ -650,7 +650,7 @@ i {
     }
 
     .footer {
-        margin-top: 260px;
+        margin-top: 280px;
         padding: 0;
         width: unset;
     }
