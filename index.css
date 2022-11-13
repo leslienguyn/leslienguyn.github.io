@@ -452,10 +452,11 @@ i {
 @media only screen and (min-width: 1920px) {
     .row {
         margin-top: 70px;
+        margin-left: 0px;
     }
 
     .headerCol {
-        margin-left: 200px;
+        margin-left: 230px;
     }
 
     .headerCol h1{
@@ -467,12 +468,13 @@ i {
     }
 
     .infoCol .pfp {
-        width: 50%;
+        width: 51%;
     }
 
     .infoCol h1 {
         font-size: 51px;
         padding-top: 3px;
+        margin-left: 700px;
     }
 
     .infoCol p, .container p, .nav, .navbar-nav {
@@ -495,6 +497,11 @@ i {
 
     .portfolioHeader h1 {
         font-size: 65px;
+        margin-top: -30px;
+        width: 90%;
+        text-align: center;
+        writing-mode: unset;
+        transform: unset;
     }
 
     .container {
@@ -563,7 +570,7 @@ i {
     }
 
     .headerCol {
-        margin-left: -385px;
+        margin-left: -400px;
     }
 
     .headerCol h1 {
@@ -573,7 +580,7 @@ i {
     }
 
     .infoCol {
-        margin-left: 80px;
+        margin-left: 50px;
         width: 100%;
     }
 
@@ -600,7 +607,7 @@ i {
 
 
     .portfolioHeader {
-        margin-left: -365px;
+        margin-left: -370px;
         margin-bottom: 400px;
     }
 
