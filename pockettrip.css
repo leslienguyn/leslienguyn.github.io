@@ -392,6 +392,9 @@ img {
     .heatmap1, .heatmap2, .pre4, .pre5, .manage1, .manage2 {
         width: 47%;
     }
+    
+    .heatmap1, .heatmap2 {
+        margin-left: 0;
 
     .fina1, .final2, .final3, .BF2, .BF3, .BF4, .BH2, .BH3, .BH4 {
         width: 29%;
