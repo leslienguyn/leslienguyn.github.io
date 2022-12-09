@@ -320,6 +320,15 @@ img {
     .headerImg {
         width: 75%;
     }
+    
+    .heatmap1, .heatmap2 {
+        width: 40.7%;
+        margin-left: 6em;
+    }
+    
+    .heatmap2 {
+        margin-left: 1.6em;
+    }
 }
 
 
@@ -328,7 +337,7 @@ img {
 
 
 
-/* Mobile*/
+/* Mobile */
 @media only screen and (max-width: 767.98px) {
     html,body {
         padding: 10px;
