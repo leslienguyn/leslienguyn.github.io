@@ -615,7 +615,7 @@ i {
     .scroll-down {
         position: absolute;
         bottom: -1rem;
-        left: 63%;
+        left: 63.1%;
     }
 
 
@@ -681,5 +681,4 @@ i {
     i {
         font-size: 15px;
     }
-
 }
