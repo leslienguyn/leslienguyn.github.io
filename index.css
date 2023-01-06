@@ -544,7 +544,7 @@ i {
 @media only screen and (max-width: 844px) {
     html, body {
         overflow-x: none;
-        /*font-family: "Mulish", sans-serif;*/
+        /*font-family: "Mulish", sans-serif; */
     }
 
     /* navbar */
