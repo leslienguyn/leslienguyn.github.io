@@ -451,14 +451,14 @@ i {
 
 
 /* Desktop */
-@media (min-width: 1920px) {
+@media only screen and (min-width: 1920px) {
     .row {
-        margin-top: 250px;
+        margin-top: 150px;
         margin-left: 0px;
     }
 
     .headerCol {
-        margin-left: 320px;
+        margin-left: 200px;
     }
 
     .headerCol h1{
@@ -470,13 +470,14 @@ i {
     }
 
     .infoCol .pfp {
-        width: 45%;
-        margin-left: 150px;
-        margin-bottom: 10px;
+        width: 47%;
+        margin-left: 0;
+        margin-bottom: 20px;
     }
     
     .infoCol p {
-        margin-left: 147px;
+        margin-left: 0px;
+        line-height: 1.2;
 
     .infoCol h1 {
         font-size: 51px;
@@ -514,8 +515,8 @@ i {
 
     .container {
         margin-left: 370px;
-        grid-column-gap: 150px;
-        margin-top: -50px;
+        grid-column-gap: 120px;
+        margin-top: 0;
     }
 
     .box {
@@ -529,7 +530,7 @@ i {
 
     /* footer */
     footer {
-        margin-top: 300px;
+        margin-top: 100px;
     }   
         
     .icons {
@@ -541,7 +542,7 @@ i {
 
 
 /* Mobile */
-@media (max-width: 844px) {
+@media only screen and (min-width: 768px) {
     html, body {
         overflow-x: none;
         font-family: "Mulish", sans-serif;
