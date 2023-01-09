@@ -451,7 +451,7 @@ i {
 
 
 /* Desktop */
-@media only screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
     .row {
         margin-top: 250px;
         margin-left: 0px;
@@ -541,7 +541,7 @@ i {
 
 
 /* Mobile */
-@media only screen and (max-width: 844px) {
+@media (max-width: 844px) {
     html, body {
         overflow-x: none;
         font-family: "Mulish", sans-serif;
