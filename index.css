@@ -103,7 +103,7 @@ img {
 
 /* intro header */
 .row {
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .headerCol {
@@ -310,7 +310,7 @@ a:hover {
 
 .portfolioHeader {
     margin-top: 400px;
-    margin-left: -540px;
+    margin-left: -530px;
 }
 
 .portfolioHeader h1 {
@@ -491,17 +491,25 @@ i {
     }
 
     .headerCol {
-        margin-left: -400px;
+        margin-left: -550px;
     }
 
     .headerCol h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         font-weight: bold;
+        width: 95%;
         font-family: "Geometos";
+        writing-mode: unset;
+        transform: none;
+    }
+    
+    h1 {
+        margin-left: 570px;
     }
 
     .infoCol {
         margin-left: 50px;
+        margin-top: 100px;
         width: 100%;
     }
 
@@ -526,7 +534,7 @@ i {
         left: 63.1%;
     }
 
-
+    /* Portfolio */
     .portfolioHeader {
         margin-left: -370px;
         margin-bottom: 400px;
@@ -537,11 +545,13 @@ i {
         font-size: 3.5rem;
         writing-mode: unset;
         transform: none;
-        margin-top: -50px;
-        margin-left: 390px;
+        margin-top: 1000px;
+        margin-left: -370px;
+        margin-bottom: 0px;
     }
 
     .container {
+        margin-top: 50px;
         margin-left: 47px;
         grid-template-columns: unset;
         grid-auto-rows: unset;
