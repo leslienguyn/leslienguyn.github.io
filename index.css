@@ -466,7 +466,7 @@ i {
     }
 
     .navbar-expand-md {
-        margin-left: 780px;
+        margin-left: 900px;
         margin-bottom: 40px;
     }
 
@@ -491,7 +491,7 @@ i {
     }
 
     .headerCol {
-        margin-left: -550px;
+        margin-left: -490px;
     }
 
     .headerCol h1 {
@@ -509,7 +509,7 @@ i {
     }
 
     .infoCol {
-        margin-left: 220px;
+        margin-left: 185px;
         margin-top: 100px;
         width: 100%;
     }
@@ -517,28 +517,31 @@ i {
     .infoCol h1 {
         font-weight: bold;
         font-family: "Geometos";
-        font-size: 2.3rem;
+        font-size: 3rem;
+        width: 100%;
     }
 
     .infoCol p {
         line-height: 25px;
+        font-size: 1.4em;
+        width: 600px;
     }
 
     .infoCol .pfp {
-        width: 85%;
+        width: 140%;
     }
 
     /* arrow */
     .scroll-down {
         position: absolute;
-        bottom: -1rem;
-        margin-left: 50px;
+        bottom: -20rem;
+        margin-left: 130px;
         width: 100%;
     }
 
     /* Portfolio */
     .portfolioHeader {
-        margin-left: -195px;
+        margin-left: -134px;
         margin-bottom: 400px;
     }
 
@@ -562,12 +565,13 @@ i {
     }
 
     .box {
-        height: 435px;
+        height: unset;
         margin-bottom: 40px;
     }
 
     .box img {
         height: unset;
+        width: 150%;
         margin-bottom: -10px;
     }
 
