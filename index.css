@@ -107,14 +107,14 @@ img {
 }
 
 .headerCol {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 
 .headerCol h1 {
     font-weight: bold;
     font-family: "Geometos";
-    font-size: 53.1px;
+    font-size: 70.3px;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
 
@@ -444,101 +444,6 @@ i {
 }
 
 
-
-
-
-
-
-
-
-/* Desktop 
-@media only screen and (min-width: 1920px) {
-    .row {
-        margin-top: 150px;
-        margin-left: 0px;
-    }
-
-    .headerCol {
-        margin-left: 200px;
-    }
-
-    .headerCol h1{
-        font-size: 71px;
-    }
-
-    .infoCol {
-        margin-left: 700px;
-    }
-
-    .infoCol .pfp {
-        width: 47%;
-        margin-left: 0;
-        margin-bottom: 20px;
-    }
-    
-    .infoCol p {
-        margin-left: 0px;
-        line-height: 1.2;
-
-    .infoCol h1 {
-        font-size: 51px;
-        padding-top: 3px;
-        margin-left: 0px;
-    }
-
-    .infoCol p, .container p, .nav, .navbar-nav {
-        font-size: 1.35rem;
-    } 
-
-    /* scroll down arrow */
-    .scroll-down p {
-        font-size: 1rem;
-    }
-
-    .scroll-down {
-        bottom: 5rem;
-        left: 93%;
-    }
-
-    .portfolioHeader {
-        margin-left: -300px;
-        margin-top: 500px;
-    }
-
-    .portfolioHeader h1 {
-        font-size: 65px;
-        margin-top: -30px;
-        width: 95%;
-        text-align: center;
-        writing-mode: unset;
-        transform: unset;
-    }
-
-    .container {
-        margin-left: 350px;
-        grid-column-gap: 120px;
-        margin-top: 0;
-    }
-
-    .box {
-        width: 585px;
-    }
-
-    .box img {
-        width: 100%;
-        height: unset;
-    }
-
-    /* footer */
-    footer {
-        margin-top: 100px;
-    }   
-        
-    .icons {
-        margin-right: 30px;
-    } 
-}
-*/
 
 
 
