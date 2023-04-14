@@ -547,13 +547,13 @@ i {
         font-size: 4rem;
         writing-mode: unset;
         transform: none;
-        margin-top: 1000px;
+        margin-top: 800px;
         margin-left: 380px;
         margin-bottom: 0px;
     }
 
     .container {
-        margin-top: 50px;
+        margin-top: 900px;
         margin-left: 220px;
         grid-template-columns: unset;
         grid-auto-rows: unset;
@@ -584,7 +584,7 @@ i {
 
     .footer {
         margin-top: 280px;
-        margin-left: -170px;
+        margin-left: 150px;
         padding: 0;
         width: unset;
     }
