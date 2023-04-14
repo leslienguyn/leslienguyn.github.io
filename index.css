@@ -466,7 +466,7 @@ i {
     }
 
     .navbar-expand-md {
-        margin-left: 420px;
+        margin-left: 780px;
         margin-bottom: 40px;
     }
 
@@ -495,12 +495,13 @@ i {
     }
 
     .headerCol h1 {
-        font-size: 3rem;
+        font-size: 4.2rem;
         font-weight: bold;
         width: 95%;
         font-family: "Geometos";
         writing-mode: unset;
         transform: none;
+        margin-left: 670px;
     }
     
     h1 {
@@ -508,7 +509,7 @@ i {
     }
 
     .infoCol {
-        margin-left: 50px;
+        margin-left: 220px;
         margin-top: 100px;
         width: 100%;
     }
@@ -531,28 +532,29 @@ i {
     .scroll-down {
         position: absolute;
         bottom: -1rem;
-        left: 63.1%;
+        margin-left: 50px;
+        width: 100%;
     }
 
     /* Portfolio */
     .portfolioHeader {
-        margin-left: -370px;
+        margin-left: -195px;
         margin-bottom: 400px;
     }
 
     .portfolioHeader h1 {
         font-family: "Geometos";
-        font-size: 3.5rem;
+        font-size: 4rem;
         writing-mode: unset;
         transform: none;
         margin-top: 1000px;
-        margin-left: -370px;
+        margin-left: 380px;
         margin-bottom: 0px;
     }
 
     .container {
         margin-top: 50px;
-        margin-left: 47px;
+        margin-left: 220px;
         grid-template-columns: unset;
         grid-auto-rows: unset;
         grid-column-gap: unset;
@@ -582,6 +584,7 @@ i {
 
     .footer {
         margin-top: 280px;
+        margin-left: -170px;
         padding: 0;
         width: unset;
     }
