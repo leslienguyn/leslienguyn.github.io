@@ -451,7 +451,7 @@ i {
 
 
 
-/* Desktop */
+/* Desktop 
 @media only screen and (min-width: 1920px) {
     .row {
         margin-top: 150px;
@@ -538,6 +538,7 @@ i {
         margin-right: 30px;
     } 
 }
+*/
 
 
 
