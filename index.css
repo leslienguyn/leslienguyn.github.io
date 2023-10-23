@@ -99,6 +99,10 @@ img {
       justify-content: flex-end;
 }
 
+ul {
+    margin-left: 20px;
+}
+
 
 
 /* intro header */
