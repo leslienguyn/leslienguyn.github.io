@@ -143,7 +143,7 @@ ul {
 .infoCol {
     position: absolute;
     display: inline;
-    margin-left: 650px;
+    margin-left: 509px;
 }
 
 .infoCol .pfp {
@@ -239,7 +239,7 @@ a:hover {
 .scroll-down {
     position: absolute;
     bottom: -3rem;
-    left: 106%;
+    left: 95%;
     transform: translateX(-50%);
     display: flex;
     flex-direction: column;
