@@ -147,7 +147,7 @@ ul {
 }
 
 .infoCol .pfp {
-    width: 62%;
+    width: 52%;
     margin-left: 23px;
     margin-bottom: 15px;
     
@@ -304,7 +304,7 @@ a:hover {
 /* Portfolio */
 .container {
     margin-top: 40px;
-    margin-left: 350px;
+    margin-left: 170px;
     height: 1600px;
     display: inline-grid;
     grid-template-columns: repeat(2, 1fr);
