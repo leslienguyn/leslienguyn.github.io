@@ -274,7 +274,7 @@ i {
     font-size: 20px;
 }
 
-.bi-postcard-heart:hover {
+.bi-envelope-heart:hover {
     color: var(--purple); 
     transition: 0.4s;
     text-shadow:
