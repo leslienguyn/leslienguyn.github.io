@@ -28,10 +28,11 @@ img {
     border-radius: 3px;
 }
 
-a:focus {
+:focus {
     color: var(--white);
     background-color: transparent;
-    border: 2px;
+    border-width: 2px;
+    border-style: solid;
     border-color: var(--white);
 }
 
