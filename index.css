@@ -28,7 +28,7 @@ img {
     border-radius: 3px;
 }
 
-:focus {
+:focus-visible {
     color: var(--white);
     background-color: transparent;
     border-width: 2px;
@@ -103,7 +103,7 @@ img {
     background-color: transparent;
 }
 
-.nav li:focus a {
+.nav li:focus-visible a {
     color: var(--white);
     background-color: transparent;
     border: 2px;
@@ -186,7 +186,7 @@ ul {
     animation-fill-mode: forwards; /* overrides opacity from always being at 0 */
 }
 
-.infoCol h1:focus {
+.infoCol h1:focus-visible {
     color: var(--white);
     background-color: transparent;
     border-width: 2px;
