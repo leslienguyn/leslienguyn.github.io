@@ -36,6 +36,22 @@ img {
     border-color: var(--white);
 }
 
+.activePage {
+    font-style: italic;
+    text-decoration: underline;
+
+    transition: 0.4s;
+    text-shadow:
+      0 0 2px #fff, /* blur */
+      0 0 1px #fff, /* blur shadow */
+      0 0 2px var(--pink), /* blur shadow */
+      0 0 14px var(--blue), /* outer shadow */
+      0 0 5px var(--purple), /* outer top shadow */
+      0 0 5px var(--blue), /* inner shadow */
+      0 0 5px var(--pink),
+      0 0 14px var(--pink); /* outer shadow */
+}
+
 
 /* navbar */
 .navbar-brand .logo{
