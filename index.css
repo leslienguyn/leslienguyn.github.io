@@ -28,6 +28,13 @@ img {
     border-radius: 3px;
 }
 
+a:focus {
+    color: var(--white);
+    background-color: transparent;
+    border: 2px;
+    border-color: var(--white);
+}
+
 
 /* navbar */
 .navbar-brand .logo{
@@ -93,6 +100,13 @@ img {
 .nav li:hover a {
     color: var(--white);
     background-color: transparent;
+}
+
+.nav li:focus a {
+    color: var(--white);
+    background-color: transparent;
+    border: 2px;
+    border-color: var(--white);
 }
   
 .navbar-expand-md {
