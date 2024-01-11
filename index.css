@@ -154,6 +154,14 @@ ul {
     animation-fill-mode: forwards; /* overrides opacity from always being at 0 */
 }
 
+.headerCol h1:focus-visible {
+    color: var(--white);
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--white);
+}
+
 /* intro description */
 .infoCol {
     position: absolute;
@@ -237,6 +245,14 @@ ul {
     animation-duration: 2s;
     animation-delay: 3.5s;
     animation-fill-mode: forwards; /* overrides opacity from always being at 0 */
+}
+
+.infoCol p:focus-visible {
+    color: var(--white);
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--white);
 }
 
 /* scroll down arrow */
@@ -353,6 +369,14 @@ a:hover {
     margin-top: -30px;
 }
 
+.portfolioHeader h1:focus-visible{
+    color: var(--white);
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--white);
+}
+
 .box {
     display: flex absolute;
     align-items: left;
@@ -392,9 +416,25 @@ a:hover {
     transition: 0.4s;
 }
 
+.box button:focus-visible {
+    color: var(--white);
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--white);
+}
+
 .box p {
     font-size: 1.3rem;
     line-height: 1.5rem;
+}
+
+.box p:focus-visible{
+    color: var(--white);
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--white);
 }
 
 .box img {
@@ -417,6 +457,14 @@ footer {
 
 footer p {
     font-size: 1rem;
+}
+
+footer p:focus-visible {
+    color: var(--white);
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--white);
 }
 
 .icons {
