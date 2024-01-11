@@ -186,6 +186,14 @@ ul {
     animation-fill-mode: forwards; /* overrides opacity from always being at 0 */
 }
 
+.infoCol h1:focus {
+    color: var(--white);
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--white);
+}
+
 .infoCol h1:hover .char:nth-child(even) { /* hover expand effect */
     top: 10px;
     margin-left: 15px;
